@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fiscal_Sponsor_Fees</fullName>
+    <columns>Date_Sponsorship_Began_FS__c</columns>
+    <columns>Status_FS__c</columns>
+    <columns>NAME</columns>
+    <columns>Fiscal_Fee_Rate_FS__c</columns>
+    <columns>Requested_Report_Due_Date_FS__c</columns>
+    <columns>Annual_Report_Status__c</columns>
+    <columns>Annual_Report_Year_1__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Fiscal Sponsor Fees</label>
+</ListView>

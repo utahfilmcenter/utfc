@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LapsedStatusAndDatesAlign</fullName>
+    <active>true</active>
+    <description>Makes sure the dates align when a record is marked as being lapsed.</description>
+    <errorConditionFormula>TEXT(Status__c)=&quot;Lapsed/Former&quot; &amp;&amp; 
+OR(ISBLANK(End_Date__c),Grace_Period_End_Date__c&gt;=TODAY())
+&amp;&amp; NOT(Override_to_Mark_as_Lapsed_Former__c)</errorConditionFormula>
+    <errorDisplayField>Status__c</errorDisplayField>
+    <errorMessage>For records marked as Status &quot;Lapsed/Former&quot;, make sure the current date is past the Grace Period End Date, and that related End Date (which determines the Grace Period End Date), is populated.</errorMessage>
+</ValidationRule>

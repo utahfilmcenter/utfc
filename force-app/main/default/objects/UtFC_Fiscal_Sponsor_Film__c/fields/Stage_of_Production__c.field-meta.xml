@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage_of_Production__c</fullName>
+    <externalId>false</externalId>
+    <label>Stage of Production</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Development</fullName>
+                <default>false</default>
+                <label>Development</label>
+            </value>
+            <value>
+                <fullName>Pre-production</fullName>
+                <default>false</default>
+                <label>Pre-production</label>
+            </value>
+            <value>
+                <fullName>Production</fullName>
+                <default>false</default>
+                <label>Production</label>
+            </value>
+            <value>
+                <fullName>Post-production</fullName>
+                <default>false</default>
+                <label>Post-production</label>
+            </value>
+            <value>
+                <fullName>Distribution/Outreach</fullName>
+                <default>false</default>
+                <label>Distribution/Outreach</label>
+            </value>
+            <value>
+                <fullName>Film Festival Circuit</fullName>
+                <default>false</default>
+                <label>Film Festival Circuit</label>
+            </value>
+            <value>
+                <fullName>Completed</fullName>
+                <default>false</default>
+                <label>Completed</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

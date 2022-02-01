@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PrimaryAffiliation_EducationNote__c</fullName>
+    <externalId>false</externalId>
+    <formula>&quot;School District, School Name, School Type, POPS area, and Title 1 are all pulled from the Contact&apos;s Primary Affiliation&quot;</formula>
+    <label>Education Information Note</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

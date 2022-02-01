@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Readiness__c</fullName>
+    <externalId>false</externalId>
+    <label>Readiness</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0 - 6 months until solicitation</fullName>
+                <default>false</default>
+                <label>0 - 6 months until solicitation</label>
+            </value>
+            <value>
+                <fullName>6 - 12 months until solicitation</fullName>
+                <default>false</default>
+                <label>6 - 12 months until solicitation</label>
+            </value>
+            <value>
+                <fullName>12+ months until solicitation</fullName>
+                <default>false</default>
+                <label>12+ months until solicitation</label>
+            </value>
+            <value>
+                <fullName>No timeline for readiness</fullName>
+                <default>false</default>
+                <label>No timeline for readiness</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

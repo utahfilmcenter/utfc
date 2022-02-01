@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subject_s_taught__c</fullName>
+    <description>What subjects does this teacher teach?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What subjects does this teacher teach?</inlineHelpText>
+    <label>Subject(s) taught</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>TextArea</type>
+</CustomField>

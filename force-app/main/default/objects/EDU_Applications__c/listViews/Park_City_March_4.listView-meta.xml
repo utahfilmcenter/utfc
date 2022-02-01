@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Park_City_March_4</fullName>
+    <columns>NAME</columns>
+    <columns>First_Name__c</columns>
+    <columns>Last_Name__c</columns>
+    <columns>School_Name__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Selected_Workshop__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Selected_Workshop__c</field>
+        <operation>contains</operation>
+        <value>PARK CITY</value>
+    </filters>
+    <label>Park City - March 4, 2019</label>
+</ListView>

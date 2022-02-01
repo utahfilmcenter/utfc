@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PrimaryAffiliation_School_Name__c</fullName>
+    <description>Primary Affiliation (School or District if the employee is at the District level)</description>
+    <externalId>false</externalId>
+    <formula>npsp__Primary_Affiliation__r.Name</formula>
+    <inlineHelpText>Primary Affiliation (School or District if the employee is at the District level)</inlineHelpText>
+    <label>School Name (from Primary Affiliation)</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

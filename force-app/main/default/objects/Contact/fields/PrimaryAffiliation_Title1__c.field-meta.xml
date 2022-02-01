@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PrimaryAffiliation_Title1__c</fullName>
+    <description>Title 1 checkbox (True or False) pulled from the Primary Affiliation Account</description>
+    <externalId>false</externalId>
+    <formula>npsp__Primary_Affiliation__r.Title_I_School__c</formula>
+    <inlineHelpText>Title 1 checkbox (True or False) pulled from the Primary Affiliation Account</inlineHelpText>
+    <label>Title 1 (from Primary Affiliation)</label>
+    <type>Checkbox</type>
+</CustomField>

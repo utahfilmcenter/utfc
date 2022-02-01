@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Upcoming_Screenings</fullName>
+    <columns>Date_and_Time__c</columns>
+    <columns>NAME</columns>
+    <columns>Staff_at_Screening__c</columns>
+    <columns>Venue__c</columns>
+    <columns>Program_Series__c</columns>
+    <columns>Programmer_s_Notes__c</columns>
+    <columns>Post_Film_Discussion__c</columns>
+    <columns>Visiting_Guests__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Date_and_Time__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>Upcoming Screenings</label>
+</ListView>

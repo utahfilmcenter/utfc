@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Audience_Engagement_and_Social_Impact__c</fullName>
+    <description>What actions do you hope for viewers to take after seeing your film? Do you have partnerships with organizations in your issue area already, and if so, how are these relationships informing your project development?</description>
+    <externalId>false</externalId>
+    <label>Audience Engagement and Social Impact</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

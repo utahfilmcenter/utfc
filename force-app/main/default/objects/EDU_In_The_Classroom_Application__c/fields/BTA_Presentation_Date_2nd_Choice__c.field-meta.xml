@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BTA_Presentation_Date_2nd_Choice__c</fullName>
+    <externalId>false</externalId>
+    <label>BTA Presentation Date - 2nd Choice</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

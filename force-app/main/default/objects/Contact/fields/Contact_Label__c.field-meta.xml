@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Label__c</fullName>
+    <externalId>false</externalId>
+    <label>Contact Label(s)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Director</fullName>
+                <default>false</default>
+                <label>Director</label>
+            </value>
+            <value>
+                <fullName>Distributor</fullName>
+                <default>false</default>
+                <label>Distributor</label>
+            </value>
+            <value>
+                <fullName>District Arts Coordinator</fullName>
+                <default>false</default>
+                <label>District Arts Coordinator</label>
+            </value>
+            <value>
+                <fullName>Film Main Contact</fullName>
+                <default>false</default>
+                <label>Film Main Contact</label>
+            </value>
+            <value>
+                <fullName>Film Team Member</fullName>
+                <default>false</default>
+                <label>Film Team Member</label>
+            </value>
+            <value>
+                <fullName>Instructor</fullName>
+                <default>false</default>
+                <label>Instructor</label>
+            </value>
+            <value>
+                <fullName>Principal</fullName>
+                <default>false</default>
+                <label>Principal</label>
+            </value>
+            <value>
+                <fullName>Producer</fullName>
+                <default>false</default>
+                <label>Producer</label>
+            </value>
+            <value>
+                <fullName>Publicist</fullName>
+                <default>false</default>
+                <label>Publicist</label>
+            </value>
+            <value>
+                <fullName>Teacher</fullName>
+                <default>false</default>
+                <label>Teacher</label>
+            </value>
+            <value>
+                <fullName>Teaching Artist</fullName>
+                <default>false</default>
+                <label>Teaching Artist</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

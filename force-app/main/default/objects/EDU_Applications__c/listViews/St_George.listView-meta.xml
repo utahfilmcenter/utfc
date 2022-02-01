@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>St_George</fullName>
+    <columns>Film_Spark_Application_name__c</columns>
+    <columns>First_Name__c</columns>
+    <columns>Last_Name__c</columns>
+    <columns>School_Name__c</columns>
+    <columns>Selected_Workshop__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Selected_Workshop__c</field>
+        <operation>contains</operation>
+        <value>george</value>
+    </filters>
+    <label>St. George - Nov 16</label>
+</ListView>

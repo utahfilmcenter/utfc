@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Attendants__c</fullName>
+    <externalId>false</externalId>
+    <formula>Education_Attendants__c  +  Non_Paid_Attendants__c  +  Paid_Attendants__c +Total_Festival_Paid_Tickets__c + Total_Festival_Non_Paid_Tickets__c +  Virtual_Paid_Attendees__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Attendants</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

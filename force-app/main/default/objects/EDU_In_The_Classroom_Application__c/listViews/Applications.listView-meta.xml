@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Applications</fullName>
+    <columns>NAME</columns>
+    <columns>Teacher_Name__c</columns>
+    <columns>School_Name_IYC_EDU__c</columns>
+    <columns>Presentation_Type__c</columns>
+    <columns>X1st_Choice_for_Presentation_Date__c</columns>
+    <columns>X1st_Choice_for_Presentation_Time__c</columns>
+    <columns>X2nd_Choice_for_Presentation_Date__c</columns>
+    <columns>X2nd_Choice_for_Presentation_Time__c</columns>
+    <columns>Email_IYC_EDU__c</columns>
+    <columns>Grade_s_Attending_IYC_EDU__c</columns>
+    <columns>Number_of_Students_Attending__c</columns>
+    <columns>Phone_Number_IYC_Edu__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>Applications</label>
+</ListView>

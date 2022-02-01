@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Date_and_Time__c</columns>
+    <columns>Venue__c</columns>
+    <columns>Venue_Capacity__c</columns>
+    <columns>Program_Series__c</columns>
+    <columns>Geo_blocking__c</columns>
+    <columns>Screening_Fee__c</columns>
+    <columns>Total_Attendants__c</columns>
+    <columns>Visiting_Guests__c</columns>
+    <columns>Staff_at_Screening__c</columns>
+    <columns>Partners__c</columns>
+    <columns>Female_Director__c</columns>
+    <columns>POC__c</columns>
+    <columns>Director__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Date_and_Time__c</field>
+        <operation>greaterThan</operation>
+        <value>3/17/2020 12:00 AM</value>
+    </filters>
+    <label>All - UtFC Film Events</label>
+</ListView>

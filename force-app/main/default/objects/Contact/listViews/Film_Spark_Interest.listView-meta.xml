@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Film_Spark_Interest</fullName>
+    <columns>CONTACT.CREATED_DATE</columns>
+    <columns>FULL_NAME</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>Educational_Interests__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Educational_Interests__c</field>
+        <operation>includes</operation>
+        <value>Film Spark,All</value>
+    </filters>
+    <label>Film Spark - Interest</label>
+</ListView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Moab_Upcoming_Screenings</fullName>
+    <columns>NAME</columns>
+    <columns>Date_and_Time__c</columns>
+    <columns>Visiting_Guests__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Venue__c</field>
+        <operation>equals</operation>
+        <value>Moab</value>
+    </filters>
+    <filters>
+        <field>Date_and_Time__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>Moab - Upcoming Screenings</label>
+</ListView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Screenings_with_Panels_Discussion_info</fullName>
+    <columns>NAME</columns>
+    <columns>Date_and_Time__c</columns>
+    <columns>Visiting_Guests__c</columns>
+    <columns>Program_Series__c</columns>
+    <columns>Total_Attendants__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Screenings with Panels/Discussion info</label>
+</ListView>

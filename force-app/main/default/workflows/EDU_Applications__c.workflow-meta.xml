@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Film_Spark_Application_Name_update</fullName>
+        <field>Name</field>
+        <formula>Film_Spark_Application_name__c</formula>
+        <name>Film Spark Application Name update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_EDU_Film_Spark_App_Name</fullName>
+        <field>Name</field>
+        <formula>&quot;School_Name__c - Selected_Workshop__c&quot;</formula>
+        <name>Update EDU Film Spark App Name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Film Spark Application Name update</fullName>
+        <actions>
+            <name>Film_Spark_Application_Name_update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>EDU_Applications__c.School_Name__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

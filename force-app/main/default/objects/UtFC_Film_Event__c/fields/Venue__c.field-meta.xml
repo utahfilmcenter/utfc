@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Venue__c</fullName>
+    <externalId>false</externalId>
+    <label>Venue</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>New Venue - see venue info</fullName>
+                <default>false</default>
+                <label>(New Venue - see venue info)</label>
+            </value>
+            <value>
+                <fullName>Adobe</fullName>
+                <default>false</default>
+                <label>Adobe</label>
+            </value>
+            <value>
+                <fullName>Alta Club</fullName>
+                <default>false</default>
+                <label>Alta Club</label>
+            </value>
+            <value>
+                <fullName>Alta - Wildcat Parking Lot at Alta Ski Area</fullName>
+                <default>false</default>
+                <label>Alta - Wildcat Parking Lot at Alta Ski Area</label>
+            </value>
+            <value>
+                <fullName>Aneth Basketball Court, 859G6R9C+84 (Navajo Nation)</fullName>
+                <default>false</default>
+                <label>Aneth Basketball Court, 859G6R9C+84 (Navajo Nation)</label>
+            </value>
+            <value>
+                <fullName>Artist Foundry</fullName>
+                <default>false</default>
+                <label>Artist Foundry</label>
+            </value>
+            <value>
+                <fullName>Avenues Street Fair</fullName>
+                <default>false</default>
+                <label>Avenues Street Fair</label>
+            </value>
+            <value>
+                <fullName>Avrec</fullName>
+                <default>false</default>
+                <label>Avrec</label>
+            </value>
+            <value>
+                <fullName>Bluff Community Center, 859G7CMV+XJ</fullName>
+                <default>false</default>
+                <label>Bluff Community Center, 859G7CMV+XJ</label>
+            </value>
+            <value>
+                <fullName>Boulder City Park - Boulder, Utah</fullName>
+                <default>false</default>
+                <label>Boulder City Park - Boulder, Utah</label>
+            </value>
+            <value>
+                <fullName>Brewvies</fullName>
+                <default>false</default>
+                <label>Brewvies</label>
+            </value>
+            <value>
+                <fullName>Broadway</fullName>
+                <default>false</default>
+                <label>Broadway</label>
+            </value>
+            <value>
+                <fullName>BYU Museum of Fine Arts - Provo</fullName>
+                <default>false</default>
+                <label>BYU Museum of Fine Arts - Provo</label>
+            </value>
+            <value>
+                <fullName>Calvary Baptist Church</fullName>
+                <default>false</default>
+                <label>Calvary Baptist Church</label>
+            </value>
+            <value>
+                <fullName>Capitol Theater</fullName>
+                <default>false</default>
+                <label>Capitol Theater</label>
+            </value>
+            <value>
+                <fullName>Century 16</fullName>
+                <default>false</default>
+                <label>Century 16</label>
+            </value>
+            <value>
+                <fullName>Christian Center</fullName>
+                <default>false</default>
+                <label>Christian Center</label>
+            </value>
+            <value>
+                <fullName>Clayton Middle School</fullName>
+                <default>false</default>
+                <label>Clayton Middle School</label>
+            </value>
+            <value>
+                <fullName>Club Elevate</fullName>
+                <default>false</default>
+                <label>Club Elevate</label>
+            </value>
+            <value>
+                <fullName>Club Jam</fullName>
+                <default>false</default>
+                <label>Club Jam</label>
+            </value>
+            <value>
+                <fullName>Covey Center - Provo</fullName>
+                <default>false</default>
+                <label>Covey Center - Provo</label>
+            </value>
+            <value>
+                <fullName>Cucina Nassi</fullName>
+                <default>false</default>
+                <label>Cucina Nassi</label>
+            </value>
+            <value>
+                <fullName>Dan &amp; Noemi Mattis&apos; Home</fullName>
+                <default>false</default>
+                <label>Dan &amp; Noemi Mattis&apos; Home</label>
+            </value>
+            <value>
+                <fullName>Dansante Building - Logan</fullName>
+                <default>false</default>
+                <label>Dansante Building - Logan</label>
+            </value>
+            <value>
+                <fullName>Diane &amp; Sam Stewart&apos;s Home</fullName>
+                <default>false</default>
+                <label>Diane &amp; Sam Stewart&apos;s Home</label>
+            </value>
+            <value>
+                <fullName>Dolores Doré Eccles Fine Arts Center - St. George</fullName>
+                <default>false</default>
+                <label>Dolores Doré Eccles Fine Arts Center - St. George</label>
+            </value>
+            <value>
+                <fullName>Draper Recreation Center</fullName>
+                <default>false</default>
+                <label>Draper Recreation Center</label>
+            </value>
+            <value>
+                <fullName>Drive-In Alta</fullName>
+                <default>false</default>
+                <label>Drive-In Alta</label>
+            </value>
+            <value>
+                <fullName>Drive-In Dimple Dell (Sandy Rec Center)</fullName>
+                <default>false</default>
+                <label>Drive-In Dimple Dell (Sandy Rec Center)</label>
+            </value>
+            <value>
+                <fullName>Drive-In Fairpark</fullName>
+                <default>false</default>
+                <label>Drive-In Fairpark</label>
+            </value>
+            <value>
+                <fullName>Drive-In Gene Fullmer (West Jordan Rec Center)</fullName>
+                <default>false</default>
+                <label>Drive-In Gene Fullmer (West Jordan Rec Center)</label>
+            </value>
+            <value>
+                <fullName>Drive-In MACU (Sandy)</fullName>
+                <default>false</default>
+                <label>Drive-In MACU (Sandy)</label>
+            </value>
+            <value>
+                <fullName>Drive-In Midvale</fullName>
+                <default>false</default>
+                <label>Drive-In Midvale</label>
+            </value>
+            <value>
+                <fullName>Drive-In Orangeville</fullName>
+                <default>false</default>
+                <label>Drive-In Orangeville</label>
+            </value>
+            <value>
+                <fullName>Drive-In Rural</fullName>
+                <default>false</default>
+                <label>Drive-In Rural (List Address in Venue Information)</label>
+            </value>
+            <value>
+                <fullName>Drive-In SLC</fullName>
+                <default>false</default>
+                <label>Drive-In SLC (Miller Parking Lot)</label>
+            </value>
+            <value>
+                <fullName>Drive-In Taylorsville Recreation Center</fullName>
+                <default>false</default>
+                <label>Drive-In Taylorsville Recreation Center</label>
+            </value>
+            <value>
+                <fullName>East High School</fullName>
+                <default>false</default>
+                <label>East High School</label>
+            </value>
+            <value>
+                <fullName>Eccles Center - Park City</fullName>
+                <default>false</default>
+                <label>Eccles Center - Park City</label>
+            </value>
+            <value>
+                <fullName>Eden</fullName>
+                <default>false</default>
+                <label>Eden</label>
+            </value>
+            <value>
+                <fullName>Egyptian Theatre - Park City</fullName>
+                <default>false</default>
+                <label>Egyptian Theatre - Park City</label>
+            </value>
+            <value>
+                <fullName>Eventive.org - Utah Film Center Account</fullName>
+                <default>false</default>
+                <label>Eventive.org - Utah Film Center Account</label>
+            </value>
+            <value>
+                <fullName>Galivan Center</fullName>
+                <default>false</default>
+                <label>Galivan Center</label>
+            </value>
+            <value>
+                <fullName>Garden Party</fullName>
+                <default>false</default>
+                <label>Garden Party</label>
+            </value>
+            <value>
+                <fullName>Holiday Cinemas (Park City)</fullName>
+                <default>false</default>
+                <label>Holiday Cinemas (Park City)</label>
+            </value>
+            <value>
+                <fullName>Huntsman Cancer Institute</fullName>
+                <default>false</default>
+                <label>Huntsman Cancer Institute</label>
+            </value>
+            <value>
+                <fullName>IMAX Theater at Clark Planetarium</fullName>
+                <default>false</default>
+                <label>IMAX Theater at Clark Planetarium</label>
+            </value>
+            <value>
+                <fullName>Impact Hub Salt Lake</fullName>
+                <default>false</default>
+                <label>Impact Hub Salt Lake</label>
+            </value>
+            <value>
+                <fullName>Jefferson Creative Community Center - Ogden</fullName>
+                <default>false</default>
+                <label>Jefferson Creative Community Center - Ogden</label>
+            </value>
+            <value>
+                <fullName>Jewish Community Center</fullName>
+                <default>false</default>
+                <label>Jewish Community Center</label>
+            </value>
+            <value>
+                <fullName>John &amp; Anne Milliken&apos;s Home</fullName>
+                <default>false</default>
+                <label>John &amp; Anne Milliken&apos;s Home</label>
+            </value>
+            <value>
+                <fullName>Jordan Park</fullName>
+                <default>false</default>
+                <label>Jordan Park</label>
+            </value>
+            <value>
+                <fullName>Juan Diego High School</fullName>
+                <default>false</default>
+                <label>Juan Diego High School</label>
+            </value>
+            <value>
+                <fullName>Kamas</fullName>
+                <default>false</default>
+                <label>Kamas</label>
+            </value>
+            <value>
+                <fullName>Logan Arthouse and Cinema - Logan</fullName>
+                <default>false</default>
+                <label>Logan Arthouse and Cinema - Logan</label>
+            </value>
+            <value>
+                <fullName>Marmalade Library</fullName>
+                <default>false</default>
+                <label>Marmalade Library</label>
+            </value>
+            <value>
+                <fullName>Megaplex at Jordan Commons</fullName>
+                <default>false</default>
+                <label>Megaplex at Jordan Commons</label>
+            </value>
+            <value>
+                <fullName>Megaplex at the Gateway</fullName>
+                <default>false</default>
+                <label>Megaplex at the Gateway</label>
+            </value>
+            <value>
+                <fullName>Mexican Water Chapter, 858GX977+W3</fullName>
+                <default>false</default>
+                <label>Mexican Water Chapter, 858GX977+W3</label>
+            </value>
+            <value>
+                <fullName>Moab</fullName>
+                <default>false</default>
+                <label>Moab</label>
+            </value>
+            <value>
+                <fullName>Modern West Fine Art</fullName>
+                <default>false</default>
+                <label>Modern West Fine Art</label>
+            </value>
+            <value>
+                <fullName>Monument Valley Welcome Center, 859F2R2G+XX  (Navajo Nation)</fullName>
+                <default>false</default>
+                <label>Monument Valley Welcome Center, 859F2R2G+XX  (Navajo Nation)</label>
+            </value>
+            <value>
+                <fullName>Nora Eccles Harrison Museum of Art - Logan</fullName>
+                <default>false</default>
+                <label>Nora Eccles Harrison Museum of Art - Logan</label>
+            </value>
+            <value>
+                <fullName>Ogden - Egyptian Theatre</fullName>
+                <default>false</default>
+                <label>Ogden - Egyptian Theatre</label>
+            </value>
+            <value>
+                <fullName>Online</fullName>
+                <default>false</default>
+                <label>Online</label>
+            </value>
+            <value>
+                <fullName>Orem Public Library</fullName>
+                <default>false</default>
+                <label>Orem Public Library</label>
+            </value>
+            <value>
+                <fullName>Park City Library</fullName>
+                <default>false</default>
+                <label>Park City Library</label>
+            </value>
+            <value>
+                <fullName>Park City - Prospector</fullName>
+                <default>false</default>
+                <label>Park City - Prospector</label>
+            </value>
+            <value>
+                <fullName>Pioneer Park</fullName>
+                <default>false</default>
+                <label>Pioneer Park</label>
+            </value>
+            <value>
+                <fullName>Pleasant Valley Library - Ogden</fullName>
+                <default>false</default>
+                <label>Pleasant Valley Library - Ogden</label>
+            </value>
+            <value>
+                <fullName>Price City Auditorium</fullName>
+                <default>false</default>
+                <label>Price City Auditorium</label>
+            </value>
+            <value>
+                <fullName>Price - King Koal Theatre</fullName>
+                <default>false</default>
+                <label>Price - King Koal Theatre</label>
+            </value>
+            <value>
+                <fullName>Prospector</fullName>
+                <default>false</default>
+                <label>Prospector</label>
+            </value>
+            <value>
+                <fullName>Red Butte</fullName>
+                <default>false</default>
+                <label>Red Butte</label>
+            </value>
+            <value>
+                <fullName>Redstone in Park City</fullName>
+                <default>false</default>
+                <label>Redstone in Park City</label>
+            </value>
+            <value>
+                <fullName>Redwood Recreation Center</fullName>
+                <default>false</default>
+                <label>Redwood Recreation Center</label>
+            </value>
+            <value>
+                <fullName>Regency Theatres</fullName>
+                <default>false</default>
+                <label>Regency Theatres</label>
+            </value>
+            <value>
+                <fullName>Rose Wagner (BB)</fullName>
+                <default>false</default>
+                <label>Rose Wagner (BB)</label>
+            </value>
+            <value>
+                <fullName>Rose Wagner (JW)</fullName>
+                <default>false</default>
+                <label>Rose Wagner (JW)</label>
+            </value>
+            <value>
+                <fullName>Rose Wagner (JW) -Half House</fullName>
+                <default>false</default>
+                <label>Rose Wagner (JW) -Half House</label>
+            </value>
+            <value>
+                <fullName>Rose Wagner (Mezzanine Studio)</fullName>
+                <default>false</default>
+                <label>Rose Wagner (Mezzanine Studio)</label>
+            </value>
+            <value>
+                <fullName>Rowland Hall</fullName>
+                <default>false</default>
+                <label>Rowland Hall</label>
+            </value>
+            <value>
+                <fullName>Salt Lake Art Center</fullName>
+                <default>false</default>
+                <label>Salt Lake Art Center</label>
+            </value>
+            <value>
+                <fullName>Salt Lake City Library</fullName>
+                <default>false</default>
+                <label>Salt Lake City Library</label>
+            </value>
+            <value>
+                <fullName>Scera</fullName>
+                <default>false</default>
+                <label>Scera</label>
+            </value>
+            <value>
+                <fullName>Sheraton Hotel</fullName>
+                <default>false</default>
+                <label>Sheraton Hotel</label>
+            </value>
+            <value>
+                <fullName>Shriners Hospitals for Children</fullName>
+                <default>false</default>
+                <label>Shriners Hospitals for Children</label>
+            </value>
+            <value>
+                <fullName>Slate Canyon Youth Center</fullName>
+                <default>false</default>
+                <label>Slate Canyon Youth Center</label>
+            </value>
+            <value>
+                <fullName>SLCC</fullName>
+                <default>false</default>
+                <label>SLCC - Salt Lake Community College</label>
+            </value>
+            <value>
+                <fullName>Snowbird</fullName>
+                <default>false</default>
+                <label>Snowbird</label>
+            </value>
+            <value>
+                <fullName>Sorensen Unity Center</fullName>
+                <default>false</default>
+                <label>Sorensen Unity Center</label>
+            </value>
+            <value>
+                <fullName>Spring Mobile Ball Park</fullName>
+                <default>false</default>
+                <label>Spring Mobile Ball Park</label>
+            </value>
+            <value>
+                <fullName>St. George Town Square</fullName>
+                <default>false</default>
+                <label>St. George Town Square</label>
+            </value>
+            <value>
+                <fullName>Streamed Event</fullName>
+                <default>false</default>
+                <label>Streamed Event</label>
+            </value>
+            <value>
+                <fullName>Sugar House Park</fullName>
+                <default>false</default>
+                <label>Sugar House Park</label>
+            </value>
+            <value>
+                <fullName>Sundance</fullName>
+                <default>false</default>
+                <label>Sundance</label>
+            </value>
+            <value>
+                <fullName>Sun Trapp</fullName>
+                <default>false</default>
+                <label>Sun Trapp</label>
+            </value>
+            <value>
+                <fullName>Swaner EcoCenter - Park City</fullName>
+                <default>false</default>
+                <label>Swaner EcoCenter - Park City</label>
+            </value>
+            <value>
+                <fullName>Taggart Auditorium - Logan</fullName>
+                <default>false</default>
+                <label>Taggart Auditorium - Logan</label>
+            </value>
+            <value>
+                <fullName>Temple Har Shalom - Park City</fullName>
+                <default>false</default>
+                <label>Temple Har Shalom - Park City</label>
+            </value>
+            <value>
+                <fullName>Terry Stephens House</fullName>
+                <default>false</default>
+                <label>Terry Stephens House</label>
+            </value>
+            <value>
+                <fullName>The Gateway</fullName>
+                <default>false</default>
+                <label>The Gateway</label>
+            </value>
+            <value>
+                <fullName>The Leonardo</fullName>
+                <default>false</default>
+                <label>The Leonardo</label>
+            </value>
+            <value>
+                <fullName>Tower Theater</fullName>
+                <default>false</default>
+                <label>Tower Theater</label>
+            </value>
+            <value>
+                <fullName>Tracy Aviary</fullName>
+                <default>false</default>
+                <label>Tracy Aviary</label>
+            </value>
+            <value>
+                <fullName>TSC Auditorium - Logan</fullName>
+                <default>false</default>
+                <label>TSC Auditorium - Logan</label>
+            </value>
+            <value>
+                <fullName>University of Utah - Lot 24, NW the Student Life Building</fullName>
+                <default>false</default>
+                <label>University of Utah - Lot 24, NW the Student Life Building</label>
+            </value>
+            <value>
+                <fullName>U of U / Student Union</fullName>
+                <default>false</default>
+                <label>U of U / Student Union</label>
+            </value>
+            <value>
+                <fullName>Utah Museum of Contemporary Art</fullName>
+                <default>false</default>
+                <label>Utah Museum of Contemporary Art</label>
+            </value>
+            <value>
+                <fullName>Utah Museum of Fine Arts</fullName>
+                <default>false</default>
+                <label>Utah Museum of Fine Arts</label>
+            </value>
+            <value>
+                <fullName>Utah State Capitol Building</fullName>
+                <default>false</default>
+                <label>Utah State Capitol Building</label>
+            </value>
+            <value>
+                <fullName>UVU Fulton Library Auditorium</fullName>
+                <default>false</default>
+                <label>UVU Fulton Library Auditorium</label>
+            </value>
+            <value>
+                <fullName>Vimeo - Utah Film Center Account</fullName>
+                <default>false</default>
+                <label>Vimeo - Utah Film Center Account</label>
+            </value>
+            <value>
+                <fullName>Viridian Library &amp; Event Center</fullName>
+                <default>false</default>
+                <label>Viridian Library &amp; Event Center</label>
+            </value>
+            <value>
+                <fullName>Virtual Cinema - Not hosted by Utah Film Center</fullName>
+                <default>false</default>
+                <label>Virtual Cinema - Not hosted by Utah Film Center</label>
+            </value>
+            <value>
+                <fullName>Weber State University - Ogden</fullName>
+                <default>false</default>
+                <label>Weber State University - Ogden</label>
+            </value>
+            <value>
+                <fullName>Westminster (Vieve Gore Business)</fullName>
+                <default>false</default>
+                <label>Westminster (Vieve Gore Business)</label>
+            </value>
+            <value>
+                <fullName>Wheeler Historic Farm</fullName>
+                <default>false</default>
+                <label>Wheeler Historic Farm</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

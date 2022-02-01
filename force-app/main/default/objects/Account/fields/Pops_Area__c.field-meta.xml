@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pops_Area__c</fullName>
+    <description>POPS Map Area</description>
+    <externalId>false</externalId>
+    <inlineHelpText>View map here: https://www.utahfilmcenter.org/wp/wp-content/uploads/2021/02/POPS-area-map.png</inlineHelpText>
+    <label>POPS Area</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Home</fullName>
+                <color>#B6E32E</color>
+                <default>false</default>
+                <label>Home</label>
+            </value>
+            <value>
+                <fullName>1</fullName>
+                <color>#33CCFF</color>
+                <default>false</default>
+                <label>1</label>
+            </value>
+            <value>
+                <fullName>2</fullName>
+                <color>#FFFF66</color>
+                <default>false</default>
+                <label>2</label>
+            </value>
+            <value>
+                <fullName>3</fullName>
+                <color>#FF9966</color>
+                <default>false</default>
+                <label>3</label>
+            </value>
+            <value>
+                <fullName>4</fullName>
+                <color>#DDDDDD</color>
+                <default>false</default>
+                <label>4</label>
+            </value>
+            <value>
+                <fullName>5</fullName>
+                <color>#CC66CC</color>
+                <default>false</default>
+                <label>5</label>
+            </value>
+            <value>
+                <fullName>6</fullName>
+                <color>#FF0000</color>
+                <default>false</default>
+                <label>6</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

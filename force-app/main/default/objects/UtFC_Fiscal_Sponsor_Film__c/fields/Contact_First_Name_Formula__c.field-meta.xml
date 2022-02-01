@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_First_Name_Formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>LEFT(Contact_Name_FS__c, FIND( &quot; &quot;, Contact_Name_FS__c ) -1 )</formula>
+    <label>Contact - First Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

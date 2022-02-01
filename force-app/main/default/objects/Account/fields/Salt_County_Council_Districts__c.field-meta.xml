@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salt_County_Council_Districts__c</fullName>
+    <externalId>false</externalId>
+    <label>Salt Lake County Council District</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>At Large A</fullName>
+                <default>false</default>
+                <label>At Large A</label>
+            </value>
+            <value>
+                <fullName>At Large B</fullName>
+                <default>false</default>
+                <label>At Large B</label>
+            </value>
+            <value>
+                <fullName>At Large C</fullName>
+                <default>false</default>
+                <label>At Large C</label>
+            </value>
+            <value>
+                <fullName>District 1</fullName>
+                <default>false</default>
+                <label>District 1</label>
+            </value>
+            <value>
+                <fullName>District 2</fullName>
+                <default>false</default>
+                <label>District 2</label>
+            </value>
+            <value>
+                <fullName>District 3</fullName>
+                <default>false</default>
+                <label>District 3</label>
+            </value>
+            <value>
+                <fullName>District 5</fullName>
+                <default>false</default>
+                <label>District 5</label>
+            </value>
+            <value>
+                <fullName>District 6</fullName>
+                <default>false</default>
+                <label>District 6</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

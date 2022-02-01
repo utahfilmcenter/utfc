@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outreach_Interests__c</fullName>
+    <externalId>false</externalId>
+    <label>Outreach Interests</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>African-American</fullName>
+                <default>false</default>
+                <label>African-American</label>
+            </value>
+            <value>
+                <fullName>Asian American</fullName>
+                <default>false</default>
+                <label>Asian American</label>
+            </value>
+            <value>
+                <fullName>Business/Economy</fullName>
+                <default>false</default>
+                <label>Business/Economy</label>
+            </value>
+            <value>
+                <fullName>Cinematography/Photography</fullName>
+                <default>false</default>
+                <label>Cinematography/Photography</label>
+            </value>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
+            <value>
+                <fullName>Environment/Sustainability</fullName>
+                <default>false</default>
+                <label>Environment/Sustainability</label>
+            </value>
+            <value>
+                <fullName>Foreign Language</fullName>
+                <default>false</default>
+                <label>Foreign Language</label>
+            </value>
+            <value>
+                <fullName>Health &amp; Healthcare</fullName>
+                <default>false</default>
+                <label>Health &amp; Healthcare</label>
+            </value>
+            <value>
+                <fullName>Humanities</fullName>
+                <default>false</default>
+                <label>Humanities</label>
+            </value>
+            <value>
+                <fullName>Human Rights/Social Justice</fullName>
+                <default>false</default>
+                <label>Human Rights/Social Justice</label>
+            </value>
+            <value>
+                <fullName>Indigenous Peoples</fullName>
+                <default>false</default>
+                <label>Indigenous Peoples</label>
+            </value>
+            <value>
+                <fullName>Jewish Culture</fullName>
+                <default>false</default>
+                <label>Jewish Culture</label>
+            </value>
+            <value>
+                <fullName>Kids/Family Film</fullName>
+                <default>false</default>
+                <label>Kids/Family Film</label>
+            </value>
+            <value>
+                <fullName>Latina/Chicano</fullName>
+                <default>false</default>
+                <label>Latina/Chicano</label>
+            </value>
+            <value>
+                <fullName>Law/Justice</fullName>
+                <default>false</default>
+                <label>Law/Justice</label>
+            </value>
+            <value>
+                <fullName>LGBTQ</fullName>
+                <default>false</default>
+                <label>LGBTQ</label>
+            </value>
+            <value>
+                <fullName>Religion &amp; Faith</fullName>
+                <default>false</default>
+                <label>Religion &amp; Faith</label>
+            </value>
+            <value>
+                <fullName>Short Films</fullName>
+                <default>false</default>
+                <label>Short Films</label>
+            </value>
+            <value>
+                <fullName>Sports/Games</fullName>
+                <default>false</default>
+                <label>Sports/Games</label>
+            </value>
+            <value>
+                <fullName>STEAM</fullName>
+                <default>false</default>
+                <label>STEAM</label>
+            </value>
+            <value>
+                <fullName>Women/Girls</fullName>
+                <default>false</default>
+                <label>Women/Girls</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Drive_Ins</fullName>
+    <booleanFilter>1 OR 2</booleanFilter>
+    <columns>NAME</columns>
+    <columns>Date_and_Time__c</columns>
+    <columns>Venue__c</columns>
+    <columns>Drive_In_of_vehicles__c</columns>
+    <columns>Non_Paid_Attendants__c</columns>
+    <columns>Paid_Attendants__c</columns>
+    <columns>Total_Attendants__c</columns>
+    <columns>Ticketing_URL__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Program_Series__c</field>
+        <operation>contains</operation>
+        <value>Drive-in</value>
+    </filters>
+    <filters>
+        <field>Program_Series__c</field>
+        <operation>equals</operation>
+        <value>Outdoor Screening Series</value>
+    </filters>
+    <label>Drive-In and Outdoor Screenings</label>
+</ListView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UMOCA_Screenings</fullName>
+    <columns>NAME</columns>
+    <columns>Date_and_Time__c</columns>
+    <columns>Venue__c</columns>
+    <columns>Program_Series__c</columns>
+    <columns>Genre__c</columns>
+    <columns>Total_Attendants__c</columns>
+    <columns>Salt_Lake_County__c</columns>
+    <columns>Visiting_Guests__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Venue__c</field>
+        <operation>equals</operation>
+        <value>Utah Museum of Contemporary Art</value>
+    </filters>
+    <label>UMOCA Screenings</label>
+</ListView>

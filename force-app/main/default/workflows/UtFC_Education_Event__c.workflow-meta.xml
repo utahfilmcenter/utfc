@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>New_EDU_Event_Film_Link_Add</fullName>
+        <ccEmails>education@utahfilmcenter.org</ccEmails>
+        <description>New EDU Event Film Link Add</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>admin@utahfilm.org</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/EDU_Event_Film_Link</template>
+    </alerts>
+    <alerts>
+        <fullName>New_EDU_Event_Scheduled</fullName>
+        <ccEmails>education@utahfilmcenter.org</ccEmails>
+        <description>New EDU Event Scheduled</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>admin@utahfilm.org</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/New_EDU_Event_Confirmed</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>EDU_Event_Name_update</fullName>
+        <field>Name</field>
+        <formula>EDU_Event_Name_Formula__c</formula>
+        <name>EDU Event Name update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>EDU Event Scheduled</fullName>
+        <actions>
+            <name>New_EDU_Event_Scheduled</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>UtFC_Education_Event__c.Event_Status__c</field>
+            <operation>equals</operation>
+            <value>Scheduled</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>EDU_Event_Film_Link</fullName>
+        <actions>
+            <name>New_EDU_Event_Film_Link_Add</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>UtFC_Education_Event__c.Film_Link__c</field>
+            <operation>contains</operation>
+            <value>http</value>
+        </criteriaItems>
+        <description>Film Link has been added to Festival Field Trip</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

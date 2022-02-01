@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interests__c</fullName>
+    <externalId>false</externalId>
+    <label>Interests</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Advertising</fullName>
+                <default>false</default>
+                <label>Advertising</label>
+            </value>
+            <value>
+                <fullName>Animals</fullName>
+                <default>false</default>
+                <label>Animals</label>
+            </value>
+            <value>
+                <fullName>Architecture</fullName>
+                <default>false</default>
+                <label>Architecture</label>
+            </value>
+            <value>
+                <fullName>Art</fullName>
+                <default>false</default>
+                <label>Art</label>
+            </value>
+            <value>
+                <fullName>Bookclub</fullName>
+                <default>false</default>
+                <label>Bookclub</label>
+            </value>
+            <value>
+                <fullName>Capital Campaign</fullName>
+                <default>false</default>
+                <label>Capital Campaign</label>
+            </value>
+            <value>
+                <fullName>CATEGORIES: Sundance Press</fullName>
+                <default>false</default>
+                <label>CATEGORIES: Sundance Press</label>
+            </value>
+            <value>
+                <fullName>Dance</fullName>
+                <default>false</default>
+                <label>Dance</label>
+            </value>
+            <value>
+                <fullName>Development</fullName>
+                <default>false</default>
+                <label>Development</label>
+            </value>
+            <value>
+                <fullName>Disability</fullName>
+                <default>false</default>
+                <label>Disability</label>
+            </value>
+            <value>
+                <fullName>DTH email group</fullName>
+                <default>false</default>
+                <label>DTH email group</label>
+            </value>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
+            <value>
+                <fullName>Environment/Sustainability</fullName>
+                <default>false</default>
+                <label>Environment/Sustainability</label>
+            </value>
+            <value>
+                <fullName>Film Studies</fullName>
+                <default>false</default>
+                <label>Film Studies</label>
+            </value>
+            <value>
+                <fullName>Films Without Borders</fullName>
+                <default>false</default>
+                <label>Films Without Borders</label>
+            </value>
+            <value>
+                <fullName>Food</fullName>
+                <default>false</default>
+                <label>Food</label>
+            </value>
+            <value>
+                <fullName>French</fullName>
+                <default>false</default>
+                <label>French</label>
+            </value>
+            <value>
+                <fullName>French Film</fullName>
+                <default>false</default>
+                <label>French Film</label>
+            </value>
+            <value>
+                <fullName>Garden Party</fullName>
+                <default>false</default>
+                <label>Garden Party</label>
+            </value>
+            <value>
+                <fullName>Health</fullName>
+                <default>false</default>
+                <label>Health</label>
+            </value>
+            <value>
+                <fullName>Humanities</fullName>
+                <default>false</default>
+                <label>Humanities</label>
+            </value>
+            <value>
+                <fullName>Illuminate</fullName>
+                <default>false</default>
+                <label>Illuminate</label>
+            </value>
+            <value>
+                <fullName>Jewish</fullName>
+                <default>false</default>
+                <label>Jewish</label>
+            </value>
+            <value>
+                <fullName>Jewish Culture</fullName>
+                <default>false</default>
+                <label>Jewish Culture</label>
+            </value>
+            <value>
+                <fullName>Kamas</fullName>
+                <default>false</default>
+                <label>Kamas</label>
+            </value>
+            <value>
+                <fullName>LDS</fullName>
+                <default>false</default>
+                <label>LDS</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>LGBT</fullName>
+                <default>false</default>
+                <label>LGBT</label>
+            </value>
+            <value>
+                <fullName>Logan</fullName>
+                <default>false</default>
+                <label>Logan</label>
+            </value>
+            <value>
+                <fullName>Moab</fullName>
+                <default>false</default>
+                <label>Moab</label>
+            </value>
+            <value>
+                <fullName>Music</fullName>
+                <default>false</default>
+                <label>Music</label>
+            </value>
+            <value>
+                <fullName>Ogden</fullName>
+                <default>false</default>
+                <label>Ogden</label>
+            </value>
+            <value>
+                <fullName>Orem</fullName>
+                <default>false</default>
+                <label>Orem</label>
+            </value>
+            <value>
+                <fullName>Park City</fullName>
+                <default>false</default>
+                <label>Park City</label>
+            </value>
+            <value>
+                <fullName>Photography</fullName>
+                <default>false</default>
+                <label>Photography</label>
+            </value>
+            <value>
+                <fullName>Political</fullName>
+                <default>false</default>
+                <label>Political</label>
+            </value>
+            <value>
+                <fullName>Price</fullName>
+                <default>false</default>
+                <label>Price</label>
+            </value>
+            <value>
+                <fullName>Science</fullName>
+                <default>false</default>
+                <label>Science</label>
+            </value>
+            <value>
+                <fullName>Science Movie Night</fullName>
+                <default>false</default>
+                <label>Science Movie Night</label>
+            </value>
+            <value>
+                <fullName>Scuba-diving</fullName>
+                <default>false</default>
+                <label>Scuba-diving</label>
+            </value>
+            <value>
+                <fullName>Senior</fullName>
+                <default>false</default>
+                <label>Senior</label>
+            </value>
+            <value>
+                <fullName>Social Impact</fullName>
+                <default>false</default>
+                <label>Social Impact</label>
+            </value>
+            <value>
+                <fullName>Spanish</fullName>
+                <default>false</default>
+                <label>Spanish</label>
+            </value>
+            <value>
+                <fullName>Special Event Invitee</fullName>
+                <default>false</default>
+                <label>Special Event Invitee</label>
+            </value>
+            <value>
+                <fullName>Sports</fullName>
+                <default>false</default>
+                <label>Sports</label>
+            </value>
+            <value>
+                <fullName>St. George</fullName>
+                <default>false</default>
+                <label>St. George</label>
+            </value>
+            <value>
+                <fullName>Symphony Board</fullName>
+                <default>false</default>
+                <label>Symphony Board</label>
+            </value>
+            <value>
+                <fullName>Theater</fullName>
+                <default>false</default>
+                <label>Theater</label>
+            </value>
+            <value>
+                <fullName>Through the Lens</fullName>
+                <default>false</default>
+                <label>Through the Lens</label>
+            </value>
+            <value>
+                <fullName>Town Club</fullName>
+                <default>false</default>
+                <label>Town Club</label>
+            </value>
+            <value>
+                <fullName>Travel</fullName>
+                <default>false</default>
+                <label>Travel</label>
+            </value>
+            <value>
+                <fullName>Tumbleweeds</fullName>
+                <default>false</default>
+                <label>Tumbleweeds</label>
+            </value>
+            <value>
+                <fullName>Utah Women&apos;s Forum</fullName>
+                <default>false</default>
+                <label>Utah Women&apos;s Forum</label>
+            </value>
+            <value>
+                <fullName>Veterans</fullName>
+                <default>false</default>
+                <label>Veterans</label>
+            </value>
+            <value>
+                <fullName>vip</fullName>
+                <default>false</default>
+                <label>vip</label>
+            </value>
+            <value>
+                <fullName>Weekly Newsletter</fullName>
+                <default>false</default>
+                <label>Weekly Newsletter</label>
+            </value>
+            <value>
+                <fullName>West Jordan</fullName>
+                <default>false</default>
+                <label>West Jordan</label>
+            </value>
+            <value>
+                <fullName>World Cinema</fullName>
+                <default>false</default>
+                <label>World Cinema</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

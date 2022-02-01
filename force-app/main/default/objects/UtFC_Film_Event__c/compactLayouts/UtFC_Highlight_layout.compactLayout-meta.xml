@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UtFC_Highlight_layout</fullName>
+    <fields>Name</fields>
+    <fields>Status__c</fields>
+    <fields>InPerson_Virtual_Hybrid__c</fields>
+    <fields>Venue__c</fields>
+    <fields>Total_Attendants__c</fields>
+    <fields>Program_Series__c</fields>
+    <fields>Staff_Lead_Contact__c</fields>
+    <fields>Event_Partner__c</fields>
+    <label>UtFC Highlight layout</label>
+</CompactLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Film_Spark_Film_From_Film_Events__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Film Spark Film (From Film Events)</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>UtFC_Film_Event__c.Program_Series__c</field>
+            <operation>contains</operation>
+            <value>film spark</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>UtFC_Film_Event__c</referenceTo>
+    <relationshipLabel>UtFC Education Events (Film Spark Film (From Film Events))</relationshipLabel>
+    <relationshipName>UtFC_Education_Events_Films</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Type_FS__c</fullName>
+    <externalId>false</externalId>
+    <label>Project Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Documentary</fullName>
+                <default>true</default>
+                <label>Documentary Feature</label>
+            </value>
+            <value>
+                <fullName>Documentary Series</fullName>
+                <default>false</default>
+                <label>Documentary Series</label>
+            </value>
+            <value>
+                <fullName>Short Documentary</fullName>
+                <default>false</default>
+                <label>Documentary Short</label>
+            </value>
+            <value>
+                <fullName>Narative Series</fullName>
+                <default>false</default>
+                <label>Narative Series</label>
+            </value>
+            <value>
+                <fullName>Narrative</fullName>
+                <default>false</default>
+                <label>Narrative Feature</label>
+            </value>
+            <value>
+                <fullName>Short Narrative</fullName>
+                <default>false</default>
+                <label>Narrative Short</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Series</fullName>
+                <default>false</default>
+                <label>Series</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

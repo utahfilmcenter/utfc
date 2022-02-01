@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EDU_School_District__c</fullName>
+    <externalId>false</externalId>
+    <label>School District</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Alpine School District</fullName>
+                <default>false</default>
+                <label>Alpine School District</label>
+            </value>
+            <value>
+                <fullName>Beaver School District</fullName>
+                <default>false</default>
+                <label>Beaver School District</label>
+            </value>
+            <value>
+                <fullName>Box Elder School District</fullName>
+                <default>false</default>
+                <label>Box Elder School District</label>
+            </value>
+            <value>
+                <fullName>Cache County School District</fullName>
+                <default>false</default>
+                <label>Cache County School District</label>
+            </value>
+            <value>
+                <fullName>Canyons School District</fullName>
+                <default>false</default>
+                <label>Canyons School District</label>
+            </value>
+            <value>
+                <fullName>Carbon School District</fullName>
+                <default>false</default>
+                <label>Carbon School District</label>
+            </value>
+            <value>
+                <fullName>Charter</fullName>
+                <default>false</default>
+                <label>Charter</label>
+            </value>
+            <value>
+                <fullName>Daggett School District</fullName>
+                <default>false</default>
+                <label>Daggett School District</label>
+            </value>
+            <value>
+                <fullName>Davis School District</fullName>
+                <default>false</default>
+                <label>Davis School District</label>
+            </value>
+            <value>
+                <fullName>Duchesne County School District</fullName>
+                <default>false</default>
+                <label>Duchesne County School District</label>
+            </value>
+            <value>
+                <fullName>Emery County School District</fullName>
+                <default>false</default>
+                <label>Emery County School District</label>
+            </value>
+            <value>
+                <fullName>Garfield County School District</fullName>
+                <default>false</default>
+                <label>Garfield County School District</label>
+            </value>
+            <value>
+                <fullName>Grand County School District</fullName>
+                <default>false</default>
+                <label>Grand County School District</label>
+            </value>
+            <value>
+                <fullName>Granite School District</fullName>
+                <default>false</default>
+                <label>Granite School District</label>
+            </value>
+            <value>
+                <fullName>Home school</fullName>
+                <default>false</default>
+                <label>Home school</label>
+            </value>
+            <value>
+                <fullName>Iron County School District</fullName>
+                <default>false</default>
+                <label>Iron County School District</label>
+            </value>
+            <value>
+                <fullName>Jordan School District</fullName>
+                <default>false</default>
+                <label>Jordan School District</label>
+            </value>
+            <value>
+                <fullName>Juab School District</fullName>
+                <default>false</default>
+                <label>Juab School District</label>
+            </value>
+            <value>
+                <fullName>Kane County School District</fullName>
+                <default>false</default>
+                <label>Kane County School District</label>
+            </value>
+            <value>
+                <fullName>Logan City School District</fullName>
+                <default>false</default>
+                <label>Logan City School District</label>
+            </value>
+            <value>
+                <fullName>Millard School District</fullName>
+                <default>false</default>
+                <label>Millard School District</label>
+            </value>
+            <value>
+                <fullName>Morgan School District</fullName>
+                <default>false</default>
+                <label>Morgan School District</label>
+            </value>
+            <value>
+                <fullName>Murray City School District</fullName>
+                <default>false</default>
+                <label>Murray City School District</label>
+            </value>
+            <value>
+                <fullName>Nebo School District</fullName>
+                <default>false</default>
+                <label>Nebo School District</label>
+            </value>
+            <value>
+                <fullName>North Sanpete School District</fullName>
+                <default>false</default>
+                <label>North Sanpete School District</label>
+            </value>
+            <value>
+                <fullName>North Summit School District</fullName>
+                <default>false</default>
+                <label>North Summit School District</label>
+            </value>
+            <value>
+                <fullName>Ogden School District</fullName>
+                <default>false</default>
+                <label>Ogden School District</label>
+            </value>
+            <value>
+                <fullName>Park City School District</fullName>
+                <default>false</default>
+                <label>Park City School District</label>
+            </value>
+            <value>
+                <fullName>Piute County School District</fullName>
+                <default>false</default>
+                <label>Piute County School District</label>
+            </value>
+            <value>
+                <fullName>Private</fullName>
+                <default>false</default>
+                <label>Private</label>
+            </value>
+            <value>
+                <fullName>Provo City School District</fullName>
+                <default>false</default>
+                <label>Provo City School District</label>
+            </value>
+            <value>
+                <fullName>Rich School District</fullName>
+                <default>false</default>
+                <label>Rich School District</label>
+            </value>
+            <value>
+                <fullName>Salt Lake City School District</fullName>
+                <default>false</default>
+                <label>Salt Lake City School District</label>
+            </value>
+            <value>
+                <fullName>San Juan School District</fullName>
+                <default>false</default>
+                <label>San Juan School District</label>
+            </value>
+            <value>
+                <fullName>Sevier School District</fullName>
+                <default>false</default>
+                <label>Sevier School District</label>
+            </value>
+            <value>
+                <fullName>South Sanpete School District</fullName>
+                <default>false</default>
+                <label>South Sanpete School District</label>
+            </value>
+            <value>
+                <fullName>South Summit School District</fullName>
+                <default>false</default>
+                <label>South Summit School District</label>
+            </value>
+            <value>
+                <fullName>Tintic School District</fullName>
+                <default>false</default>
+                <label>Tintic School District</label>
+            </value>
+            <value>
+                <fullName>Tooele County School District</fullName>
+                <default>false</default>
+                <label>Tooele County School District</label>
+            </value>
+            <value>
+                <fullName>Uintah School District</fullName>
+                <default>false</default>
+                <label>Uintah School District</label>
+            </value>
+            <value>
+                <fullName>Wasatch County School District</fullName>
+                <default>false</default>
+                <label>Wasatch County School District</label>
+            </value>
+            <value>
+                <fullName>Washington County School District</fullName>
+                <default>false</default>
+                <label>Washington County School District</label>
+            </value>
+            <value>
+                <fullName>Wayne School District</fullName>
+                <default>false</default>
+                <label>Wayne School District</label>
+            </value>
+            <value>
+                <fullName>Weber School District</fullName>
+                <default>false</default>
+                <label>Weber School District</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

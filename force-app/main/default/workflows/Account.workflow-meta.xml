@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Day_of_Expiration_email</fullName>
+        <ccEmails>info@utahfilmcenter.org</ccEmails>
+        <ccEmails>rroots@utahfilmcenter.org</ccEmails>
+        <description>Day of Expiration email</description>
+        <protected>false</protected>
+        <recipients>
+            <field>npe01__One2OneContact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>info@utahfilmcenter.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reminder_Workflow_Emails/Membership_Expiration_April_2018</template>
+    </alerts>
+    <rules>
+        <fullName>Membership 6 weeks prior Expiring Email %28Account Level%29</fullName>
+        <active>false</active>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Account.npo02__MembershipEndDate__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>12/31/2018</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Membership_Level__c</field>
+            <operation>notEqual</operation>
+            <value>Artist Foundry</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Membership_Level__c</field>
+            <operation>notContain</operation>
+            <value>sustainer</value>
+        </criteriaItems>
+        <description>Expiring email alert 6 weeks prior to Membership End date</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <offsetFromField>Account.npo02__MembershipEndDate__c</offsetFromField>
+            <timeLength>-42</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Membership Expiration Alert</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Account.npo02__MembershipEndDate__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <offsetFromField>Account.npo02__MembershipEndDate__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Membership Expired 2 weeks post Account Level - email</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Account.npsp__Membership_Status__c</field>
+            <operation>equals</operation>
+            <value>Active (Grace Period)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Membership_Level__c</field>
+            <operation>notContain</operation>
+            <value>Artist Foundry</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <offsetFromField>Account.npo02__MembershipEndDate__c</offsetFromField>
+            <timeLength>14</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Membership Expiring Email %28Account Level%29</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Account.npo02__MembershipEndDate__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Membership_Level__c</field>
+            <operation>notEqual</operation>
+            <value>Artist Foundry</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Day_of_Expiration_email</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Account.npo02__MembershipEndDate__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <tasks>
+        <fullName>Membership_reminder_6_weeks_prior_email_sent</fullName>
+        <assignedTo>admin@utahfilm.org</assignedTo>
+        <assignedToType>user</assignedToType>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Completed</status>
+        <subject>Membership reminder 6 weeks prior email sent</subject>
+    </tasks>
+</Workflow>

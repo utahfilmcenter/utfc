@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tumbleweeds_Film_Festival1</fullName>
+    <columns>NAME</columns>
+    <columns>Date_and_Time__c</columns>
+    <columns>Total_Attendants__c</columns>
+    <columns>Total_Festival_Non_Paid_Tickets__c</columns>
+    <columns>Venue__c</columns>
+    <columns>Visiting_Guests__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Program_Series__c</field>
+        <operation>equals</operation>
+        <value>Tumbleweeds Film Festival</value>
+    </filters>
+    <filters>
+        <field>Date_and_Time__c</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2020 12:00 AM</value>
+    </filters>
+    <label>Tumbleweeds Film Festival</label>
+</ListView>

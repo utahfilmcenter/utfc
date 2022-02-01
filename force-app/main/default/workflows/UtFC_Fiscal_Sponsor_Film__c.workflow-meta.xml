@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Email_Alert_for_accepted_FS_film</fullName>
+        <description>Email Alert for accepted FS film.</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>admin@utahfilm.org</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>info@utahfilmcenter.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/New_Fiscal_Film_Accepted_Jeff_ONLY</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Alert_that_Annual_Fiscal_Sponsor_Grant_Date_Is_Expiring_Soon</fullName>
+        <ccEmails>fiscalsponsorship@utahfilmcenter.org</ccEmails>
+        <description>Email Alert that Annual Fiscal Sponsor Grant Date Is Expiring Soon</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>admin@utahfilm.org</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/FS_Email_Alert_that_Annual_Fiscal_Sponsor_Grant_Date_Is_Expiring_Soon</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Alert_that_Annual_Fiscal_Sponsor_Report_is_Due_Soone</fullName>
+        <ccEmails>fiscal_sponsorship@utahfilmcenter.org</ccEmails>
+        <description>Email Alert that Annual Fiscal Sponsor Report is Due Soon</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>info@utahfilmcenter.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/FS_Annual_Report_Request_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Alert_upcoming_FS_Contract_Expiration_Date</fullName>
+        <ccEmails>fiscalsponsorship@utahfilmcenter.org</ccEmails>
+        <description>Email Alert - upcoming - FS - Contract Expiration Date</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>admin@utahfilm.org</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>smohr@utahfilm.org</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>info@utahfilmcenter.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Inform_assignee_that_task_is_due</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_filmmaker_that_Annual_Report_Due_date_is_approaching</fullName>
+        <ccEmails>fiscal_sponsorship@utahfilmcenter.org</ccEmails>
+        <description>Email to filmmaker that Annual Report Due date is approaching.</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>info@utahfilmcenter.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/FS_Annual_Report_Request_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Annual_Report_Reminder_Email_Day_of_due_date</fullName>
+        <ccEmails>fiscal_sponsorship@utahfilmcenter.org</ccEmails>
+        <description>Send Annual Report Reminder Email.  Day of due date</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>info@utahfilmcenter.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Reminder_Workflow_Emails/FS_Annual_Report_Reminder_Request_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>X30_Days_Before_Grant_Date</fullName>
+        <ccEmails>fiscalsponsorship@utahfilmcenter.org</ccEmails>
+        <description>30 Days Before Grant Date</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>admin@utahfilm.org</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/FS_Email_Alert_that_Annual_Fiscal_Sponsor_Grant_Date_Is_Expiring_Soon</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>UPdate_requested_report_date_1y</fullName>
+        <field>Requested_Report_Due_Date_FS__c</field>
+        <formula>DATE(YEAR(Date_Sponsorship_Began_FS__c) + 1,MONTH(Date_Sponsorship_Began_FS__c),DAY(Date_Sponsorship_Began_FS__c))</formula>
+        <name>Update requested report date + 1y</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Annual_Report_Status_Field</fullName>
+        <field>Annual_Report_Status__c</field>
+        <literalValue>Report Due</literalValue>
+        <name>Update Annual Report Status Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Annual_Report_Status_Fields</fullName>
+        <field>Annual_Report_Status__c</field>
+        <literalValue>Report Due</literalValue>
+        <name>Update Annual Report Status Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Film_Accepted_field_on_FS_Films</fullName>
+        <field>Film_Accepted_to_FS_Program__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Film Accepted field on FS Films.</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Fiscal_Film_Status</fullName>
+        <field>Status_FS__c</field>
+        <literalValue>Active</literalValue>
+        <name>Update Fiscal Film Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Report_Status_to_Past_Due</fullName>
+        <field>Annual_Report_Status__c</field>
+        <literalValue>Past Due</literalValue>
+        <name>Update Report Status to Past Due</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Updates_FS_Ann_Report_to_30_Days_Sent</fullName>
+        <description>Updates the stage of the Annual Report to 30 Day Prior Email Sent</description>
+        <field>Annual_Report_Status__c</field>
+        <literalValue>30 Day Request Email Sent</literalValue>
+        <name>Updates FS Ann Report to 30 Days Sent</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Updates_FS_Annual_Report_Status_30_Day</fullName>
+        <description>Updates the Annual Report Status to 30 Day Email Sent.</description>
+        <field>Annual_Report_Status__c</field>
+        <literalValue>30 Day Request Email Sent</literalValue>
+        <name>Updates FS Annual Report Status=30 Day..</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Updates_FS_Annual_Report_Status_to</fullName>
+        <description>Updates FS Annual Report Status to 30 Day Sent.</description>
+        <field>Annual_Report_Status__c</field>
+        <literalValue>30 Day Request Email Sent</literalValue>
+        <name>Updates FS Annual Report Status=30 Day..</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Create task to generate report to mohr</fullName>
+        <actions>
+            <name>Requested_Report_Due</name>
+            <type>Task</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>UtFC_Fiscal_Sponsor_Film__c.Requested_Report_Due_Date_FS__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Email alert of new Fiscal Film Accepted</fullName>
+        <actions>
+            <name>Email_Alert_for_accepted_FS_film</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>UtFC_Fiscal_Sponsor_Film__c.Film_Accepted_to_FS_Program__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>FS - 30 Day Before Annual Report Email Send</fullName>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 3</booleanFilter>
+        <criteriaItems>
+            <field>UtFC_Fiscal_Sponsor_Film__c.Status_FS__c</field>
+            <operation>equals</operation>
+            <value>Active</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>UtFC_Fiscal_Sponsor_Film__c.Annual_Report_Status__c</field>
+            <operation>equals</operation>
+            <value>Report Due</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>UtFC_Fiscal_Sponsor_Film__c.Requested_Report_Due_Date_FS__c</field>
+            <operation>greaterThan</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <description>Sends email to film contact that Annual Report is due in 30 days.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Email_Alert_that_Annual_Fiscal_Sponsor_Report_is_Due_Soone</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Annual_Report_Request_Email_Sent</name>
+                <type>Task</type>
+            </actions>
+            <offsetFromField>UtFC_Fiscal_Sponsor_Film__c.Requested_Report_Due_Date_FS__c</offsetFromField>
+            <timeLength>-30</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Updates_FS_Ann_Report_to_30_Days_Sent</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>UtFC_Fiscal_Sponsor_Film__c.Requested_Report_Due_Date_FS__c</offsetFromField>
+            <timeLength>-29</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>FS - Day of Annual Report Due Reminder Email Send</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>UtFC_Fiscal_Sponsor_Film__c.Status_FS__c</field>
+            <operation>equals</operation>
+            <value>Active</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>UtFC_Fiscal_Sponsor_Film__c.Annual_Report_Status__c</field>
+            <operation>equals</operation>
+            <value>30 Day Request Email Sent</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>UtFC_Fiscal_Sponsor_Film__c.Requested_Report_Due_Date_FS__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <description>Sends email that Annual Report is due.  This is sent the day of the Annual Report Due Date.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Send_Annual_Report_Reminder_Email_Day_of_due_date</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Annual_Report_Reminder_Email_Sent</name>
+                <type>Task</type>
+            </actions>
+            <offsetFromField>UtFC_Fiscal_Sponsor_Film__c.Requested_Report_Due_Date_FS__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Update_Report_Status_to_Past_Due</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>UtFC_Fiscal_Sponsor_Film__c.Requested_Report_Due_Date_FS__c</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>FS - Grant Agreement Expiring in 30 Days</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>UtFC_Fiscal_Sponsor_Film__c.Status_FS__c</field>
+            <operation>equals</operation>
+            <value>Active</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>UtFC_Fiscal_Sponsor_Film__c.Contract_Expiration_Date_FS__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Fiscal Sponsorship Grant Agreement is expiring in 30 Days email alert</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <offsetFromField>UtFC_Fiscal_Sponsor_Film__c.Contract_Expiration_Date_FS__c</offsetFromField>
+            <timeLength>-30</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>FS - Reminder Task to SMohr that Annual Report is Past Due</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>UtFC_Fiscal_Sponsor_Film__c.Status_FS__c</field>
+            <operation>equals</operation>
+            <value>Active</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>UtFC_Fiscal_Sponsor_Film__c.Annual_Report_Status__c</field>
+            <operation>equals</operation>
+            <value>Past Due</value>
+        </criteriaItems>
+        <description>This will assign a task to Sarah 14 days after the film has been in Past Due status for their annual report.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Annual_Report_Past_Due_14_Days</name>
+                <type>Task</type>
+            </actions>
+            <offsetFromField>UtFC_Fiscal_Sponsor_Film__c.Requested_Report_Due_Date_FS__c</offsetFromField>
+            <timeLength>14</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Update %22Film Accepted to FS Program%22 field</fullName>
+        <actions>
+            <name>Update_Film_Accepted_field_on_FS_Films</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>UtFC_Fiscal_Sponsor_Film__c.Date_Sponsorship_Began_FS__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Check box that film is accepted when value is entered into Date Sponorship Began date field.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Fiscal Film Status</fullName>
+        <actions>
+            <name>Update_Fiscal_Film_Status</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>UtFC_Fiscal_Sponsor_Film__c.Date_Application_was_Received_FS__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Report due date field</fullName>
+        <actions>
+            <name>UPdate_requested_report_date_1y</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Annual_Report_Status_Fields</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>UtFC_Fiscal_Sponsor_Film__c.Date_Sponsorship_Began_FS__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <tasks>
+        <fullName>Annual_Report_Past_Due_14_Days</fullName>
+        <assignedTo>smohr@utahfilm.org</assignedTo>
+        <assignedToType>user</assignedToType>
+        <dueDateOffset>21</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <offsetFromField>UtFC_Fiscal_Sponsor_Film__c.Requested_Report_Due_Date_FS__c</offsetFromField>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>In Progress</status>
+        <subject>Annual Report Past Due 14 Days</subject>
+    </tasks>
+    <tasks>
+        <fullName>Annual_Report_Reminder_Email_Sent</fullName>
+        <assignedTo>smohr@utahfilm.org</assignedTo>
+        <assignedToType>user</assignedToType>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <offsetFromField>UtFC_Fiscal_Sponsor_Film__c.Requested_Report_Due_Date_FS__c</offsetFromField>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Completed</status>
+        <subject>Annual Report Reminder Email Sent</subject>
+    </tasks>
+    <tasks>
+        <fullName>Annual_Report_Request_Email_Sent</fullName>
+        <assignedTo>smohr@utahfilm.org</assignedTo>
+        <assignedToType>user</assignedToType>
+        <dueDateOffset>-30</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <offsetFromField>UtFC_Fiscal_Sponsor_Film__c.Requested_Report_Due_Date_FS__c</offsetFromField>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Completed</status>
+        <subject>Annual Report Request Email Sent</subject>
+    </tasks>
+    <tasks>
+        <fullName>Requested_Report_Due</fullName>
+        <assignedTo>smohr@utahfilm.org</assignedTo>
+        <assignedToType>user</assignedToType>
+        <dueDateOffset>365</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <offsetFromField>UtFC_Fiscal_Sponsor_Film__c.Date_Sponsorship_Began_FS__c</offsetFromField>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Not Started</status>
+        <subject>Requested Report Due</subject>
+    </tasks>
+    <tasks>
+        <fullName>X30_Day_Annual_Report_Email_Sent</fullName>
+        <assignedTo>smohr@utahfilm.org</assignedTo>
+        <assignedToType>user</assignedToType>
+        <dueDateOffset>335</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <offsetFromField>UtFC_Fiscal_Sponsor_Film__c.Requested_Report_Due_Date_FS__c</offsetFromField>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Completed</status>
+        <subject>30 Day Annual Report Email Sent</subject>
+    </tasks>
+</Workflow>

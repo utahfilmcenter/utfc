@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GracePeriodAndDatesAlign</fullName>
+    <active>true</active>
+    <description>Makes sure the dates align when a record is marked as being in grace period</description>
+    <errorConditionFormula>TEXT(Status__c)=&quot;Active (Grace)&quot; &amp;&amp; NOT(AND(TODAY()&lt;=Grace_Period_End_Date__c,TODAY()&gt;End_Date__c))</errorConditionFormula>
+    <errorDisplayField>Status__c</errorDisplayField>
+    <errorMessage>For records marked as Status &quot;Active (Grace)&quot;, make sure the current date is past the End Date or less than or equal to the Grace Period End Date.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>New_Film_Screening_entered_email_to_Staff</fullName>
+        <ccEmails>staff@utahfilmcenter.org; interns@utahfilmcenter.org; outdoorscreenings@utahfilmcenter.org,</ccEmails>
+        <description>New Film Screening entered email to Staff</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>admin@utahfilm.org</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/New_Screening_Alert_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Film_Screening_entered_email_to_Staff_Updated</fullName>
+        <description>New Film Screening entered email to Staff (Updated Email)</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>admin@utahfilm.org</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/New_Screening_Alert_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Screening_Email_Alert_to_Library_manager</fullName>
+        <ccEmails>nsalazar@slcpl.org</ccEmails>
+        <description>New Screening Email Alert to Library manager</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>admin@utahfilm.org</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>info@utahfilmcenter.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/New_Screening_Alert_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>UTFC_Film_Event_New_Venue</fullName>
+        <description>UTFC Film Event - New Venue</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>admin@utahfilm.org</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/UTFC_Film_Event_New_Venue</template>
+    </alerts>
+    <alerts>
+        <fullName>Updated_Film_Event_Film_Streaming_Link_Added</fullName>
+        <ccEmails>marketingteam@utahfilmcenter.org</ccEmails>
+        <ccEmails>programming@utahfilmcenter.org</ccEmails>
+        <description>Updated Film Event Film Streaming Link Added</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>admin@utahfilm.org</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Updated_Screening_Streaming_Link_added</template>
+    </alerts>
+    <alerts>
+        <fullName>Updated_Film_Screening_entered_email_to_Staff</fullName>
+        <ccEmails>staff@utahfilmcenter.org; interns@utahfilmcenter.org; outdoorscreenings@utahfilmcenter.org,</ccEmails>
+        <description>Updated Film Screening entered email to Staff</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>admin@utahfilm.org</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Updated_Screening_Alert_Template</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Leonardo_capacity_field_commit</fullName>
+        <field>Venue_Capacity__c</field>
+        <formula>180</formula>
+        <name>Leonardo_ capacity field commit</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Orem</fullName>
+        <field>Venue_Capacity__c</field>
+        <formula>40</formula>
+        <name>Orem</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>SL_County_venue</fullName>
+        <field>Salt_Lake_County__c</field>
+        <literalValue>1</literalValue>
+        <name>SL County venue</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>SL_Library_capacity_field_commit</fullName>
+        <field>Venue_Capacity__c</field>
+        <formula>302</formula>
+        <name>SL Library_ capacity field commit</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_UMFA_Capacity</fullName>
+        <field>Venue_Capacity__c</field>
+        <formula>256</formula>
+        <name>Set UMFA Capacity</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Fiscal_Sponsored_field_to_TRUE</fullName>
+        <field>Fiscal_Sponsored_Film__c</field>
+        <formula>&quot;Yes&quot;</formula>
+        <name>Update Fiscal Sponsored field to TRUE</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Post_Film_discussion_field</fullName>
+        <field>Post_Film_Discussion__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Post Film discussion field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>update_UVU_of_capacity</fullName>
+        <field>Venue_Capacity__c</field>
+        <formula>175</formula>
+        <name>update UVU  capacity</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>update_capacity_for_AVREC</fullName>
+        <field>Venue_Capacity__c</field>
+        <formula>30</formula>
+        <name>update capacity for AVREC</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>update_education_field_for_EMAIL</fullName>
+        <field>Education_Update_field_HIDDEN__c</field>
+        <formula>&quot;Yes&quot;</formula>
+        <name>update education field for EMAIL</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>AVREC_ capacity field commit</fullName>
+        <actions>
+            <name>update_capacity_for_AVREC</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>UtFC_Film_Event__c.Venue__c</field>
+            <operation>equals</operation>
+            <value>Avrec</value>
+        </criteriaItems>
+        <description>Commits the capacity for UVU Library screenings</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Commit Education Field to YES if TRUE</fullName>
+        <actions>
+            <name>update_education_field_for_EMAIL</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>UtFC_Film_Event__c.Education__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Commit Fiscal Field to YES if TRUE</fullName>
+        <actions>
+            <name>Update_Fiscal_Sponsored_field_to_TRUE</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>UtFC_Film_Event__c.UtFC_Fiscally_Sponsored__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Email Alert to Library Staff of new screening</fullName>
+        <actions>
+            <name>New_Screening_Email_Alert_to_Library_manager</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>UtFC_Film_Event__c.Confirmed__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>UtFC_Film_Event__c.Venue__c</field>
+            <operation>equals</operation>
+            <value>Salt Lake City Library</value>
+        </criteriaItems>
+        <description>Alert that sends screening info to adult services manager at Salt Lake Public Library.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Email Alert to Staff of UPDATED film screening</fullName>
+        <actions>
+            <name>Updated_Film_Screening_entered_email_to_Staff</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>UtFC_Film_Event__c.Updated__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>UtFC_Film_Event__c.Date_and_Time__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Email Alert to Staff of new film screening status</fullName>
+        <actions>
+            <name>New_Film_Screening_entered_email_to_Staff</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>UtFC_Film_Event__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Confirmed,Postponed,Cancelled</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>UtFC_Film_Event__c.Date_and_Time__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Leonardo_ capacity field commit</fullName>
+        <actions>
+            <name>Leonardo_capacity_field_commit</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>UtFC_Film_Event__c.Venue__c</field>
+            <operation>equals</operation>
+            <value>The Leonardo</value>
+        </criteriaItems>
+        <description>Commits the capacity for Leonardo Library screenings</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Orem_ capacity field commit</fullName>
+        <actions>
+            <name>Orem</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>UtFC_Film_Event__c.Venue__c</field>
+            <operation>equals</operation>
+            <value>Orem Public Library</value>
+        </criteriaItems>
+        <description>Commits the capacity for Orem  screenings</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>SL County venue update</fullName>
+        <actions>
+            <name>SL_County_venue</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>UtFC_Film_Event__c.Venue__c</field>
+            <operation>contains</operation>
+            <value>,Broadway,Galivan Center,Megaplex at the Gateway,Rose Wagner (BB),Rose Wagner (JW),Rowland Hall,Salt Lake City Library,Shriners Hospitals for Children,Sorensen Unity Center,Tower Theater,Utah Museum of Fine A,Rose Wagner JW (Half House)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>UtFC_Film_Event__c.Venue__c</field>
+            <operation>notContain</operation>
+            <value>orem,viridian,ogden,Moab</value>
+        </criteriaItems>
+        <description>Marks venue as Salt Lake County</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>SL Library_ capacity field commit</fullName>
+        <actions>
+            <name>SL_Library_capacity_field_commit</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>UtFC_Film_Event__c.Venue__c</field>
+            <operation>equals</operation>
+            <value>Salt Lake City Library</value>
+        </criteriaItems>
+        <description>Commits the capacity for SL Library screenings</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>UMFA_ capacity field commit</fullName>
+        <actions>
+            <name>Set_UMFA_Capacity</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>UtFC_Film_Event__c.Venue__c</field>
+            <operation>equals</operation>
+            <value>Utah Museum of Fine Arts</value>
+        </criteriaItems>
+        <description>Commits the capacity for UMFA Library screenings</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>UTFC Film Event - New Venue</fullName>
+        <actions>
+            <name>UTFC_Film_Event_New_Venue</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>UtFC_Film_Event__c.Venue__c</field>
+            <operation>equals</operation>
+            <value>New Venue - see venue info</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>UtFC_Film_Event__c.Venue_Information__c</field>
+            <operation>notContain</operation>
+        </criteriaItems>
+        <description>UTFC Film Event - New Venue</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>UVU_ capacity field commit</fullName>
+        <actions>
+            <name>update_UVU_of_capacity</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>UtFC_Film_Event__c.Venue__c</field>
+            <operation>equals</operation>
+            <value>UVU Fulton Library Auditorium</value>
+        </criteriaItems>
+        <description>Commits the capacity for UVU Library screenings</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Post Film discussion field</fullName>
+        <actions>
+            <name>Update_Post_Film_discussion_field</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>UtFC_Film_Event__c.Visiting_Guests__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Updated Screening - Streaming Link added</fullName>
+        <actions>
+            <name>Updated_Film_Event_Film_Streaming_Link_Added</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <field>UtFC_Film_Event__c.Streaming_link_Public__c</field>
+            <operation>contains</operation>
+            <value>http</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>UtFC_Film_Event__c.Streaming_Link_VIP_Member__c</field>
+            <operation>equals</operation>
+            <value>http</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>UtFC_Film_Event__c.Date_and_Time__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

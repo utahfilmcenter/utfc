@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Attendee_Count__c</fullName>
+    <description>Number of guests, including children, students, or unregistered adults</description>
+    <externalId>false</externalId>
+    <inlineHelpText>For classrooms, enter the number of students, teaching assistants, and chaperones attending with the primary attendee.</inlineHelpText>
+    <label>Attendee Count</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

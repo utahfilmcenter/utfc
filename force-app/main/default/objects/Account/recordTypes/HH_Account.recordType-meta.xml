@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HH_Account</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>NPSP_Household_Account</compactLayoutAssignment>
+    <description>An Account representing a Household containing one or more individuals</description>
+    <label>Household Account</label>
+    <picklistValues>
+        <picklist>AccountSource</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchased List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Artist_Foundry_Residences__c</picklist>
+        <values>
+            <fullName>Award Winner Resident</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee %2F Host Resident</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipment Trade Resident</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Month to Month Resident</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Resident</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Desk Resident</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Office Resident</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team Discount Resident</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Workshop Leader Resident</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Year-in-Full Resident</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Artist_Foundry_Resident_Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lapsed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Attended_School_Screening_2012__c</picklist>
+        <values>
+            <fullName>3%2F21-9%3A30AM Circus Dreams</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2F22-1%3A00PM Circus Dreams</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2F22-1%3A00PM Louder Than a Bomb - PC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2F22-9%3A30AM Circus Dreams</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2F23-1%3A00PM Louder Than a Bomb</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2F23-9%3A30AM Circus Dreams</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Attended_school_screening_2014__c</picklist>
+        <values>
+            <fullName>BULLY - 10%2F11%2F13 - 10%3A00am</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BULLY - 10%2F2%2F13 - 10%3A00am</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BULLY - 10%2F7%2F13 - 10%3A00 am</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BULLY - 12%2F3%2F13 - 10%3A00AM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BULLY - 9%2F11%2F13 - 10%3A00am</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BULLY - 9%2F25%2F13 - 10%3A00am</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BULLY - 9%2F26%2F13 - 10%3A00am</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FELIX - 5%2F19%2F14 - 1%3A00 pm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GATTU - 4%2F3%2F14 - 9%3A15am</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I LEARN AMERICA - 5%2F21%2F14 - 9%3A30am</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SHAKESPEARE HIGH - 2%2F11%2F14 - 3%3A00pm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>THE WHALE - 4%2F23%2F14 9%3A15am</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>THE WHALE - 5%2F23%2F14 - 9%3A45am</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>THE WHALE - 5%2F27%2F14 11%3A00am</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>THE WHALE -3%2F14%2F14 - 1%3A00pm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WINGS OF LIFE - 4%2F25%2F14 - 1%3A00pm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WINGS OF LIFE - 4%2F29%2F14 - 9%3A15am</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WINGS OF LIFE - 5%2F27%2F14 9%3A30am</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WINGS OF LIFE - 6%2F2%2F2014 9%3A30am</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Capacity__c</picklist>
+        <values>
+            <fullName>%2410%2C000 - %2424%2C999</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%24100%2C000 - %24499%2C999</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%241M%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%242%2C500 - %244%2C999</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2425%2C000 - %2449%2C999</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%245%2C000 - %249%2C999</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2450%2C000 - %2499%2C999</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%24500%2C000 - %24999%2C999</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Less than %242%2C500</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Inclination__c</picklist>
+        <values>
+            <fullName>0 - Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 - Identification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 - Research</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 - Strategy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 - Cultivation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 - Stewardship</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apparel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biotechnology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemicals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food %26 Beverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not For Profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recreation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Interests__c</picklist>
+        <values>
+            <fullName>Aging%2FSenior Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Architecture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Art</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Art%2FArchitecture%2FDesign%2FFine Art</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bookclub</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Capital Campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Children%27s List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Creativity in Focus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DTH%21</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environment%2FSustainability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Film Studies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Films Without Borders</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Films on Film</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gala</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garden Party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General%2FAll Films</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Homelessness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Human Rights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Humanities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Immigration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jewish Programming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Law%2FJustice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ogden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PEEK Award</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Political</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Politics%2FGovernment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Race%2FRacism</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Race%2FRacism%2C Women%2FGirls</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refugee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Science Movie Night</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Learning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Special Event Invitee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St%2E George</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Through the Lens</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tumbleweeds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UFC Board Member</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utah Film Circuit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Women%2FGirls</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>World Cinema</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Outreach_Interests_Account__c</picklist>
+        <values>
+            <fullName>African-American</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asian American</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business%2FEconomy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cinematography%2FPhotography</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environment%2FSustainability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foreign Language</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health %26 Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Human Rights%2FSocial Justice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Humanities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indigenous Peoples</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jewish Culture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kids%2FFamily Film</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LGBTQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Latina%2FChicano</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Law%2FJustice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Religion %26 Faith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>STEAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Short Films</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sports%2FGames</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Women%2FGirls</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ownership</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subsidiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pops_Area__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Readiness__c</picklist>
+        <values>
+            <fullName>0 - 6 months until solicitation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12%2B months until solicitation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6 - 12 months until solicitation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No timeline for readiness</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SLC_council_district__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Salt_County_Council_Districts__c</picklist>
+        <values>
+            <fullName>At Large A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>At Large B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>At Large C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>District 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>District 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>District 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>District 5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>District 6</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>School_Type__c</picklist>
+        <values>
+            <fullName>Alternative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Charter School</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elementary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High School</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home School</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Middle School</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-School</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Religious</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Education - Charter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education - Higher Ed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education - Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education - Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Household</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npo02__SYSTEM_CUSTOM_NAMING__c</picklist>
+        <values>
+            <fullName>Formal_Greeting%5F%5Fc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Informal_Greeting%5F%5Fc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Name</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

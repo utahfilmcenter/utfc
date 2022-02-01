@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>School_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>School Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pre-School</fullName>
+                <default>false</default>
+                <label>Pre-School</label>
+            </value>
+            <value>
+                <fullName>Elementary</fullName>
+                <default>false</default>
+                <label>Elementary</label>
+            </value>
+            <value>
+                <fullName>Middle School</fullName>
+                <default>false</default>
+                <label>Middle School</label>
+            </value>
+            <value>
+                <fullName>High School</fullName>
+                <default>false</default>
+                <label>High School</label>
+            </value>
+            <value>
+                <fullName>Alternative</fullName>
+                <default>false</default>
+                <label>Alternative</label>
+            </value>
+            <value>
+                <fullName>Home School</fullName>
+                <default>false</default>
+                <label>Home School</label>
+            </value>
+            <value>
+                <fullName>Religious</fullName>
+                <default>false</default>
+                <label>Religious</label>
+            </value>
+            <value>
+                <fullName>Private</fullName>
+                <default>false</default>
+                <label>Private</label>
+            </value>
+            <value>
+                <fullName>Charter School</fullName>
+                <default>false</default>
+                <label>Charter School</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

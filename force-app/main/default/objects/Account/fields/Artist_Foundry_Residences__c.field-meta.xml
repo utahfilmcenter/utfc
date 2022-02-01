@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Artist_Foundry_Residences__c</fullName>
+    <externalId>false</externalId>
+    <label>Artist Foundry - Resident Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Month to Month Resident</fullName>
+                <default>false</default>
+                <label>Month to Month Resident</label>
+            </value>
+            <value>
+                <fullName>Year-in-Full Resident</fullName>
+                <default>false</default>
+                <label>Year-in-Full Resident</label>
+            </value>
+            <value>
+                <fullName>Private Office Resident</fullName>
+                <default>false</default>
+                <label>Private Office Resident</label>
+            </value>
+            <value>
+                <fullName>Private Desk Resident</fullName>
+                <default>false</default>
+                <label>Private Desk Resident</label>
+            </value>
+            <value>
+                <fullName>Award Winner Resident</fullName>
+                <default>false</default>
+                <label>Award Winner Resident</label>
+            </value>
+            <value>
+                <fullName>Team Discount Resident</fullName>
+                <default>false</default>
+                <label>Team Discount Resident</label>
+            </value>
+            <value>
+                <fullName>Equipment Trade Resident</fullName>
+                <default>false</default>
+                <label>Equipment Trade Resident</label>
+            </value>
+            <value>
+                <fullName>Workshop Leader Resident</fullName>
+                <default>false</default>
+                <label>Workshop Leader Resident</label>
+            </value>
+            <value>
+                <fullName>Employee / Host Resident</fullName>
+                <default>false</default>
+                <label>Employee / Host Resident</label>
+            </value>
+            <value>
+                <fullName>Other Resident</fullName>
+                <default>false</default>
+                <label>Other Resident</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

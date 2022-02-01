@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Fiscal_Projects_this_month</fullName>
+    <columns>NAME</columns>
+    <columns>Director_FS__c</columns>
+    <columns>One_Line_Description_FS__c</columns>
+    <columns>Date_Sponsorship_Began_FS__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Date_Sponsorship_Began_FS__c</field>
+        <operation>equals</operation>
+        <value>LAST_90_DAYS</value>
+    </filters>
+    <label>New Fiscal Projects past 60 days</label>
+</ListView>

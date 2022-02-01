@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Local_Directors</fullName>
+    <columns>NAME</columns>
+    <columns>Director_FS__c</columns>
+    <columns>Stage_of_Production__c</columns>
+    <columns>Status_FS__c</columns>
+    <columns>Film_Center_Screening_FS__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Local_Filmmaker_FS__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Local Directors</label>
+</ListView>

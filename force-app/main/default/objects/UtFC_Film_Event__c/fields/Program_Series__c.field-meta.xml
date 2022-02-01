@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Program_Series__c</fullName>
+    <externalId>false</externalId>
+    <label>Program Series</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>10th Anniversary</fullName>
+                <default>false</default>
+                <label>10th Anniversary</label>
+            </value>
+            <value>
+                <fullName>Advance Screening</fullName>
+                <default>false</default>
+                <label>Advance Screening</label>
+            </value>
+            <value>
+                <fullName>Art/Creativity in Focus/Salt Lake Art Center</fullName>
+                <default>false</default>
+                <label>Art/Creativity in Focus/Salt Lake Art Center</label>
+            </value>
+            <value>
+                <fullName>Best of Fest</fullName>
+                <default>false</default>
+                <label>Best of Fest</label>
+            </value>
+            <value>
+                <fullName>Black, Bold, &amp; Brilliant</fullName>
+                <default>false</default>
+                <label>Black, Bold, &amp; Brilliant</label>
+            </value>
+            <value>
+                <fullName>Black History Month</fullName>
+                <default>false</default>
+                <label>Black History Month</label>
+            </value>
+            <value>
+                <fullName>Bully Project - School Screening</fullName>
+                <default>false</default>
+                <label>Bully Project - School Screening</label>
+            </value>
+            <value>
+                <fullName>Celebrating Seniors</fullName>
+                <default>false</default>
+                <label>Celebrating Seniors</label>
+            </value>
+            <value>
+                <fullName>Children</fullName>
+                <default>false</default>
+                <label>Children</label>
+            </value>
+            <value>
+                <fullName>Cinema Quebecois</fullName>
+                <default>false</default>
+                <label>Cinema Quebecois</label>
+            </value>
+            <value>
+                <fullName>Community Spotlight</fullName>
+                <default>false</default>
+                <label>Community Spotlight</label>
+            </value>
+            <value>
+                <fullName>Conversation</fullName>
+                <default>false</default>
+                <label>Conversation</label>
+            </value>
+            <value>
+                <fullName>Cosmology of Care</fullName>
+                <default>false</default>
+                <label>Cosmology of Care</label>
+            </value>
+            <value>
+                <fullName>Creativity in Focus</fullName>
+                <default>false</default>
+                <label>Creativity in Focus</label>
+            </value>
+            <value>
+                <fullName>Curation For Hire</fullName>
+                <default>false</default>
+                <label>Curation For Hire</label>
+            </value>
+            <value>
+                <fullName>Damn! These Heels</fullName>
+                <default>false</default>
+                <label>Damn These Heels</label>
+            </value>
+            <value>
+                <fullName>Damn These Heels Year-Round</fullName>
+                <default>false</default>
+                <label>Damn These Heels Year-Round</label>
+            </value>
+            <value>
+                <fullName>Democracy</fullName>
+                <default>false</default>
+                <label>Democracy</label>
+            </value>
+            <value>
+                <fullName>Design Matters</fullName>
+                <default>false</default>
+                <label>Design Matters</label>
+            </value>
+            <value>
+                <fullName>Development Screening</fullName>
+                <default>false</default>
+                <label>Development Screening</label>
+            </value>
+            <value>
+                <fullName>Director Dialogue</fullName>
+                <default>false</default>
+                <label>Director Dialogue</label>
+            </value>
+            <value>
+                <fullName>Diverse Voices/KUED</fullName>
+                <default>false</default>
+                <label>Diverse Voices/KUED</label>
+            </value>
+            <value>
+                <fullName>Drive-in</fullName>
+                <default>false</default>
+                <label>Drive-in</label>
+            </value>
+            <value>
+                <fullName>Drive-In / Community Spotlight</fullName>
+                <default>false</default>
+                <label>Drive-In / Community Spotlight</label>
+            </value>
+            <value>
+                <fullName>Drive-In / Rural Utah Project</fullName>
+                <default>false</default>
+                <label>Drive-In / Rural Utah Project</label>
+            </value>
+            <value>
+                <fullName>Drive-In Private Event</fullName>
+                <default>false</default>
+                <label>Drive-In Private Event</label>
+            </value>
+            <value>
+                <fullName>Economics</fullName>
+                <default>false</default>
+                <label>Economics</label>
+            </value>
+            <value>
+                <fullName>Education/UEA</fullName>
+                <default>false</default>
+                <label>Education/UEA</label>
+            </value>
+            <value>
+                <fullName>Environment</fullName>
+                <default>false</default>
+                <label>Environment</label>
+            </value>
+            <value>
+                <fullName>Event</fullName>
+                <default>false</default>
+                <label>Event</label>
+            </value>
+            <value>
+                <fullName>Expose USA</fullName>
+                <default>false</default>
+                <label>Expose USA</label>
+            </value>
+            <value>
+                <fullName>Film Spark (Education)</fullName>
+                <default>false</default>
+                <label>Film Spark (Education)</label>
+            </value>
+            <value>
+                <fullName>Films Without Borders</fullName>
+                <default>false</default>
+                <label>Films Without Borders</label>
+            </value>
+            <value>
+                <fullName>Food For Thought</fullName>
+                <default>false</default>
+                <label>Food For Thought</label>
+            </value>
+            <value>
+                <fullName>Foundry Event</fullName>
+                <default>false</default>
+                <label>Foundry Event</label>
+            </value>
+            <value>
+                <fullName>Foundry Member Screening</fullName>
+                <default>false</default>
+                <label>Foundry Member Screening</label>
+            </value>
+            <value>
+                <fullName>Foundry Table Readings</fullName>
+                <default>false</default>
+                <label>Foundry Table Readings</label>
+            </value>
+            <value>
+                <fullName>Fundraiser</fullName>
+                <default>false</default>
+                <label>Fundraiser</label>
+            </value>
+            <value>
+                <fullName>Gandhi Film Festival</fullName>
+                <default>false</default>
+                <label>Gandhi Film Festival</label>
+            </value>
+            <value>
+                <fullName>Health</fullName>
+                <default>false</default>
+                <label>Health</label>
+            </value>
+            <value>
+                <fullName>Human Rights</fullName>
+                <default>false</default>
+                <label>Human Rights</label>
+            </value>
+            <value>
+                <fullName>International</fullName>
+                <default>false</default>
+                <label>International</label>
+            </value>
+            <value>
+                <fullName>Japanese</fullName>
+                <default>false</default>
+                <label>Japanese</label>
+            </value>
+            <value>
+                <fullName>Jewish</fullName>
+                <default>false</default>
+                <label>Jewish</label>
+            </value>
+            <value>
+                <fullName>KUED</fullName>
+                <default>false</default>
+                <label>KUED</label>
+            </value>
+            <value>
+                <fullName>Life Imitating Art: Documentary Meets Animation</fullName>
+                <default>false</default>
+                <label>Life Imitating Art: Documentary Meets Animation</label>
+            </value>
+            <value>
+                <fullName>Livestream</fullName>
+                <default>false</default>
+                <label>Livestream</label>
+            </value>
+            <value>
+                <fullName>Living Unbound</fullName>
+                <default>false</default>
+                <label>Living Unbound</label>
+            </value>
+            <value>
+                <fullName>Local</fullName>
+                <default>false</default>
+                <label>Local</label>
+            </value>
+            <value>
+                <fullName>Local Filmmaker</fullName>
+                <default>false</default>
+                <label>Local Filmmaker</label>
+            </value>
+            <value>
+                <fullName>Made in Utah</fullName>
+                <default>false</default>
+                <label>Made in Utah</label>
+            </value>
+            <value>
+                <fullName>Members</fullName>
+                <default>false</default>
+                <label>Members</label>
+            </value>
+            <value>
+                <fullName>Middle East/Islam and the West</fullName>
+                <default>false</default>
+                <label>Middle East/Islam and the West</label>
+            </value>
+            <value>
+                <fullName>Monday Night Movies at Gallivan Center</fullName>
+                <default>false</default>
+                <label>Monday Night Movies at Gallivan Center</label>
+            </value>
+            <value>
+                <fullName>Native American</fullName>
+                <default>false</default>
+                <label>Native American</label>
+            </value>
+            <value>
+                <fullName>Native Voices at UMFA</fullName>
+                <default>false</default>
+                <label>Native Voices at UMFA</label>
+            </value>
+            <value>
+                <fullName>New Faces of Africa</fullName>
+                <default>false</default>
+                <label>New Faces of Africa</label>
+            </value>
+            <value>
+                <fullName>Novel To Film</fullName>
+                <default>false</default>
+                <label>Novel To Film</label>
+            </value>
+            <value>
+                <fullName>Outdoor Film Series: Make &apos;Em Laugh</fullName>
+                <default>false</default>
+                <label>Outdoor Film Series: Make &apos;Em Laugh</label>
+            </value>
+            <value>
+                <fullName>Outdoor Film Series: Noir at Night</fullName>
+                <default>false</default>
+                <label>Outdoor Film Series: Noir at Night</label>
+            </value>
+            <value>
+                <fullName>Outdoor Film Series: We Are Not Alone</fullName>
+                <default>false</default>
+                <label>Outdoor Film Series: We Are Not Alone</label>
+            </value>
+            <value>
+                <fullName>Outdoor Screening Series</fullName>
+                <default>false</default>
+                <label>Outdoor Screening Series</label>
+            </value>
+            <value>
+                <fullName>Outreach/Marketing Screening</fullName>
+                <default>false</default>
+                <label>Outreach/Marketing Screening</label>
+            </value>
+            <value>
+                <fullName>Panel</fullName>
+                <default>false</default>
+                <label>Panel</label>
+            </value>
+            <value>
+                <fullName>Partner Screening</fullName>
+                <default>false</default>
+                <label>Partner Screening</label>
+            </value>
+            <value>
+                <fullName>Peek Award</fullName>
+                <default>false</default>
+                <label>Peek Award</label>
+            </value>
+            <value>
+                <fullName>Pioneer Park</fullName>
+                <default>false</default>
+                <label>Pioneer Park</label>
+            </value>
+            <value>
+                <fullName>POPS</fullName>
+                <default>false</default>
+                <label>POPS</label>
+            </value>
+            <value>
+                <fullName>Pride</fullName>
+                <default>false</default>
+                <label>Pride</label>
+            </value>
+            <value>
+                <fullName>Pride Festival</fullName>
+                <default>false</default>
+                <label>Pride Festival</label>
+            </value>
+            <value>
+                <fullName>Programmer&apos;s Choice</fullName>
+                <default>false</default>
+                <label>Programmer&apos;s Choice</label>
+            </value>
+            <value>
+                <fullName>Rock Docs</fullName>
+                <default>false</default>
+                <label>Rock Docs</label>
+            </value>
+            <value>
+                <fullName>Science Movie Night</fullName>
+                <default>false</default>
+                <label>Science Movie Night</label>
+            </value>
+            <value>
+                <fullName>Science on Screen</fullName>
+                <default>false</default>
+                <label>Science on Screen</label>
+            </value>
+            <value>
+                <fullName>Silk &amp; Spices Festival</fullName>
+                <default>false</default>
+                <label>Silk &amp; Spices Festival</label>
+            </value>
+            <value>
+                <fullName>Sneak Preview Screening</fullName>
+                <default>false</default>
+                <label>Sneak Preview Screening</label>
+            </value>
+            <value>
+                <fullName>Spanish</fullName>
+                <default>false</default>
+                <label>Spanish</label>
+            </value>
+            <value>
+                <fullName>Special Screening</fullName>
+                <default>false</default>
+                <label>Special Screening</label>
+            </value>
+            <value>
+                <fullName>Speed at the UMFA</fullName>
+                <default>false</default>
+                <label>Speed at the UMFA</label>
+            </value>
+            <value>
+                <fullName>Sundance Kids</fullName>
+                <default>false</default>
+                <label>Sundance Kids</label>
+            </value>
+            <value>
+                <fullName>Taiwanese Film Festival</fullName>
+                <default>false</default>
+                <label>Taiwanese Film Festival</label>
+            </value>
+            <value>
+                <fullName>The Economy</fullName>
+                <default>false</default>
+                <label>The Economy</label>
+            </value>
+            <value>
+                <fullName>Through My Lens</fullName>
+                <default>false</default>
+                <label>Through My Lens</label>
+            </value>
+            <value>
+                <fullName>Through the Lens</fullName>
+                <default>false</default>
+                <label>Through the Lens</label>
+            </value>
+            <value>
+                <fullName>TiltShift Festival</fullName>
+                <default>false</default>
+                <label>TiltShift Festival</label>
+            </value>
+            <value>
+                <fullName>Traveling Tumbleweeds</fullName>
+                <default>false</default>
+                <label>Traveling Tumbleweeds</label>
+            </value>
+            <value>
+                <fullName>Tumbleweeds FF - Moab</fullName>
+                <default>false</default>
+                <label>Tumbleweeds FF - Moab</label>
+            </value>
+            <value>
+                <fullName>Tumbleweeds Film Festival</fullName>
+                <default>false</default>
+                <label>Tumbleweeds Film Festival</label>
+            </value>
+            <value>
+                <fullName>Tumbleweeds on Demand</fullName>
+                <default>false</default>
+                <label>Tumbleweeds on Demand</label>
+            </value>
+            <value>
+                <fullName>Tumbleweeds - School screening</fullName>
+                <default>false</default>
+                <label>Tumbleweeds - School screening</label>
+            </value>
+            <value>
+                <fullName>Tumbleweeds - Special Needs</fullName>
+                <default>false</default>
+                <label>Tumbleweeds - Special Needs</label>
+            </value>
+            <value>
+                <fullName>Tumbleweeds Year-round</fullName>
+                <default>false</default>
+                <label>Tumbleweeds Year-round</label>
+            </value>
+            <value>
+                <fullName>Utah Arts Festival - Fear No Film</fullName>
+                <default>false</default>
+                <label>Utah Arts Festival - Fear No Film</label>
+            </value>
+            <value>
+                <fullName>Utah Book Festival</fullName>
+                <default>false</default>
+                <label>Utah Book Festival</label>
+            </value>
+            <value>
+                <fullName>Utah Film Circuit</fullName>
+                <default>false</default>
+                <label>Utah Film Circuit</label>
+            </value>
+            <value>
+                <fullName>Virtual Cinema</fullName>
+                <default>false</default>
+                <label>Virtual Cinema</label>
+            </value>
+            <value>
+                <fullName>War</fullName>
+                <default>false</default>
+                <label>War</label>
+            </value>
+            <value>
+                <fullName>War &amp; Peace</fullName>
+                <default>false</default>
+                <label>War &amp; Peace</label>
+            </value>
+            <value>
+                <fullName>War on Drugs</fullName>
+                <default>false</default>
+                <label>War on Drugs</label>
+            </value>
+            <value>
+                <fullName>We Shall Remain</fullName>
+                <default>false</default>
+                <label>We Shall Remain</label>
+            </value>
+            <value>
+                <fullName>Westminster</fullName>
+                <default>false</default>
+                <label>Westminster</label>
+            </value>
+            <value>
+                <fullName>Wide Word of Sports</fullName>
+                <default>false</default>
+                <label>Wide Word of Sports</label>
+            </value>
+            <value>
+                <fullName>Women&apos;s Stories</fullName>
+                <default>false</default>
+                <label>Women&apos;s Stories</label>
+            </value>
+            <value>
+                <fullName>Workshop</fullName>
+                <default>false</default>
+                <label>Workshop</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

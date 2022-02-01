@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salt_Lake_City_Core_Programming</fullName>
+    <columns>NAME</columns>
+    <columns>Date_and_Time__c</columns>
+    <columns>Venue__c</columns>
+    <columns>Program_Series__c</columns>
+    <columns>Genre__c</columns>
+    <columns>Total_Attendants__c</columns>
+    <columns>Salt_Lake_County__c</columns>
+    <columns>Visiting_Guests__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Salt_Lake_County__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Program_Series__c</field>
+        <operation>notEqual</operation>
+        <value>Damn! These Heels,Damn These Heels,Damn These Heels Year-Round,Traveling Tumbleweeds,Tumbleweeds FF - Moab,Tumbleweeds Film Festival,Tumbleweeds on Demand,Tumbleweeds - School screening,Tumbleweeds - Special Needs,Tumbleweeds Year-round</value>
+    </filters>
+    <filters>
+        <field>Postponed_Cancelled__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Private__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Program_Series__c</field>
+        <operation>notContain</operation>
+        <value>Drive-in,Drive-In / Community Spotlight,Drive-In / Rural Utah Project,Drive-In Private Event,Outdoor Film Series: Make &apos;Em Laugh,Outdoor Film Series: Noir at Night,Outdoor Film Series: We Are Not Alone,Outdoor Screening Series</value>
+    </filters>
+    <filters>
+        <field>Venue__c</field>
+        <operation>notEqual</operation>
+        <value>New Venue - see venue info,Avenues Street Fair,Redwood Recreation Center,Sun Trapp</value>
+    </filters>
+    <filters>
+        <field>Program_Series__c</field>
+        <operation>notEqual</operation>
+        <value>Bully Project - School Screening,Community Spotlight,Conversation,Director Dialogue,Film Spark (Education),Fundraiser,Gandhi Film Festival,Panel,Pioneer Park,Pride,Pride Festival,Utah Arts Festival - Fear No Film,Virtual Cinema,Workshop</value>
+    </filters>
+    <filters>
+        <field>Program_Series__c</field>
+        <operation>notEqual</operation>
+        <value>Advance Screening,Development Screening,Foundry Event,Foundry Member Screening,Foundry Table Readings,Fundraiser,Outreach/Marketing Screening,Partner Screening</value>
+    </filters>
+    <label>Salt Lake City - Core Programming (WIP)</label>
+</ListView>

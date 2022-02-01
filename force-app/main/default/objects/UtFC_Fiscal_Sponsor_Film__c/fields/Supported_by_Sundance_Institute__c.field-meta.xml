@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supported_by_Sundance_Institute__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Was this film/project supported by a lab, grant, etc from Sundance? Find out by searching for it here: http://history.sundance.org/</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Was this film/project supported by a lab, grant, etc from Sundance? Find out by searching for it here: http://history.sundance.org/</inlineHelpText>
+    <label>Supported by Sundance Institute</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

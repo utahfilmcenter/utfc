@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Send_2_week_Expiration_Email__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This is used to trigger the email that is sent 2 weeks after the membership has expired.</description>
+    <externalId>false</externalId>
+    <label>Send 2 week Expiration Email</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

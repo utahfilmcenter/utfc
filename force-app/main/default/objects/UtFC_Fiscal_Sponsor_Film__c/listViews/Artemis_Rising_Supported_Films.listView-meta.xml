@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Artemis_Rising_Supported_Films</fullName>
+    <columns>NAME</columns>
+    <columns>Artemis_Rising_Grantee_FS__c</columns>
+    <columns>Requested_Grant_Amount_AR_FS__c</columns>
+    <columns>Date_Funds_Received_AR_FS__c</columns>
+    <columns>Date_Funds_were_sent_FS__c</columns>
+    <columns>Date_of_Exhibit_B_FS__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Artemis_Rising_Grantee_FS__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Artemis Rising Supported Films</label>
+</ListView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Behind_the_Animation</fullName>
+    <columns>CONTACT.CREATED_DATE</columns>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>npsp__Primary_Affiliation__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Educational_Interests__c</field>
+        <operation>includes</operation>
+        <value>Behind the Animation</value>
+    </filters>
+    <label>Behind the Animation</label>
+</ListView>

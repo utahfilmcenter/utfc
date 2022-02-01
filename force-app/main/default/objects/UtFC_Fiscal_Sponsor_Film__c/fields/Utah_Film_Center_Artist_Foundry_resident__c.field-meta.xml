@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Utah_Film_Center_Artist_Foundry_resident__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Is the filmmaker a member of the Artist Foundry?</description>
+    <externalId>false</externalId>
+    <label>Utah Film Center Artist Foundry Resident</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

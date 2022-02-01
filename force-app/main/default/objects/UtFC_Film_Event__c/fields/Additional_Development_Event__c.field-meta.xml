@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Additional_Development_Event__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Link to other Event (Campaign) associated with this screening? e.g. Dinner?  Lecture? Etc?</inlineHelpText>
+    <label>Additional Development Event (Campaign)</label>
+    <referenceTo>Campaign</referenceTo>
+    <relationshipLabel>UtFC Film Events (Additional Development Event)</relationshipLabel>
+    <relationshipName>UtFC_Film_Events3</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

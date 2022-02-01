@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>County_s_EDU__c</fullName>
+    <externalId>false</externalId>
+    <label>County(s)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Beaver County</fullName>
+                <default>false</default>
+                <label>Beaver County</label>
+            </value>
+            <value>
+                <fullName>Box Elder County</fullName>
+                <default>false</default>
+                <label>Box Elder County</label>
+            </value>
+            <value>
+                <fullName>Cache County</fullName>
+                <default>false</default>
+                <label>Cache County</label>
+            </value>
+            <value>
+                <fullName>Carbon County</fullName>
+                <default>false</default>
+                <label>Carbon County</label>
+            </value>
+            <value>
+                <fullName>Daggett County</fullName>
+                <default>false</default>
+                <label>Daggett County</label>
+            </value>
+            <value>
+                <fullName>Davis County</fullName>
+                <default>false</default>
+                <label>Davis County</label>
+            </value>
+            <value>
+                <fullName>Duchesne County</fullName>
+                <default>false</default>
+                <label>Duchesne County</label>
+            </value>
+            <value>
+                <fullName>Emery County</fullName>
+                <default>false</default>
+                <label>Emery County</label>
+            </value>
+            <value>
+                <fullName>Garfield County</fullName>
+                <default>false</default>
+                <label>Garfield County</label>
+            </value>
+            <value>
+                <fullName>Grand County</fullName>
+                <default>false</default>
+                <label>Grand County</label>
+            </value>
+            <value>
+                <fullName>Iron County</fullName>
+                <default>false</default>
+                <label>Iron County</label>
+            </value>
+            <value>
+                <fullName>Juab County</fullName>
+                <default>false</default>
+                <label>Juab County</label>
+            </value>
+            <value>
+                <fullName>Kane County</fullName>
+                <default>false</default>
+                <label>Kane County</label>
+            </value>
+            <value>
+                <fullName>Millard County</fullName>
+                <default>false</default>
+                <label>Millard County</label>
+            </value>
+            <value>
+                <fullName>Morgan County</fullName>
+                <default>false</default>
+                <label>Morgan County</label>
+            </value>
+            <value>
+                <fullName>Piute County</fullName>
+                <default>false</default>
+                <label>Piute County</label>
+            </value>
+            <value>
+                <fullName>Rich County</fullName>
+                <default>false</default>
+                <label>Rich County</label>
+            </value>
+            <value>
+                <fullName>Salt Lake County</fullName>
+                <default>false</default>
+                <label>Salt Lake County</label>
+            </value>
+            <value>
+                <fullName>San Juan County</fullName>
+                <default>false</default>
+                <label>San Juan County</label>
+            </value>
+            <value>
+                <fullName>Sanpete County</fullName>
+                <default>false</default>
+                <label>Sanpete County</label>
+            </value>
+            <value>
+                <fullName>Sevier County</fullName>
+                <default>false</default>
+                <label>Sevier County</label>
+            </value>
+            <value>
+                <fullName>Summit County</fullName>
+                <default>false</default>
+                <label>Summit County</label>
+            </value>
+            <value>
+                <fullName>Tooele County</fullName>
+                <default>false</default>
+                <label>Tooele County</label>
+            </value>
+            <value>
+                <fullName>Uintah County</fullName>
+                <default>false</default>
+                <label>Uintah County</label>
+            </value>
+            <value>
+                <fullName>Utah County</fullName>
+                <default>false</default>
+                <label>Utah County</label>
+            </value>
+            <value>
+                <fullName>Wasatch County</fullName>
+                <default>false</default>
+                <label>Wasatch County</label>
+            </value>
+            <value>
+                <fullName>Washington County</fullName>
+                <default>false</default>
+                <label>Washington County</label>
+            </value>
+            <value>
+                <fullName>Wayne County</fullName>
+                <default>false</default>
+                <label>Wayne County</label>
+            </value>
+            <value>
+                <fullName>Weber County</fullName>
+                <default>false</default>
+                <label>Weber County</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>8</visibleLines>
+</CustomField>

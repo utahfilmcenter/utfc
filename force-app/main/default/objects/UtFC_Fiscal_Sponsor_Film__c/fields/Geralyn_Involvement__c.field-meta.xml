@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Geralyn_Involvement__c</fullName>
+    <description>Was Geralyn involved in this project?  If so, how?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Was Geralyn involved in this project?  If so, how?</inlineHelpText>
+    <label>Geralyn Involvement</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Executive Producer</fullName>
+                <default>false</default>
+                <label>Executive Producer</label>
+            </value>
+            <value>
+                <fullName>Producer</fullName>
+                <default>false</default>
+                <label>Producer</label>
+            </value>
+            <value>
+                <fullName>Director</fullName>
+                <default>false</default>
+                <label>Director</label>
+            </value>
+            <value>
+                <fullName>Fundraiser</fullName>
+                <default>false</default>
+                <label>Fundraiser</label>
+            </value>
+            <value>
+                <fullName>Collaborator</fullName>
+                <default>false</default>
+                <label>Collaborator</label>
+            </value>
+            <value>
+                <fullName>Friend</fullName>
+                <default>false</default>
+                <label>Friend</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

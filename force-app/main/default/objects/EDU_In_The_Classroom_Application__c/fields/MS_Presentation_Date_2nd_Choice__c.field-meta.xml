@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MS_Presentation_Date_2nd_Choice__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Moving Stories</inlineHelpText>
+    <label>MS - Presentation Date - 2nd Choice</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>December 9th, 2019</fullName>
+                <default>false</default>
+                <label>December 9th, 2019</label>
+            </value>
+            <value>
+                <fullName>December 10th, 2019</fullName>
+                <default>false</default>
+                <label>December 10th, 2019</label>
+            </value>
+            <value>
+                <fullName>December 12th, 2019</fullName>
+                <default>false</default>
+                <label>December 12th, 2019</label>
+            </value>
+            <value>
+                <fullName>December 13th, 2019</fullName>
+                <default>false</default>
+                <label>December 13th, 2019</label>
+            </value>
+            <value>
+                <fullName>December 16th, 2019</fullName>
+                <default>false</default>
+                <label>December 16th, 2019</label>
+            </value>
+            <value>
+                <fullName>December 17th, 2019</fullName>
+                <default>false</default>
+                <label>December 17th, 2019</label>
+            </value>
+            <value>
+                <fullName>December 18th, 2019</fullName>
+                <default>false</default>
+                <label>December 18th, 2019</label>
+            </value>
+            <value>
+                <fullName>December 19th, 2019</fullName>
+                <default>false</default>
+                <label>December 19th, 2019</label>
+            </value>
+            <value>
+                <fullName>December 20th, 2019</fullName>
+                <default>false</default>
+                <label>December 20th, 2019</label>
+            </value>
+            <value>
+                <fullName>January 6th, 2020</fullName>
+                <default>false</default>
+                <label>January 6th, 2020</label>
+            </value>
+            <value>
+                <fullName>January 7th, 2020</fullName>
+                <default>false</default>
+                <label>January 7th, 2020</label>
+            </value>
+            <value>
+                <fullName>January 8th, 2020</fullName>
+                <default>false</default>
+                <label>January 8th, 2020</label>
+            </value>
+            <value>
+                <fullName>January, 9th, 2020</fullName>
+                <default>false</default>
+                <label>January, 9th, 2020</label>
+            </value>
+            <value>
+                <fullName>January 10th, 2020</fullName>
+                <default>false</default>
+                <label>January 10th, 2020</label>
+            </value>
+            <value>
+                <fullName>November 11</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>November 11</label>
+            </value>
+            <value>
+                <fullName>November 12</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>November 12</label>
+            </value>
+            <value>
+                <fullName>November 13</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>November 13</label>
+            </value>
+            <value>
+                <fullName>November 14</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>November 14</label>
+            </value>
+            <value>
+                <fullName>November 15</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>November 15</label>
+            </value>
+            <value>
+                <fullName>November 18</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>November 18</label>
+            </value>
+            <value>
+                <fullName>November 19</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>November 19</label>
+            </value>
+            <value>
+                <fullName>November 20</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>November 20</label>
+            </value>
+            <value>
+                <fullName>November 21</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>November 21</label>
+            </value>
+            <value>
+                <fullName>November 22</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>November 22</label>
+            </value>
+            <value>
+                <fullName>November 4</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>November 4</label>
+            </value>
+            <value>
+                <fullName>November 5</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>November 5</label>
+            </value>
+            <value>
+                <fullName>November 6</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>November 6</label>
+            </value>
+            <value>
+                <fullName>November 7</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>November 7</label>
+            </value>
+            <value>
+                <fullName>November 8</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>November 8</label>
+            </value>
+            <value>
+                <fullName>October 10</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>October 10</label>
+            </value>
+            <value>
+                <fullName>October 14</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>October 14</label>
+            </value>
+            <value>
+                <fullName>October 15</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>October 15</label>
+            </value>
+            <value>
+                <fullName>October 16</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>October 16</label>
+            </value>
+            <value>
+                <fullName>October 17</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>October 17</label>
+            </value>
+            <value>
+                <fullName>October 2</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>October 2</label>
+            </value>
+            <value>
+                <fullName>October 21</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>October 21</label>
+            </value>
+            <value>
+                <fullName>October 22</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>October 22</label>
+            </value>
+            <value>
+                <fullName>October 23</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>October 23</label>
+            </value>
+            <value>
+                <fullName>October 24</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>October 24</label>
+            </value>
+            <value>
+                <fullName>October 25</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>October 25</label>
+            </value>
+            <value>
+                <fullName>October 7</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>October 7</label>
+            </value>
+            <value>
+                <fullName>October 8</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>October 8</label>
+            </value>
+            <value>
+                <fullName>October 9</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>October 9</label>
+            </value>
+            <value>
+                <fullName>September 10</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>September 10</label>
+            </value>
+            <value>
+                <fullName>September 11</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>September 11</label>
+            </value>
+            <value>
+                <fullName>September 12</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>September 12</label>
+            </value>
+            <value>
+                <fullName>September 13</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>September 13</label>
+            </value>
+            <value>
+                <fullName>September 2</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>September 2</label>
+            </value>
+            <value>
+                <fullName>September 3</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>September 3</label>
+            </value>
+            <value>
+                <fullName>September 4</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>September 4</label>
+            </value>
+            <value>
+                <fullName>September 5</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>September 5</label>
+            </value>
+            <value>
+                <fullName>September 6</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>September 6</label>
+            </value>
+            <value>
+                <fullName>September 9</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>September 9</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

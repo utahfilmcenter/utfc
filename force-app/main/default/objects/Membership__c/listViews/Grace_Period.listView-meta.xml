@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grace_Period</fullName>
+    <columns>Account__c</columns>
+    <columns>Grace_Period_End_Date__c</columns>
+    <columns>Start_Date__c</columns>
+    <columns>End_Date__c</columns>
+    <columns>Level__c</columns>
+    <columns>Status__c</columns>
+    <columns>Send_2_week_Expiration_Email__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Active (Grace Period)</value>
+    </filters>
+    <label>Grace Period</label>
+</ListView>

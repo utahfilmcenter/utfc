@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interest__c</fullName>
+    <externalId>false</externalId>
+    <label>Interest/Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Activism/Protest</fullName>
+                <default>false</default>
+                <label>Activism/Protest</label>
+            </value>
+            <value>
+                <fullName>Addiction/Drug Abuse</fullName>
+                <default>false</default>
+                <label>Addiction/Drug Abuse</label>
+            </value>
+            <value>
+                <fullName>Adventure/Travel/Exploration</fullName>
+                <default>false</default>
+                <label>Adventure/Travel/Exploration</label>
+            </value>
+            <value>
+                <fullName>Africa</fullName>
+                <default>false</default>
+                <label>Africa</label>
+            </value>
+            <value>
+                <fullName>African-American</fullName>
+                <default>false</default>
+                <label>African-American</label>
+            </value>
+            <value>
+                <fullName>Agriculture</fullName>
+                <default>false</default>
+                <label>Agriculture</label>
+            </value>
+            <value>
+                <fullName>Animals/Nature</fullName>
+                <default>false</default>
+                <label>Animals/Nature</label>
+            </value>
+            <value>
+                <fullName>Animated Films</fullName>
+                <default>false</default>
+                <label>Animated Films</label>
+            </value>
+            <value>
+                <fullName>Animation</fullName>
+                <default>false</default>
+                <label>Animation</label>
+            </value>
+            <value>
+                <fullName>Arts/Architecture/Literature</fullName>
+                <default>false</default>
+                <label>Arts/Architecture/Literature</label>
+            </value>
+            <value>
+                <fullName>Asia</fullName>
+                <default>false</default>
+                <label>Asia</label>
+            </value>
+            <value>
+                <fullName>Asian American</fullName>
+                <default>false</default>
+                <label>Asian American</label>
+            </value>
+            <value>
+                <fullName>Biography</fullName>
+                <default>false</default>
+                <label>Biography</label>
+            </value>
+            <value>
+                <fullName>Business/Economy</fullName>
+                <default>false</default>
+                <label>Business/Economy</label>
+            </value>
+            <value>
+                <fullName>Cities</fullName>
+                <default>false</default>
+                <label>Cities</label>
+            </value>
+            <value>
+                <fullName>Community</fullName>
+                <default>false</default>
+                <label>Community</label>
+            </value>
+            <value>
+                <fullName>Crime/Incarceration/Law</fullName>
+                <default>false</default>
+                <label>Crime/Incarceration/Law</label>
+            </value>
+            <value>
+                <fullName>Death and Dying</fullName>
+                <default>false</default>
+                <label>Death and Dying</label>
+            </value>
+            <value>
+                <fullName>Disabilities</fullName>
+                <default>false</default>
+                <label>Disabilities</label>
+            </value>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
+            <value>
+                <fullName>Environment/Sustainability</fullName>
+                <default>false</default>
+                <label>Environment/Sustainability</label>
+            </value>
+            <value>
+                <fullName>European</fullName>
+                <default>false</default>
+                <label>European</label>
+            </value>
+            <value>
+                <fullName>Family/Parenting</fullName>
+                <default>false</default>
+                <label>Family/Parenting</label>
+            </value>
+            <value>
+                <fullName>Films on Film</fullName>
+                <default>false</default>
+                <label>Films on Film</label>
+            </value>
+            <value>
+                <fullName>Food/Drinks</fullName>
+                <default>false</default>
+                <label>Food/Drinks</label>
+            </value>
+            <value>
+                <fullName>Health &amp; Healthcare</fullName>
+                <default>false</default>
+                <label>Health &amp; Healthcare</label>
+            </value>
+            <value>
+                <fullName>History</fullName>
+                <default>false</default>
+                <label>History</label>
+            </value>
+            <value>
+                <fullName>Human Rights/Social Justice</fullName>
+                <default>false</default>
+                <label>Human Rights/Social Justice</label>
+            </value>
+            <value>
+                <fullName>Indigenous Peoples</fullName>
+                <default>false</default>
+                <label>Indigenous Peoples</label>
+            </value>
+            <value>
+                <fullName>Jewish/Judaism</fullName>
+                <default>false</default>
+                <label>Jewish/Judaism</label>
+            </value>
+            <value>
+                <fullName>Journalism/Media</fullName>
+                <default>false</default>
+                <label>Journalism/Media</label>
+            </value>
+            <value>
+                <fullName>Kids</fullName>
+                <default>false</default>
+                <label>Kids</label>
+            </value>
+            <value>
+                <fullName>Latina/Chicano</fullName>
+                <default>false</default>
+                <label>Latina/Chicano</label>
+            </value>
+            <value>
+                <fullName>Latin-American</fullName>
+                <default>false</default>
+                <label>Latin-American</label>
+            </value>
+            <value>
+                <fullName>LGBT</fullName>
+                <default>false</default>
+                <label>LGBT</label>
+            </value>
+            <value>
+                <fullName>Middle East</fullName>
+                <default>false</default>
+                <label>Middle East</label>
+            </value>
+            <value>
+                <fullName>Music</fullName>
+                <default>false</default>
+                <label>Music</label>
+            </value>
+            <value>
+                <fullName>Narrative Film</fullName>
+                <default>false</default>
+                <label>Narrative Film</label>
+            </value>
+            <value>
+                <fullName>Photography</fullName>
+                <default>false</default>
+                <label>Photography</label>
+            </value>
+            <value>
+                <fullName>Politics/Government</fullName>
+                <default>false</default>
+                <label>Politics/Government</label>
+            </value>
+            <value>
+                <fullName>Race/Racism</fullName>
+                <default>false</default>
+                <label>Race/Racism</label>
+            </value>
+            <value>
+                <fullName>Relationships/Sexuality</fullName>
+                <default>false</default>
+                <label>Relationships/Sexuality</label>
+            </value>
+            <value>
+                <fullName>Religion</fullName>
+                <default>false</default>
+                <label>Religion</label>
+            </value>
+            <value>
+                <fullName>Science/Technology/Math</fullName>
+                <default>false</default>
+                <label>Science/Technology/Math</label>
+            </value>
+            <value>
+                <fullName>Science Fiction</fullName>
+                <default>false</default>
+                <label>Science Fiction</label>
+            </value>
+            <value>
+                <fullName>Seniors/Aging</fullName>
+                <default>false</default>
+                <label>Seniors/Aging</label>
+            </value>
+            <value>
+                <fullName>Short Films</fullName>
+                <default>false</default>
+                <label>Short Films</label>
+            </value>
+            <value>
+                <fullName>South-Asian</fullName>
+                <default>false</default>
+                <label>South-Asian</label>
+            </value>
+            <value>
+                <fullName>Sports/Games/Entertainment Industry</fullName>
+                <default>false</default>
+                <label>Sports/Games/Entertainment Industry</label>
+            </value>
+            <value>
+                <fullName>Subtitled</fullName>
+                <default>false</default>
+                <label>Subtitled</label>
+            </value>
+            <value>
+                <fullName>Utah/Local Director</fullName>
+                <default>false</default>
+                <label>Utah/Local Director</label>
+            </value>
+            <value>
+                <fullName>UtFC Fiscally Sponsored</fullName>
+                <default>false</default>
+                <label>UtFC Fiscally Sponsored</label>
+            </value>
+            <value>
+                <fullName>War</fullName>
+                <default>false</default>
+                <label>War</label>
+            </value>
+            <value>
+                <fullName>Women/Girls</fullName>
+                <default>false</default>
+                <label>Women/Girls</label>
+            </value>
+            <value>
+                <fullName>Youth/Childhood/Adolescence</fullName>
+                <default>false</default>
+                <label>Youth/Childhood/Adolescence</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

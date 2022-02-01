@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partners__c</fullName>
+    <externalId>false</externalId>
+    <label>Partners</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>3Form</fullName>
+                <default>false</default>
+                <label>3Form</label>
+            </value>
+            <value>
+                <fullName>Aaron Events</fullName>
+                <default>false</default>
+                <label>Aaron Events</label>
+            </value>
+            <value>
+                <fullName>ACLU of Utah</fullName>
+                <default>false</default>
+                <label>ACLU of Utah</label>
+            </value>
+            <value>
+                <fullName>AIA of Utah&apos;s Young Architects Forum</fullName>
+                <default>false</default>
+                <label>AIA of Utah&apos;s Young Architects Forum</label>
+            </value>
+            <value>
+                <fullName>Allied PR</fullName>
+                <default>false</default>
+                <label>Allied PR</label>
+            </value>
+            <value>
+                <fullName>American Documentary</fullName>
+                <default>false</default>
+                <label>American Documentary</label>
+            </value>
+            <value>
+                <fullName>American Express</fullName>
+                <default>false</default>
+                <label>American Express</label>
+            </value>
+            <value>
+                <fullName>American Institute of Architects of Utah</fullName>
+                <default>false</default>
+                <label>American Institute of Architects of Utah</label>
+            </value>
+            <value>
+                <fullName>American Planning Association of Utah</fullName>
+                <default>false</default>
+                <label>American Planning Association of Utah</label>
+            </value>
+            <value>
+                <fullName>American West Center</fullName>
+                <default>false</default>
+                <label>American West Center</label>
+            </value>
+            <value>
+                <fullName>Anne Makepeace Productions</fullName>
+                <default>false</default>
+                <label>Anne Makepeace Productions</label>
+            </value>
+            <value>
+                <fullName>Architecture Week</fullName>
+                <default>false</default>
+                <label>Architecture Week</label>
+            </value>
+            <value>
+                <fullName>Asia Center</fullName>
+                <default>false</default>
+                <label>Asia Center</label>
+            </value>
+            <value>
+                <fullName>Avrec Art House</fullName>
+                <default>false</default>
+                <label>Avrec Art House</label>
+            </value>
+            <value>
+                <fullName>AWWA</fullName>
+                <default>false</default>
+                <label>AWWA</label>
+            </value>
+            <value>
+                <fullName>B98.7</fullName>
+                <default>false</default>
+                <label>B98.7</label>
+            </value>
+            <value>
+                <fullName>Barbara L. &amp; Norman C. Tanner Center for Nonviolent Human Rights Advocacy</fullName>
+                <default>false</default>
+                <label>Barbara L. &amp; Norman C. Tanner Center for Nonviolent Human Rights Advocacy</label>
+            </value>
+            <value>
+                <fullName>Bluff Town Council</fullName>
+                <default>false</default>
+                <label>Bluff Town Council</label>
+            </value>
+            <value>
+                <fullName>Boulder Arts Council</fullName>
+                <default>false</default>
+                <label>Boulder Arts Council</label>
+            </value>
+            <value>
+                <fullName>Brazilian Cultural Festival</fullName>
+                <default>false</default>
+                <label>Brazilian Cultural Festival</label>
+            </value>
+            <value>
+                <fullName>Broadway</fullName>
+                <default>false</default>
+                <label>Broadway</label>
+            </value>
+            <value>
+                <fullName>Brolly Arts</fullName>
+                <default>false</default>
+                <label>Brolly Arts</label>
+            </value>
+            <value>
+                <fullName>City Weekly</fullName>
+                <default>false</default>
+                <label>City Weekly</label>
+            </value>
+            <value>
+                <fullName>College of Humanities at the U of U</fullName>
+                <default>false</default>
+                <label>College of Humanities at the U of U</label>
+            </value>
+            <value>
+                <fullName>College of Social Work</fullName>
+                <default>false</default>
+                <label>College of Social Work</label>
+            </value>
+            <value>
+                <fullName>Comcast</fullName>
+                <default>false</default>
+                <label>Comcast</label>
+            </value>
+            <value>
+                <fullName>Confucius Institute</fullName>
+                <default>false</default>
+                <label>Confucius Institute</label>
+            </value>
+            <value>
+                <fullName>Creative Capital</fullName>
+                <default>false</default>
+                <label>Creative Capital</label>
+            </value>
+            <value>
+                <fullName>Cucina Nassi</fullName>
+                <default>false</default>
+                <label>Cucina Nassi</label>
+            </value>
+            <value>
+                <fullName>Danielle Byron Henry Migraine Foundation</fullName>
+                <default>false</default>
+                <label>Danielle Byron Henry Migraine Foundation</label>
+            </value>
+            <value>
+                <fullName>Dave Clark</fullName>
+                <default>false</default>
+                <label>Dave Clark</label>
+            </value>
+            <value>
+                <fullName>Days of Rememberence</fullName>
+                <default>false</default>
+                <label>Days of Rememberence</label>
+            </value>
+            <value>
+                <fullName>DesignBuildBLUFF</fullName>
+                <default>false</default>
+                <label>DesignBuildBLUFF</label>
+            </value>
+            <value>
+                <fullName>Disability Law Center</fullName>
+                <default>false</default>
+                <label>Disability Law Center</label>
+            </value>
+            <value>
+                <fullName>Disney Pixar</fullName>
+                <default>false</default>
+                <label>Disney Pixar</label>
+            </value>
+            <value>
+                <fullName>Diverse Voices</fullName>
+                <default>false</default>
+                <label>Diverse Voices</label>
+            </value>
+            <value>
+                <fullName>Division of Juvenile Justice Services</fullName>
+                <default>false</default>
+                <label>Division of Juvenile Justice Services</label>
+            </value>
+            <value>
+                <fullName>Downtown Alliance</fullName>
+                <default>false</default>
+                <label>Downtown Alliance</label>
+            </value>
+            <value>
+                <fullName>Dr. Paula Swaner</fullName>
+                <default>false</default>
+                <label>Dr. Paula Swaner</label>
+            </value>
+            <value>
+                <fullName>Eccles Center</fullName>
+                <default>false</default>
+                <label>Eccles Center</label>
+            </value>
+            <value>
+                <fullName>Film Fatales</fullName>
+                <default>false</default>
+                <label>Film Fatales</label>
+            </value>
+            <value>
+                <fullName>Film in Focus</fullName>
+                <default>false</default>
+                <label>Film in Focus</label>
+            </value>
+            <value>
+                <fullName>Ford Foundation</fullName>
+                <default>false</default>
+                <label>Ford Foundation</label>
+            </value>
+            <value>
+                <fullName>FRIENDS of Great Salt Lake</fullName>
+                <default>false</default>
+                <label>FRIENDS of Great Salt Lake</label>
+            </value>
+            <value>
+                <fullName>Friends of Utah</fullName>
+                <default>false</default>
+                <label>Friends of Utah</label>
+            </value>
+            <value>
+                <fullName>Grand Canyon Trust</fullName>
+                <default>false</default>
+                <label>Grand Canyon Trust</label>
+            </value>
+            <value>
+                <fullName>Greater Salt Lake Alumnae Chapter of Delta Sigma Theta Sorority, Incorporated</fullName>
+                <default>false</default>
+                <label>Greater Salt Lake Alumnae Chapter of Delta Sigma Theta Sorority, Incorporated</label>
+            </value>
+            <value>
+                <fullName>Green Fire Productions</fullName>
+                <default>false</default>
+                <label>Green Fire Productions</label>
+            </value>
+            <value>
+                <fullName>Gun Violence Prevention Center</fullName>
+                <default>false</default>
+                <label>Gun Violence Prevention Center</label>
+            </value>
+            <value>
+                <fullName>Healthy Planet Mobilization Committee</fullName>
+                <default>false</default>
+                <label>Healthy Planet Mobilization Committee</label>
+            </value>
+            <value>
+                <fullName>HEAL Utah</fullName>
+                <default>false</default>
+                <label>HEAL Utah</label>
+            </value>
+            <value>
+                <fullName>High Road for Human Rights</fullName>
+                <default>false</default>
+                <label>High Road for Human Rights</label>
+            </value>
+            <value>
+                <fullName>Human Rights Campaign</fullName>
+                <default>false</default>
+                <label>Human Rights Campaign</label>
+            </value>
+            <value>
+                <fullName>IAEDP</fullName>
+                <default>false</default>
+                <label>IAEDP</label>
+            </value>
+            <value>
+                <fullName>IAEEP</fullName>
+                <default>false</default>
+                <label>IAEEP</label>
+            </value>
+            <value>
+                <fullName>Impact Partners</fullName>
+                <default>false</default>
+                <label>Impact Partners</label>
+            </value>
+            <value>
+                <fullName>ITVS Community Cinema</fullName>
+                <default>false</default>
+                <label>ITVS Community Cinema</label>
+            </value>
+            <value>
+                <fullName>Japanese American Citizens</fullName>
+                <default>false</default>
+                <label>Japanese American Citizens</label>
+            </value>
+            <value>
+                <fullName>Jennetta Williams</fullName>
+                <default>false</default>
+                <label>Jennetta Williams</label>
+            </value>
+            <value>
+                <fullName>Jewish Community Center</fullName>
+                <default>false</default>
+                <label>Jewish Community Center</label>
+            </value>
+            <value>
+                <fullName>Jill Scheinberg</fullName>
+                <default>false</default>
+                <label>Jill Scheinberg</label>
+            </value>
+            <value>
+                <fullName>John and Anne Milliken</fullName>
+                <default>false</default>
+                <label>John and Anne Milliken</label>
+            </value>
+            <value>
+                <fullName>J-Street</fullName>
+                <default>false</default>
+                <label>J-Street</label>
+            </value>
+            <value>
+                <fullName>Junior League of Salt Lake City</fullName>
+                <default>false</default>
+                <label>Junior League of Salt Lake City</label>
+            </value>
+            <value>
+                <fullName>King&apos;s English</fullName>
+                <default>false</default>
+                <label>King&apos;s English</label>
+            </value>
+            <value>
+                <fullName>Kol Ami</fullName>
+                <default>false</default>
+                <label>Kol Ami</label>
+            </value>
+            <value>
+                <fullName>KRCL</fullName>
+                <default>false</default>
+                <label>KRCL</label>
+            </value>
+            <value>
+                <fullName>KUED</fullName>
+                <default>false</default>
+                <label>KUED</label>
+            </value>
+            <value>
+                <fullName>Lawrence T. and Janet T. Dee</fullName>
+                <default>false</default>
+                <label>Lawrence T. and Janet T. Dee</label>
+            </value>
+            <value>
+                <fullName>League of Utah Writers</fullName>
+                <default>false</default>
+                <label>League of Utah Writers</label>
+            </value>
+            <value>
+                <fullName>LEAP</fullName>
+                <default>false</default>
+                <label>LEAP</label>
+            </value>
+            <value>
+                <fullName>Listen Tech</fullName>
+                <default>false</default>
+                <label>Listen Tech</label>
+            </value>
+            <value>
+                <fullName>Loud and Clear</fullName>
+                <default>false</default>
+                <label>Loud and Clear</label>
+            </value>
+            <value>
+                <fullName>Love Communications</fullName>
+                <default>false</default>
+                <label>Love Communications</label>
+            </value>
+            <value>
+                <fullName>March For Our Lives Utah</fullName>
+                <default>false</default>
+                <label>March For Our Lives Utah</label>
+            </value>
+            <value>
+                <fullName>Mayor&apos;s Office</fullName>
+                <default>false</default>
+                <label>Mayor&apos;s Office</label>
+            </value>
+            <value>
+                <fullName>Mental Healthy Utah</fullName>
+                <default>false</default>
+                <label>Mental Healthy Utah</label>
+            </value>
+            <value>
+                <fullName>Moms Demand Action</fullName>
+                <default>false</default>
+                <label>Moms Demand Action</label>
+            </value>
+            <value>
+                <fullName>NAMI</fullName>
+                <default>false</default>
+                <label>NAMI</label>
+            </value>
+            <value>
+                <fullName>Nature Conservancy</fullName>
+                <default>false</default>
+                <label>Nature Conservancy</label>
+            </value>
+            <value>
+                <fullName>No Partner</fullName>
+                <default>false</default>
+                <label>No Partner</label>
+            </value>
+            <value>
+                <fullName>Open Society Institute</fullName>
+                <default>false</default>
+                <label>Open Society Institute</label>
+            </value>
+            <value>
+                <fullName>Pago</fullName>
+                <default>false</default>
+                <label>Pago</label>
+            </value>
+            <value>
+                <fullName>Paul M. Gahlin</fullName>
+                <default>false</default>
+                <label>Paul M. Gahlin</label>
+            </value>
+            <value>
+                <fullName>PIK2AR</fullName>
+                <default>false</default>
+                <label>PIK2AR</label>
+            </value>
+            <value>
+                <fullName>Planned Parenthood</fullName>
+                <default>false</default>
+                <label>Planned Parenthood</label>
+            </value>
+            <value>
+                <fullName>RadioWest - Kuer</fullName>
+                <default>false</default>
+                <label>RadioWest - Kuer</label>
+            </value>
+            <value>
+                <fullName>Rape Recovery Center</fullName>
+                <default>false</default>
+                <label>Rape Recovery Center</label>
+            </value>
+            <value>
+                <fullName>Red Butte Garden</fullName>
+                <default>false</default>
+                <label>Red Butte Garden</label>
+            </value>
+            <value>
+                <fullName>Repertory Dance Theater</fullName>
+                <default>false</default>
+                <label>Repertory Dance Theater</label>
+            </value>
+            <value>
+                <fullName>Rio Tinto</fullName>
+                <default>false</default>
+                <label>Rio Tinto</label>
+            </value>
+            <value>
+                <fullName>Rural Utah Project</fullName>
+                <default>false</default>
+                <label>Rural Utah Project</label>
+            </value>
+            <value>
+                <fullName>Salt Lake Art Center</fullName>
+                <default>false</default>
+                <label>Salt Lake Art Center</label>
+            </value>
+            <value>
+                <fullName>Salt Lake City Library</fullName>
+                <default>false</default>
+                <label>Salt Lake City Library</label>
+            </value>
+            <value>
+                <fullName>Salt Lake City Public Library</fullName>
+                <default>false</default>
+                <label>Salt Lake City Public Library</label>
+            </value>
+            <value>
+                <fullName>Salt Lake Community College (SLCC)</fullName>
+                <default>false</default>
+                <label>Salt Lake Community College (SLCC)</label>
+            </value>
+            <value>
+                <fullName>Salt Lake County Green</fullName>
+                <default>false</default>
+                <label>Salt Lake County Green</label>
+            </value>
+            <value>
+                <fullName>Salt Lake County Parks &amp; Recreation</fullName>
+                <default>false</default>
+                <label>Salt Lake County Parks &amp; Recreation</label>
+            </value>
+            <value>
+                <fullName>Salt Lake Film Society</fullName>
+                <default>false</default>
+                <label>Salt Lake Film Society</label>
+            </value>
+            <value>
+                <fullName>Shale Test</fullName>
+                <default>false</default>
+                <label>Shale Test</label>
+            </value>
+            <value>
+                <fullName>SLC Film Center</fullName>
+                <default>false</default>
+                <label>SLC Film Center</label>
+            </value>
+            <value>
+                <fullName>SLUG Magazine</fullName>
+                <default>false</default>
+                <label>SLUG Magazine</label>
+            </value>
+            <value>
+                <fullName>Sorenson Unity Center</fullName>
+                <default>false</default>
+                <label>Sorenson Unity Center</label>
+            </value>
+            <value>
+                <fullName>Spy Hop</fullName>
+                <default>false</default>
+                <label>Spy Hop</label>
+            </value>
+            <value>
+                <fullName>Students for Sensible Drug Policy</fullName>
+                <default>false</default>
+                <label>Students for Sensible Drug Policy</label>
+            </value>
+            <value>
+                <fullName>Sundance Documentary Fund</fullName>
+                <default>false</default>
+                <label>Sundance Documentary Fund</label>
+            </value>
+            <value>
+                <fullName>Sundance Institute</fullName>
+                <default>false</default>
+                <label>Sundance Institute</label>
+            </value>
+            <value>
+                <fullName>Talk to a Survivor</fullName>
+                <default>false</default>
+                <label>Talk to a Survivor</label>
+            </value>
+            <value>
+                <fullName>Tanner Center for Human Rights</fullName>
+                <default>false</default>
+                <label>Tanner Center for Human Rights</label>
+            </value>
+            <value>
+                <fullName>The ALLIANCE FRANCHISE</fullName>
+                <default>false</default>
+                <label>The ALLIANCE FRANCHISE</label>
+            </value>
+            <value>
+                <fullName>The Cultural Vision Fund</fullName>
+                <default>false</default>
+                <label>The Cultural Vision Fund</label>
+            </value>
+            <value>
+                <fullName>The Jade Market</fullName>
+                <default>false</default>
+                <label>The Jade Market</label>
+            </value>
+            <value>
+                <fullName>The Marriner S. Eccles Foundation</fullName>
+                <default>false</default>
+                <label>The Marriner S. Eccles Foundation</label>
+            </value>
+            <value>
+                <fullName>The Salt Lake Art Center</fullName>
+                <default>false</default>
+                <label>The Salt Lake Art Center</label>
+            </value>
+            <value>
+                <fullName>The Sojourner Group</fullName>
+                <default>false</default>
+                <label>The Sojourner Group</label>
+            </value>
+            <value>
+                <fullName>The Tanner Humanities Center</fullName>
+                <default>false</default>
+                <label>The Tanner Humanities Center</label>
+            </value>
+            <value>
+                <fullName>The University Neuropsychiatric Inst.</fullName>
+                <default>false</default>
+                <label>The University Neuropsychiatric Inst.</label>
+            </value>
+            <value>
+                <fullName>The U of U Division of Film Studies</fullName>
+                <default>false</default>
+                <label>The U of U Division of Film Studies</label>
+            </value>
+            <value>
+                <fullName>The U of U Programming Council</fullName>
+                <default>false</default>
+                <label>The U of U Programming Council</label>
+            </value>
+            <value>
+                <fullName>The U of U School of Medicine</fullName>
+                <default>false</default>
+                <label>The U of U School of Medicine</label>
+            </value>
+            <value>
+                <fullName>The Utah Film Commission</fullName>
+                <default>false</default>
+                <label>The Utah Film Commission</label>
+            </value>
+            <value>
+                <fullName>The Wallace Stegner Center</fullName>
+                <default>false</default>
+                <label>The Wallace Stegner Center</label>
+            </value>
+            <value>
+                <fullName>The Western Wildlife Conservancy</fullName>
+                <default>false</default>
+                <label>The Western Wildlife Conservancy</label>
+            </value>
+            <value>
+                <fullName>Topaz Museum</fullName>
+                <default>false</default>
+                <label>Topaz Museum</label>
+            </value>
+            <value>
+                <fullName>Tracy Aviary</fullName>
+                <default>false</default>
+                <label>Tracy Aviary</label>
+            </value>
+            <value>
+                <fullName>Tree Utah</fullName>
+                <default>false</default>
+                <label>Tree Utah</label>
+            </value>
+            <value>
+                <fullName>UCAN</fullName>
+                <default>false</default>
+                <label>UCAN</label>
+            </value>
+            <value>
+                <fullName>UCASA</fullName>
+                <default>false</default>
+                <label>UCASA</label>
+            </value>
+            <value>
+                <fullName>UMFA</fullName>
+                <default>false</default>
+                <label>UMFA</label>
+            </value>
+            <value>
+                <fullName>UMOCA</fullName>
+                <default>false</default>
+                <label>UMOCA</label>
+            </value>
+            <value>
+                <fullName>United Jewish Federation of Utah</fullName>
+                <default>false</default>
+                <label>United Jewish Federation of Utah</label>
+            </value>
+            <value>
+                <fullName>University of Utah Asian Studies Center</fullName>
+                <default>false</default>
+                <label>University of Utah Asian Studies Center</label>
+            </value>
+            <value>
+                <fullName>University of Utah Film &amp; Media Arts Department (F&amp;MAD)</fullName>
+                <default>false</default>
+                <label>University of Utah Film &amp; Media Arts Department (F&amp;MAD)</label>
+            </value>
+            <value>
+                <fullName>University of Utah Humanities</fullName>
+                <default>false</default>
+                <label>University of Utah Humanities</label>
+            </value>
+            <value>
+                <fullName>University of Utah Office of Health Equity, Diversity, and Inclusion</fullName>
+                <default>false</default>
+                <label>University of Utah Office of Health Equity, Diversity, and Inclusion</label>
+            </value>
+            <value>
+                <fullName>University of Utah Science and Engineering Fair</fullName>
+                <default>false</default>
+                <label>University of Utah Science and Engineering Fair (USEF)</label>
+            </value>
+            <value>
+                <fullName>Utah AIDS Foundation</fullName>
+                <default>false</default>
+                <label>Utah AIDS Foundation</label>
+            </value>
+            <value>
+                <fullName>Utah Arts Alliance</fullName>
+                <default>false</default>
+                <label>Utah Arts Alliance</label>
+            </value>
+            <value>
+                <fullName>Utah Arts Festival</fullName>
+                <default>false</default>
+                <label>Utah Arts Festival</label>
+            </value>
+            <value>
+                <fullName>Utah Autism Foundation</fullName>
+                <default>false</default>
+                <label>Utah Autism Foundation</label>
+            </value>
+            <value>
+                <fullName>Utah Center for Architecture</fullName>
+                <default>false</default>
+                <label>Utah Center for Architecture</label>
+            </value>
+            <value>
+                <fullName>Utah Convos</fullName>
+                <default>false</default>
+                <label>Utah Convos</label>
+            </value>
+            <value>
+                <fullName>Utah Film Commission</fullName>
+                <default>false</default>
+                <label>Utah Film Commission</label>
+            </value>
+            <value>
+                <fullName>Utah Heritage Foundation</fullName>
+                <default>false</default>
+                <label>Utah Heritage Foundation</label>
+            </value>
+            <value>
+                <fullName>Utah Humanities Council</fullName>
+                <default>false</default>
+                <label>Utah Humanities Council</label>
+            </value>
+            <value>
+                <fullName>Utah Jobs with Justice</fullName>
+                <default>false</default>
+                <label>Utah Jobs with Justice</label>
+            </value>
+            <value>
+                <fullName>Utah Juneteenth Heritage Festival</fullName>
+                <default>false</default>
+                <label>Utah Juneteenth Heritage Festival</label>
+            </value>
+            <value>
+                <fullName>Utah Museum of Natural History</fullName>
+                <default>false</default>
+                <label>Utah Museum of Natural History</label>
+            </value>
+            <value>
+                <fullName>Utah Office of Tourism</fullName>
+                <default>false</default>
+                <label>Utah Office of Tourism</label>
+            </value>
+            <value>
+                <fullName>Utah Pacific Island Film Series</fullName>
+                <default>false</default>
+                <label>Utah Pacific Island Film Series</label>
+            </value>
+            <value>
+                <fullName>Utah Pride Center</fullName>
+                <default>false</default>
+                <label>Utah Pride Center</label>
+            </value>
+            <value>
+                <fullName>Utah Tibetan Association</fullName>
+                <default>false</default>
+                <label>Utah Tibetan Association</label>
+            </value>
+            <value>
+                <fullName>Utah Ukrainian Association</fullName>
+                <default>false</default>
+                <label>Utah Ukrainian Association</label>
+            </value>
+            <value>
+                <fullName>UVU&apos;s Film Studies &amp; Digital Cinema Production Programs</fullName>
+                <default>false</default>
+                <label>UVU&apos;s Film Studies &amp; Digital Cinema Production Programs</label>
+            </value>
+            <value>
+                <fullName>Vanguard Media</fullName>
+                <default>false</default>
+                <label>Vanguard Media</label>
+            </value>
+            <value>
+                <fullName>Wasatch Coalition for Peace &amp; Justice</fullName>
+                <default>false</default>
+                <label>Wasatch Coalition for Peace &amp; Justice</label>
+            </value>
+            <value>
+                <fullName>Waterkeeper Alliance</fullName>
+                <default>false</default>
+                <label>Waterkeeper Alliance</label>
+            </value>
+            <value>
+                <fullName>Weber State University</fullName>
+                <default>false</default>
+                <label>Weber State University</label>
+            </value>
+            <value>
+                <fullName>Western Art</fullName>
+                <default>false</default>
+                <label>Western Art</label>
+            </value>
+            <value>
+                <fullName>Westminster College</fullName>
+                <default>false</default>
+                <label>Westminster College</label>
+            </value>
+            <value>
+                <fullName>Westminster College Black Excellence Program</fullName>
+                <default>false</default>
+                <label>Westminster College Black Excellence Program</label>
+            </value>
+            <value>
+                <fullName>West Valley Arts</fullName>
+                <default>false</default>
+                <label>West Valley Arts</label>
+            </value>
+            <value>
+                <fullName>Women in Architecture - SLC</fullName>
+                <default>false</default>
+                <label>Women in Architecture - SLC</label>
+            </value>
+            <value>
+                <fullName>Young Architects Forum</fullName>
+                <default>false</default>
+                <label>Young Architects Forum</label>
+            </value>
+            <value>
+                <fullName>YWCA</fullName>
+                <default>false</default>
+                <label>YWCA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

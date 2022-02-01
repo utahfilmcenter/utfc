@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Presentation_Date_2nd_Choice__c</fullName>
+    <externalId>false</externalId>
+    <label>BTA - Presentation Date - 2nd Choice</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>January 3, 2020</fullName>
+                <default>false</default>
+                <label>January 3, 2020</label>
+            </value>
+            <value>
+                <fullName>January 10, 2020</fullName>
+                <default>false</default>
+                <label>January 10, 2020</label>
+            </value>
+            <value>
+                <fullName>January 17, 2020</fullName>
+                <default>false</default>
+                <label>January 17, 2020</label>
+            </value>
+            <value>
+                <fullName>January 24, 2020</fullName>
+                <default>false</default>
+                <label>January 24, 2020</label>
+            </value>
+            <value>
+                <fullName>January 31, 2020</fullName>
+                <default>false</default>
+                <label>January 31, 2020</label>
+            </value>
+            <value>
+                <fullName>February 7, 2020</fullName>
+                <default>false</default>
+                <label>February 7, 2020</label>
+            </value>
+            <value>
+                <fullName>February 14, 2020</fullName>
+                <default>false</default>
+                <label>February 14, 2020</label>
+            </value>
+            <value>
+                <fullName>February 21, 2020</fullName>
+                <default>false</default>
+                <label>February 21, 2020</label>
+            </value>
+            <value>
+                <fullName>February 28, 2020</fullName>
+                <default>false</default>
+                <label>February 28, 2020</label>
+            </value>
+            <value>
+                <fullName>March 13, 2020</fullName>
+                <default>false</default>
+                <label>March 13, 2020</label>
+            </value>
+            <value>
+                <fullName>March 20, 2020</fullName>
+                <default>false</default>
+                <label>March 20, 2020</label>
+            </value>
+            <value>
+                <fullName>March 27, 2020</fullName>
+                <default>false</default>
+                <label>March 27, 2020</label>
+            </value>
+            <value>
+                <fullName>April 3, 2020</fullName>
+                <default>false</default>
+                <label>April 3, 2020</label>
+            </value>
+            <value>
+                <fullName>April 10, 2020</fullName>
+                <default>false</default>
+                <label>April 10, 2020</label>
+            </value>
+            <value>
+                <fullName>April 17, 2020</fullName>
+                <default>false</default>
+                <label>April 17, 2020</label>
+            </value>
+            <value>
+                <fullName>April 24, 2020</fullName>
+                <default>false</default>
+                <label>April 24, 2020</label>
+            </value>
+            <value>
+                <fullName>May 1, 2020</fullName>
+                <default>false</default>
+                <label>May 1, 2020</label>
+            </value>
+            <value>
+                <fullName>May 8, 2020</fullName>
+                <default>false</default>
+                <label>May 8, 2020</label>
+            </value>
+            <value>
+                <fullName>May 15, 2020</fullName>
+                <default>false</default>
+                <label>May 15, 2020</label>
+            </value>
+            <value>
+                <fullName>May 22, 2020</fullName>
+                <default>false</default>
+                <label>May 22, 2020</label>
+            </value>
+            <value>
+                <fullName>April 20, 2020</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>April 20, 2020</label>
+            </value>
+            <value>
+                <fullName>April 21, 2020</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>April 21, 2020</label>
+            </value>
+            <value>
+                <fullName>April 22, 2020</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>April 22, 2020</label>
+            </value>
+            <value>
+                <fullName>April 23, 2020</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>April 23, 2020</label>
+            </value>
+            <value>
+                <fullName>August 16, 2019</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>August 16, 2019</label>
+            </value>
+            <value>
+                <fullName>August 30, 2019</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>August 30, 2019</label>
+            </value>
+            <value>
+                <fullName>December 20, 2019</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>December 20, 2019</label>
+            </value>
+            <value>
+                <fullName>December 6, 2019</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>December 6, 2019</label>
+            </value>
+            <value>
+                <fullName>November 22, 2019</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>November 22, 2019</label>
+            </value>
+            <value>
+                <fullName>November 8, 2019</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>November 8, 2019</label>
+            </value>
+            <value>
+                <fullName>October 10, 2019</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>October 10, 2019</label>
+            </value>
+            <value>
+                <fullName>October 11, 2019</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>October 11, 2019</label>
+            </value>
+            <value>
+                <fullName>October 25, 2019</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>October 25, 2019</label>
+            </value>
+            <value>
+                <fullName>October 9, 2019</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>October 9, 2019</label>
+            </value>
+            <value>
+                <fullName>September 13, 2019</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>September 13, 2019</label>
+            </value>
+            <value>
+                <fullName>September 27, 2019</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>September 27, 2019</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

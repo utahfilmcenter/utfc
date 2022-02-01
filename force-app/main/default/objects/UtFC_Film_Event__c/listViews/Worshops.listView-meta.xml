@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Worshops</fullName>
+    <columns>NAME</columns>
+    <columns>Date_and_Time__c</columns>
+    <columns>Presenter_Instructor_AF__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Program_Series__c</field>
+        <operation>equals</operation>
+        <value>Workshop</value>
+    </filters>
+    <label>Workshops</label>
+</ListView>

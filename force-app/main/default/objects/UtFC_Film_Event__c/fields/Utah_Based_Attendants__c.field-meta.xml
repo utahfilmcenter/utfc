@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Utah_Based_Attendants__c</fullName>
+    <description>Used for donor reports</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Viewers based in Utah when participating</inlineHelpText>
+    <label>Utah Based Attendance</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

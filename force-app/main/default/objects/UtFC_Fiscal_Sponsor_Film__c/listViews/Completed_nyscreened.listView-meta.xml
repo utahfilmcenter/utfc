@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Completed_nyscreened</fullName>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status_FS__c</field>
+        <operation>equals</operation>
+        <value>Complete</value>
+    </filters>
+    <filters>
+        <field>Film_Center_Screening_FS__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Completed but not yet screened</label>
+</ListView>

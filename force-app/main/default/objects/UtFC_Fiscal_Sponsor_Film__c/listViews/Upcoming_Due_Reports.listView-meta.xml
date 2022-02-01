@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Upcoming_Due_Reports</fullName>
+    <columns>NAME</columns>
+    <columns>Requested_Report_Due_Date_FS__c</columns>
+    <columns>Contact_Name_FS__c</columns>
+    <columns>Contact_Email__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Requested_Report_Due_Date_FS__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>Upcoming Due Reports</label>
+</ListView>

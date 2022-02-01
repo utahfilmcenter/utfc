@@ -48,3 +48,8 @@ Thumbs.db
 *.mov
 *.wmv
 
+# Salesforce exclusion
+package.xml
+.forceignore
+sfdx-project.json
+config/

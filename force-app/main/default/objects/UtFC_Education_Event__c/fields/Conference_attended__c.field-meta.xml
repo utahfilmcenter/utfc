@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conference_attended__c</fullName>
+    <externalId>false</externalId>
+    <label>Conference attended</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Arts Day on the Hill</fullName>
+                <default>false</default>
+                <label>Arts Day on the Hill</label>
+            </value>
+            <value>
+                <fullName>Arts Express</fullName>
+                <default>false</default>
+                <label>Arts Express</label>
+            </value>
+            <value>
+                <fullName>CTE</fullName>
+                <default>false</default>
+                <label>CTE</label>
+            </value>
+            <value>
+                <fullName>ISTE</fullName>
+                <default>false</default>
+                <label>ISTE</label>
+            </value>
+            <value>
+                <fullName>Learning Edge</fullName>
+                <default>false</default>
+                <label>Learning Edge</label>
+            </value>
+            <value>
+                <fullName>MWAC</fullName>
+                <default>false</default>
+                <label>MWAC</label>
+            </value>
+            <value>
+                <fullName>NAMAC</fullName>
+                <default>false</default>
+                <label>NAMAC</label>
+            </value>
+            <value>
+                <fullName>NGCAE</fullName>
+                <default>false</default>
+                <label>NGCAE</label>
+            </value>
+            <value>
+                <fullName>UACTE</fullName>
+                <default>false</default>
+                <label>UACTE</label>
+            </value>
+            <value>
+                <fullName>UAEA</fullName>
+                <default>false</default>
+                <label>UAEA</label>
+            </value>
+            <value>
+                <fullName>UCET</fullName>
+                <default>false</default>
+                <label>UCET</label>
+            </value>
+            <value>
+                <fullName>UCSS</fullName>
+                <default>false</default>
+                <label>UCSS</label>
+            </value>
+            <value>
+                <fullName>UEA</fullName>
+                <default>false</default>
+                <label>UEA</label>
+            </value>
+            <value>
+                <fullName>URSA</fullName>
+                <default>false</default>
+                <label>URSA</label>
+            </value>
+            <value>
+                <fullName>USTA</fullName>
+                <default>false</default>
+                <label>USTA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>8</visibleLines>
+</CustomField>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Attended_School_Screening_2012__c</fullName>
+    <externalId>false</externalId>
+    <label>Attended School Screening 2012</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>3/21-9:30AM Circus Dreams</fullName>
+                <default>false</default>
+                <label>3/21-9:30AM Circus Dreams</label>
+            </value>
+            <value>
+                <fullName>3/22-9:30AM Circus Dreams</fullName>
+                <default>false</default>
+                <label>3/22-9:30AM Circus Dreams</label>
+            </value>
+            <value>
+                <fullName>3/22-1:00PM Circus Dreams</fullName>
+                <default>false</default>
+                <label>3/22-1:00PM Circus Dreams</label>
+            </value>
+            <value>
+                <fullName>3/22-1:00PM Louder Than a Bomb - PC</fullName>
+                <default>false</default>
+                <label>3/22-1:00PM Louder Than a Bomb - PC</label>
+            </value>
+            <value>
+                <fullName>3/23-9:30AM Circus Dreams</fullName>
+                <default>false</default>
+                <label>3/23-9:30AM Circus Dreams</label>
+            </value>
+            <value>
+                <fullName>3/23-1:00PM Louder Than a Bomb</fullName>
+                <default>false</default>
+                <label>3/23-1:00PM Louder Than a Bomb</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

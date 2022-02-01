@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Educational_Interests__c</fullName>
+    <externalId>false</externalId>
+    <label>Educational Interests?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Behind the Animation</fullName>
+                <default>false</default>
+                <label>Behind the Animation</label>
+            </value>
+            <value>
+                <fullName>Film Spark</fullName>
+                <default>false</default>
+                <label>Film Spark</label>
+            </value>
+            <value>
+                <fullName>Moving Stories</fullName>
+                <default>false</default>
+                <label>Moving Stories</label>
+            </value>
+            <value>
+                <fullName>Real to Reel</fullName>
+                <default>false</default>
+                <label>Real to Reel</label>
+            </value>
+            <value>
+                <fullName>SHIFT</fullName>
+                <default>false</default>
+                <label>SHIFT</label>
+            </value>
+            <value>
+                <fullName>Through My Lens</fullName>
+                <default>false</default>
+                <label>Through My Lens</label>
+            </value>
+            <value>
+                <fullName>Tumbleweeds Festival Field Trips</fullName>
+                <default>false</default>
+                <label>Tumbleweeds Festival Field Trips</label>
+            </value>
+            <value>
+                <fullName>All</fullName>
+                <default>false</default>
+                <label>All</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

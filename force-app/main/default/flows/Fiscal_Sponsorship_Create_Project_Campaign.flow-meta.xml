@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>53.0</apiVersion>
+    <decisions>
+        <name>Does_the_FS_Project_have_a_campaign</name>
+        <label>Does the FS Project have a campaign?</label>
+        <locationX>446</locationX>
+        <locationY>335</locationY>
+        <defaultConnector>
+            <targetReference>Is_the_Campaign_Name_Correct</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Campaign Already Exists</defaultConnectorLabel>
+        <rules>
+            <name>Create_Campaign_for_FS_Project</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Related_Campaign_FS__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Is_the_FS_Project_Active</targetReference>
+            </connector>
+            <label>Create Campaign for FS Project</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_the_Campaign_Name_Correct</name>
+        <label>Is the Campaign Name Correct</label>
+        <locationX>710</locationX>
+        <locationY>455</locationY>
+        <defaultConnectorLabel>Name Matches</defaultConnectorLabel>
+        <rules>
+            <name>Update_Campaign_Name</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Campaign.Name</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>{!$Record.Name} - FS Campaign</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_FS_Campaign_Name</targetReference>
+            </connector>
+            <label>Update Campaign Name</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_the_FS_Project_Active</name>
+        <label>Is the FS Project Active</label>
+        <locationX>182</locationX>
+        <locationY>455</locationY>
+        <defaultConnectorLabel>Not Active</defaultConnectorLabel>
+        <rules>
+            <name>FS_Project_is_Active</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status_FS__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Active</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status_FS__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Complete</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status_FS__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Inactive</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status_FS__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Abandoned</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Create_FS_Project_Campaign_0</targetReference>
+            </connector>
+            <label>FS Project is Active</label>
+        </rules>
+    </decisions>
+    <interviewLabel>Fiscal Sponsorship - Create Project Campaign {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Fiscal Sponsorship - Create or Update Project Campaign</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Create_FS_Project_Campaign_0</name>
+        <label>Create FS Project Campaign</label>
+        <locationX>50</locationX>
+        <locationY>575</locationY>
+        <connector>
+            <targetReference>Update_FS_Project_Record_with_Campaign_0</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>IsActive</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <stringValue>{!$Record.Name} - FS Campaign</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ParentId</field>
+            <value>
+                <stringValue>70146000000DS2XAAW</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Campaign</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordUpdates>
+        <name>Update_FS_Campaign_Name</name>
+        <label>Update FS Campaign Name</label>
+        <locationX>578</locationX>
+        <locationY>575</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>CASESAFE_Id__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Related_Campaign_ID__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <stringValue>{!$Record.Name} - FS Campaign</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Campaign</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_FS_Project_Record_with_Campaign_0</name>
+        <label>Update FS Project Record with Campaign</label>
+        <locationX>50</locationX>
+        <locationY>695</locationY>
+        <inputAssignments>
+            <field>Related_Campaign_FS__c</field>
+            <value>
+                <elementReference>Create_FS_Project_Campaign_0</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>320</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Does_the_FS_Project_have_a_campaign</targetReference>
+        </connector>
+        <object>UtFC_Fiscal_Sponsor_Film__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>Campaign</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Campaign</objectType>
+    </variables>
+</Flow>
