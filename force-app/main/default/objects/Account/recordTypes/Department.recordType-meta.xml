@@ -854,26 +854,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Education - Charter</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Education - Higher Ed</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Education - Other</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Education - Private</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Education - Public</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Foundation</fullName>
             <default>false</default>
         </values>

@@ -855,27 +855,19 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Education - Charter</fullName>
+            <fullName>Education</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Education - Higher Ed</fullName>
+            <fullName>Film Distributor</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Education - Other</fullName>
+            <fullName>Film Team</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Education - Private</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Education - Public</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Fiscal Sponsorship Film Company</fullName>
+            <fullName>Fiscal Sponsorship Film Team</fullName>
             <default>false</default>
         </values>
         <values>
@@ -888,6 +880,14 @@
         </values>
         <values>
             <fullName>Nonprofit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Press</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>School</fullName>
             <default>false</default>
         </values>
     </picklistValues>
