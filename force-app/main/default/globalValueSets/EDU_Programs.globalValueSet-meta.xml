@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>BTA</fullName>
+        <default>false</default>
+        <label>Behind the Animation</label>
+    </customValue>
+    <customValue>
+        <fullName>FilmSpark</fullName>
+        <default>false</default>
+        <label>Film Spark</label>
+    </customValue>
+    <customValue>
+        <fullName>MovingStories</fullName>
+        <default>false</default>
+        <label>Moving Stories - VR &amp; AR</label>
+    </customValue>
+    <customValue>
+        <fullName>SHIFT</fullName>
+        <default>false</default>
+        <label>SHIFT: Professional Development for Teachers</label>
+    </customValue>
+    <customValue>
+        <fullName>TML</fullName>
+        <default>false</default>
+        <label>Through My Lens</label>
+    </customValue>
+    <customValue>
+        <fullName>TFFT</fullName>
+        <default>false</default>
+        <label>Tumbleweeds Festival Field Trips</label>
+    </customValue>
+    <description>EDU Programs Offered</description>
+    <masterLabel>EDU Programs</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

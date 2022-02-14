@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AV Tech (Additional)</fullName>
+        <default>false</default>
+        <label>AV Tech (Additional)</label>
+    </customValue>
+    <customValue>
+        <fullName>AV Tech (Lead)</fullName>
+        <default>false</default>
+        <label>AV Tech (Lead)</label>
+    </customValue>
+    <customValue>
+        <fullName>Check-In</fullName>
+        <default>false</default>
+        <label>Check-In</label>
+    </customValue>
+    <customValue>
+        <fullName>Concessions</fullName>
+        <default>false</default>
+        <label>Concessions</label>
+    </customValue>
+    <customValue>
+        <fullName>Crowd Control</fullName>
+        <default>false</default>
+        <label>Crowd Control</label>
+    </customValue>
+    <customValue>
+        <fullName>Floater</fullName>
+        <default>false</default>
+        <label>Floater</label>
+    </customValue>
+    <customValue>
+        <fullName>Info Booth</fullName>
+        <default>false</default>
+        <label>Info Booth</label>
+    </customValue>
+    <customValue>
+        <fullName>PA</fullName>
+        <default>false</default>
+        <label>PA</label>
+    </customValue>
+    <customValue>
+        <fullName>Parking Lot Attendee</fullName>
+        <default>false</default>
+        <label>Parking Lot Attendee</label>
+    </customValue>
+    <customValue>
+        <fullName>Production</fullName>
+        <default>false</default>
+        <label>Production</label>
+    </customValue>
+    <customValue>
+        <fullName>Production/Parking Lot (Drive-In)</fullName>
+        <default>false</default>
+        <label>Production/Parking Lot (Drive-In)</label>
+    </customValue>
+    <customValue>
+        <fullName>Project Manager</fullName>
+        <default>false</default>
+        <label>Project Manager</label>
+    </customValue>
+    <customValue>
+        <fullName>Ticketing</fullName>
+        <default>false</default>
+        <label>Ticketing</label>
+    </customValue>
+    <customValue>
+        <fullName>Venue Manager</fullName>
+        <default>false</default>
+        <label>Venue Manager</label>
+    </customValue>
+    <description>Staff Jobs at Screenings</description>
+    <masterLabel>Staff Screening Jobs</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>
