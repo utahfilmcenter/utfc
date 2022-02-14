@@ -5,6 +5,7 @@
     <label>School Type</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Picklist</type>
     <valueSet>
         <valueSetDefinition>
@@ -18,11 +19,6 @@
                 <fullName>Elementary</fullName>
                 <default>false</default>
                 <label>Elementary</label>
-            </value>
-            <value>
-                <fullName>Middle School</fullName>
-                <default>false</default>
-                <label>Middle School</label>
             </value>
             <value>
                 <fullName>High School</fullName>
@@ -48,6 +44,11 @@
                 <fullName>Private</fullName>
                 <default>false</default>
                 <label>Private</label>
+            </value>
+            <value>
+                <fullName>Middle School</fullName>
+                <default>false</default>
+                <label>Middle School</label>
             </value>
             <value>
                 <fullName>Charter School</fullName>

@@ -7,5 +7,6 @@
     <inlineHelpText>School offers Dual Immersion programs</inlineHelpText>
     <label>Dual Immersion</label>
     <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>
