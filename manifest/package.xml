@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
+		<members>Subject__c</members>
+		<members>Feature_Subject__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>Feature__c.One_Line_Description__c</members>
+		<members>Feature__c.Screener_Notes__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
 		<members>*</members>
 		<name>Profile</name>
 	</types>
-	<version>53.0</version>
+	<version>54.0</version>
 </Package>
