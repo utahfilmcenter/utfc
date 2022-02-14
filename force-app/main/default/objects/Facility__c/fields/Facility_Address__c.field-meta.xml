@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Facility_Contact__c</fullName>
+    <fullName>Facility_Address__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Facility Contact</label>
-    <referenceTo>Contact</referenceTo>
-    <relationshipLabel>Facilities Contact</relationshipLabel>
-    <relationshipName>Facilities_Contact</relationshipName>
+    <label>Facility Address</label>
+    <referenceTo>npsp__Address__c</referenceTo>
+    <relationshipLabel>Facilities</relationshipLabel>
+    <relationshipName>Facilities</relationshipName>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>
