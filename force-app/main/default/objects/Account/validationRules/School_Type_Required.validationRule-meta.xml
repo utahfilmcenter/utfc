@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>School_Type_Required</fullName>
+    <active>true</active>
+    <description>Forces user to enter a value in School Type picklist when School is the chosen value in Type</description>
+    <errorConditionFormula>AND ( 
+ ISPICKVAL ( School_Type__c, &quot;&quot; ),
+ ISPICKVAL ( Type, &quot;School&quot; )
+)</errorConditionFormula>
+    <errorDisplayField>School_Type__c</errorDisplayField>
+    <errorMessage>School Type must have a value</errorMessage>
+</ValidationRule>
