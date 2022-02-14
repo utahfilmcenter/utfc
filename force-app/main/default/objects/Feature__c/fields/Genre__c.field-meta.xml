@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Genre__c</fullName>
+    <externalId>false</externalId>
+    <label>Genre</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Documentary US</fullName>
+                <default>false</default>
+                <label>Documentary US</label>
+            </value>
+            <value>
+                <fullName>Documentary Foreign</fullName>
+                <default>false</default>
+                <label>Documentary Foreign</label>
+            </value>
+            <value>
+                <fullName>Animated US</fullName>
+                <default>false</default>
+                <label>Animated US</label>
+            </value>
+            <value>
+                <fullName>Animated Foreign</fullName>
+                <default>false</default>
+                <label>Animated Foreign</label>
+            </value>
+            <value>
+                <fullName>Dramatic US</fullName>
+                <default>false</default>
+                <label>Dramatic US</label>
+            </value>
+            <value>
+                <fullName>Dramatic Foreign</fullName>
+                <default>false</default>
+                <label>Dramatic Foreign</label>
+            </value>
+            <value>
+                <fullName>Shorts Program</fullName>
+                <default>false</default>
+                <label>Shorts Program</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
