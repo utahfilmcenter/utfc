@@ -3,7 +3,7 @@
     <fullName>Pops_Area__c</fullName>
     <description>POPS Map Area</description>
     <externalId>false</externalId>
-    <inlineHelpText>View map here: https://www.utahfilmcenter.org/wp/wp-content/uploads/2021/02/POPS-area-map.png</inlineHelpText>
+    <inlineHelpText>To view map, click the Custom Link: POPS Area Map located on the bottom of the record detail</inlineHelpText>
     <label>POPS Area</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
