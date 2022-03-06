@@ -15,7 +15,7 @@
                 <field>Attendee_Name__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>Feature_Offering__c</field>
             </layoutItems>
             <layoutItems>
@@ -25,6 +25,22 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Attendee_Role__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Attending_School__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Guest_Names__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Lead_Staff__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Lead_Staff_Job_Title__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns/>
