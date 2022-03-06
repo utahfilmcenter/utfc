@@ -5,7 +5,7 @@
     <externalId>false</externalId>
     <inlineHelpText>For classrooms, enter the number of students, teaching assistants, and chaperones attending with the primary attendee.</inlineHelpText>
     <label>Attendee Count</label>
-    <precision>18</precision>
+    <precision>1</precision>
     <required>false</required>
     <scale>0</scale>
     <trackTrending>false</trackTrending>
