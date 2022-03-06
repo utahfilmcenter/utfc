@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Staff__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Contact record of the UTFC staff member in charge of the event</description>
+    <externalId>false</externalId>
+    <label>Event Staff</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Feature Offerings</relationshipLabel>
+    <relationshipName>Feature_Offerings</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
