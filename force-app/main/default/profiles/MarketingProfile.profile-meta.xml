@@ -428,7 +428,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>npe5__Affiliation__c.Grade_Level_s__c</field>
+        <field>npe5__Affiliation__c.Grade_Levels__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
