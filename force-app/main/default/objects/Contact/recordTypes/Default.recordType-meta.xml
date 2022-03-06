@@ -35,6 +35,25 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>COVID_19_Vaccination_Card_Verified__c</picklist>
+        <values>
+            <fullName>Exemption approved by Leadership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vaccinated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vaccinated %2B 1 Booster</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vaccinated %2B 2 Booster</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Conference_Attended__c</picklist>
         <values>
             <fullName>Arts Day on the Hill</fullName>
