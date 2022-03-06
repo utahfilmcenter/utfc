@@ -5,7 +5,7 @@
     <label>Attendee Role</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
-    <type>Picklist</type>
+    <type>MultiselectPicklist</type>
     <valueSet>
         <restricted>true</restricted>
         <valueSetDefinition>
@@ -45,6 +45,22 @@
                 <default>false</default>
                 <label>Panelist</label>
             </value>
+            <value>
+                <fullName>Director</fullName>
+                <default>false</default>
+                <label>Director</label>
+            </value>
+            <value>
+                <fullName>Producer</fullName>
+                <default>false</default>
+                <label>Producer</label>
+            </value>
+            <value>
+                <fullName>Subject</fullName>
+                <default>false</default>
+                <label>Subject</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
+    <visibleLines>4</visibleLines>
 </CustomField>

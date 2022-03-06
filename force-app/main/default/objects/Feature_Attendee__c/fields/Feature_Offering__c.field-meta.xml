@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Feature_Offering__c</fullName>
-    <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
     <label>Feature Offering</label>
     <referenceTo>Feature_Offering__c</referenceTo>
     <relationshipLabel>Feature Attendees</relationshipLabel>
     <relationshipName>Feature_Attendees</relationshipName>
-    <required>false</required>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
     <trackTrending>false</trackTrending>
-    <type>Lookup</type>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
 </CustomField>
