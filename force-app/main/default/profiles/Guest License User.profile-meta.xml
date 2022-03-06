@@ -2,6 +2,16 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>false</custom>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.County__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Pops_Area__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.Type</field>
         <readable>true</readable>
@@ -83,6 +93,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Feature_Attendee__c.Accomodations__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Feature_Attendee__c.Attendee_Count__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -93,7 +108,42 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Feature_Attendee__c.Attending_School__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Feature_Attendee__c.Feature_Offering__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Feature_Attendee__c.Guest_Names__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Feature_Attendee__c.Guest_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Feature_Attendee__c.Honorarium__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Feature_Attendee__c.Lead_Staff_Job_Title__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Feature_Attendee__c.Lead_Staff__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Feature_Attendee__c.Presenter__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -336,6 +386,25 @@
         <field>npe5__Affiliation__c.Grade_Level_s__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>Account-npsp__Household Layout</layout>
+        <recordType>Account.HH_Account</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-npsp__Organization Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-npsp__Organization Layout</layout>
+        <recordType>Account.CnP_PaaS__C_P_Online</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-npsp__Organization Layout</layout>
+        <recordType>Account.Department</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-npsp__Organization Layout</layout>
+        <recordType>Account.Organization</recordType>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Facility__c-Facility Layout</layout>
     </layoutAssignments>

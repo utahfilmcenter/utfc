@@ -3,6 +3,16 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.County__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Pops_Area__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Type</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -82,6 +92,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Feature_Attendee__c.Accomodations__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Feature_Attendee__c.Attendee_Count__c</field>
         <readable>false</readable>
@@ -92,9 +107,44 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Feature_Attendee__c.Attending_School__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Feature_Attendee__c.Feature_Offering__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Feature_Attendee__c.Guest_Names__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Feature_Attendee__c.Guest_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Feature_Attendee__c.Honorarium__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Feature_Attendee__c.Lead_Staff_Job_Title__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Feature_Attendee__c.Lead_Staff__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Feature_Attendee__c.Presenter__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -337,8 +387,23 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Account-Household Lightning Layout</layout>
+        <recordType>Account.HH_Account</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Account-Organization Lightning Layout</layout>
         <recordType>Account.Organization</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-npsp__Organization Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-npsp__Organization Layout</layout>
+        <recordType>Account.CnP_PaaS__C_P_Online</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-npsp__Organization Layout</layout>
+        <recordType>Account.Department</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Facility__c-Facility Layout</layout>
