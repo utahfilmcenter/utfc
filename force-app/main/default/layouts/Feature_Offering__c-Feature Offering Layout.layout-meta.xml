@@ -16,7 +16,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>Utah_Film_Center_Staff__c</field>
+                <field>Event_Staff__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -25,6 +25,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>End_Time__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Event_Program_Department__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns/>
