@@ -3,11 +3,11 @@
     <fullName>Impact_Partner_Film__c</fullName>
     <externalId>false</externalId>
     <label>Impact Partner Film</label>
-    <trackFeedHistory>false</trackFeedHistory>
+    <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
-<valueSet>
-    <restricted>true</restricted>
-    <valueSetName>Yes_No</valueSetName>
-</valueSet>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Yes_No</valueSetName>
+    </valueSet>
 </CustomField>

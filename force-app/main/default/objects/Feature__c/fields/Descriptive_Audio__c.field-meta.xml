@@ -3,12 +3,11 @@
     <fullName>Descriptive_Audio__c</fullName>
     <externalId>false</externalId>
     <label>Descriptive Audio</label>
-    <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>false</trackHistory>
+    <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
-<valueSet>
-    <restricted>true</restricted>
-    <valueSetName>Yes_No</valueSetName>
-</valueSet>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Yes_No</valueSetName>
+    </valueSet>
 </CustomField>

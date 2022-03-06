@@ -3,12 +3,11 @@
     <fullName>Closed_Caption__c</fullName>
     <externalId>false</externalId>
     <label>Closed Caption</label>
-    <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>false</trackHistory>
+    <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
-<valueSet>
-    <restricted>true</restricted>
-    <valueSetName>Yes_No</valueSetName>
-</valueSet>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Yes_No</valueSetName>
+    </valueSet>
 </CustomField>

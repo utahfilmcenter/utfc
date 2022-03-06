@@ -5,8 +5,6 @@
     <inlineHelpText>Why did we program this film?</inlineHelpText>
     <label>Programming Recommendation</label>
     <length>32768</length>
-    <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>LongTextArea</type>
     <visibleLines>10</visibleLines>
