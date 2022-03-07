@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Sessions__c</fullName>
+    <description>How many sessions/weeks are included in this workshop?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Number of total sessions in workshop</inlineHelpText>
+    <label>Number of Sessions in Workshop</label>
+    <precision>10</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>
