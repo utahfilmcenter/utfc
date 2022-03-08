@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <choices>
+        <name>ch_txt_EDU_Note</name>
+        <choiceText>Education Note</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Education Note</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>ch_txt_Event_Reception_Note</name>
+        <choiceText>Event/Reception Note</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Event/Reception Note</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>ch_txt_Fiscal_Sponsorship_Note</name>
+        <choiceText>Fiscal Sponsorship Note</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Fiscal Sponsorship Note</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>ch_txt_General_Note</name>
+        <choiceText>General Note</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>General Note</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>ch_txt_Outreach_Note</name>
+        <choiceText>Outreach Note</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Outreach Note</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>ch_txt_Partner_Note</name>
+        <choiceText>Partner Note</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Partner Note</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>ch_txt_Programmers_Note</name>
+        <choiceText>Programmer&apos;s Note</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Programmer&apos;s Note</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>ch_txt_Streaming_Note</name>
+        <choiceText>Streaming Note</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Streaming Note</stringValue>
+        </value>
+    </choices>
+    <description>Create a new note and relates it to the launching record. Fired using a button on each record.</description>
+    <formulas>
+        <description>Appends the label from the Note Selection radio button and whatever the user enters into the Note Subject screen text input</description>
+        <name>for_Note_Subject</name>
+        <dataType>String</dataType>
+        <expression>IF(
+ISBLANK({!txt_Enter_Note_Subject}), {!rdo_Note_Type_Group},
+{!rdo_Note_Type_Group} &amp; &quot;: &quot; &amp; {!txt_Enter_Note_Subject}
+)</expression>
+    </formulas>
+    <interviewLabel>Notes: Create a New Note {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Notes: Create a New Note</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordCreates>
+        <description>Attaches the note to the record</description>
+        <name>create_ContentVersion</name>
+        <label>create ContentVersion</label>
+        <locationX>176</locationX>
+        <locationY>398</locationY>
+        <inputAssignments>
+            <field>ContentDocumentId</field>
+            <value>
+                <elementReference>var_txt_NoteId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>LinkedEntityId</field>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShareType</field>
+            <value>
+                <stringValue>I</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Visibility</field>
+            <value>
+                <stringValue>AllUsers</stringValue>
+            </value>
+        </inputAssignments>
+        <object>ContentDocumentLink</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>create_New_Note</name>
+        <label>create New Note</label>
+        <locationX>176</locationX>
+        <locationY>278</locationY>
+        <assignRecordIdToReference>var_txt_NoteId</assignRecordIdToReference>
+        <connector>
+            <targetReference>create_ContentVersion</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Content</field>
+            <value>
+                <elementReference>richtxt_Notes.value</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>$User.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>SharingPrivacy</field>
+            <value>
+                <stringValue>N</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Title</field>
+            <value>
+                <elementReference>for_Note_Subject</elementReference>
+            </value>
+        </inputAssignments>
+        <object>ContentNote</object>
+    </recordCreates>
+    <screens>
+        <name>screen_New_Note</name>
+        <label>New Note</label>
+        <locationX>176</locationX>
+        <locationY>158</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>create_New_Note</targetReference>
+        </connector>
+        <fields>
+            <name>rdo_Note_Type_Group</name>
+            <choiceReferences>ch_txt_General_Note</choiceReferences>
+            <choiceReferences>ch_txt_EDU_Note</choiceReferences>
+            <choiceReferences>ch_txt_Event_Reception_Note</choiceReferences>
+            <choiceReferences>ch_txt_Fiscal_Sponsorship_Note</choiceReferences>
+            <choiceReferences>ch_txt_Outreach_Note</choiceReferences>
+            <choiceReferences>ch_txt_Partner_Note</choiceReferences>
+            <choiceReferences>ch_txt_Programmers_Note</choiceReferences>
+            <choiceReferences>ch_txt_Streaming_Note</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Select a Note type</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>txt_Enter_Note_Subject</name>
+            <dataType>String</dataType>
+            <fieldText>Enter Note Subject</fieldText>
+            <fieldType>InputField</fieldType>
+            <helpText>&lt;p&gt;The value selected above will be appended to the beginning of what is entered here.&lt;/p&gt;</helpText>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>richtxt_Notes</name>
+            <extensionName>c:inputRichTextFSC</extensionName>
+            <fieldType>ComponentInstance</fieldType>
+            <inputParameters>
+                <name>label</name>
+                <value>
+                    <stringValue>Enter Note Text</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>required</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </inputParameters>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>true</isRequired>
+            <storeOutputAutomatically>true</storeOutputAutomatically>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>screen_New_Note</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <description>Input variable used to determine the ID of the launching record</description>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>var_txt_Note_Typle_Label</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>var_txt_NoteId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>
