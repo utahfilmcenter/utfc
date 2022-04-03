@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>View_Scheduled_Emails</fullName>
+    <availability>online</availability>
+    <description>Link to view scheduled mass emails</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>View Scheduled Emails</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>https://utahfilmcenter.my.salesforce.com/07A?retURL=%2Fui%2Fsetup%2FSetup%3Fsetupid%3DEmailSetup&amp;lsi=-4&amp;setupid=MassMails</url>
+</WebLink>
