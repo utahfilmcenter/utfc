@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Education_Program__c</fullName>
+    <externalId>false</externalId>
+    <label>Education Program</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SHIFT</fullName>
+                <default>false</default>
+                <label>SHIFT</label>
+            </value>
+            <value>
+                <fullName>In Your Classroom</fullName>
+                <default>false</default>
+                <label>In Your Classroom</label>
+            </value>
+            <value>
+                <fullName>Film Spark</fullName>
+                <default>false</default>
+                <label>Film Spark</label>
+            </value>
+            <value>
+                <fullName>Festival Field Trips</fullName>
+                <default>false</default>
+                <label>Festival Field Trip</label>
+            </value>
+            <value>
+                <fullName>Behind the Animation</fullName>
+                <default>false</default>
+                <label>Behind the Animation</label>
+            </value>
+            <value>
+                <fullName>Through My Lens</fullName>
+                <default>false</default>
+                <label>Through My Lens</label>
+            </value>
+            <value>
+                <fullName>Moving Stories</fullName>
+                <default>false</default>
+                <label>Moving Stories</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Save_The_Date_send_date__c</fullName>
+    <externalId>false</externalId>
+    <label>&quot;Save the Date&quot; Send date</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <type>Date</type>
+</CustomField>

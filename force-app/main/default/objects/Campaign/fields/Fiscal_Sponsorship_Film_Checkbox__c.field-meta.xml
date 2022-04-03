@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fiscal_Sponsorship_Film_Checkbox__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This is marked if the film is a Fiscal Sponsorship film</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Will automatically be checked if the Parent Campaign is Project Donation - Fiscal Sponsorship</inlineHelpText>
+    <label>Fiscal Sponsorship Film?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

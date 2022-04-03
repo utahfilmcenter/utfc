@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EventbriteSync__EventbriteSync</fullName>
+    <availability>online</availability>
+    <description>Sync the current Eventbrite event.</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Eventbrite Sync</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>//  Get record&apos;s Eventbrite Id Value
+var eventbriteId = &apos;{!Campaign.EventbriteSync__EventbriteId__c}&apos;;
+
+//  If not populated, alert the user
+if (eventbriteId == &apos;&apos;)
+    alert(&apos;This record must have an Eventbrite Id.  Populate the Eventbrite Id field with the value from the Eventbrite Event URL.&apos;);
+
+//  If there is an Id, forward the user to the standard import page
+else
+    window.location.href=&quot;/apex/EventbriteSync__EventbriteImport?eventbriteId=&quot; + eventbriteId;</url>
+</WebLink>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Education_Campaigns_2020_FFTs</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>Education_Program__c</columns>
+    <columns>Event_Date_and_Time__c</columns>
+    <columns>CAMPAIGN.START_DATE</columns>
+    <columns>Number_of_Students__c</columns>
+    <columns>Number_of_Teachers__c</columns>
+    <columns>Education_Hours__c</columns>
+    <columns>Teacher_Hours__c</columns>
+    <columns>Student_Hours__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CAMPAIGN.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Campaign.Education</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.START_DATE</field>
+        <operation>greaterThan</operation>
+        <value>7/1/2019</value>
+    </filters>
+    <label>Education Campaigns - 2020 FFTs</label>
+</ListView>
