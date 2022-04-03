@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>UTFC</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
     <custom>false</custom>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.Capacity__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.County__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Account.Dual_Immersion__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -23,27 +18,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.School_Type__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.Title_I_School__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Account.Type</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Contact.Facebook__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Contact.LinkedIn__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -57,19 +32,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>Contact.Twitter__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>Contact.Unmarried_Name__c</field>
         <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Contact.Website__c</field>
-        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -219,6 +184,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Feature_Offering__c.Descriptive_Audio__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Feature_Offering__c.Development_Event__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -732,16 +702,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>npe5__Affiliation__c.Category__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>npe5__Affiliation__c.Contact_Name__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>npe5__Affiliation__c.Grade_Levels__c</field>
         <readable>false</readable>
@@ -764,9 +724,6 @@
     <layoutAssignments>
         <layout>Account-npsp__Organization Layout</layout>
         <recordType>Account.Department</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Contact-Contact Lightning Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Facility__c-Facility Layout</layout>
@@ -817,13 +774,6 @@
     <layoutAssignments>
         <layout>Feature__c-Feature Layout</layout>
         <recordType>Feature__c.Program</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Subject__c-Subject Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Subject__c-Subject Layout</layout>
-        <recordType>Subject__c.Default</recordType>
     </layoutAssignments>
     <recordTypeVisibilities>
         <default>false</default>
