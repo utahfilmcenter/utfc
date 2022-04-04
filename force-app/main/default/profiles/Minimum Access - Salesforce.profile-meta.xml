@@ -137,6 +137,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Feature_Attendee__c.Projectionist_Tech__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Feature_Facility__c.Feature_Offering__c</field>
         <readable>false</readable>
@@ -844,6 +849,10 @@
     <tabVisibilities>
         <tab>Feature__c</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Fiscal_Sponsorship__c</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Subject__c</tab>
