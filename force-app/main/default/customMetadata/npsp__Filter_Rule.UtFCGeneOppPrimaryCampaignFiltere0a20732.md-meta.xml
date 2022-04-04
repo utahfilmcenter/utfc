@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>UtFCGene Opp.Primary_Campaign_Filter Doe</label>
+    <protected>false</protected>
+    <values>
+        <field>npsp__Constant__c</field>
+        <value xsi:type="xsd:string">70146000000C6Ca;70146000000DS32;70146000000C6bj;7014p000000MTlh;7014p000000fbTU;70146000000DS4L;7014p000000fVh6;70146000000cSqZ;70146000000cSqj;70146000000t5t9;70146000000DS44;70146000000iB7I;70146000000DS4e;7014p000000MSJh</value>
+    </values>
+    <values>
+        <field>npsp__Field__c</field>
+        <value xsi:type="xsd:string">CampaignId</value>
+    </values>
+    <values>
+        <field>npsp__Filter_Group__c</field>
+        <value xsi:type="xsd:string">BUtFCGeneralSupportFilterGroup5cb60764</value>
+    </values>
+    <values>
+        <field>npsp__Is_Deleted__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>npsp__Object__c</field>
+        <value xsi:type="xsd:string">Opportunity</value>
+    </values>
+    <values>
+        <field>npsp__Operator__c</field>
+        <value xsi:type="xsd:string">In_List</value>
+    </values>
+</CustomMetadata>
