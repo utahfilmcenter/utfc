@@ -186,7 +186,7 @@
         <reevaluateOnChange>true</reevaluateOnChange>
     </fieldUpdates>
     <rules>
-        <fullName>Create task to generate report to mohr</fullName>
+        <fullName>Create task to generate report to Fiscal_Sponsorship</fullName>
         <actions>
             <name>Requested_Report_Due</name>
             <type>Task</type>
@@ -320,7 +320,7 @@
         </workflowTimeTriggers>
     </rules>
     <rules>
-        <fullName>FS - Reminder Task to SMohr that Annual Report is Past Due</fullName>
+        <fullName>FS - Reminder Task to Fiscal Sponsorship that Annual Report is Past Due</fullName>
         <active>true</active>
         <criteriaItems>
             <field>UtFC_Fiscal_Sponsor_Film__c.Status_FS__c</field>
@@ -332,7 +332,7 @@
             <operation>equals</operation>
             <value>Past Due</value>
         </criteriaItems>
-        <description>This will assign a task to Sarah 14 days after the film has been in Past Due status for their annual report.</description>
+        <description>This will assign a task to Fiscal Sponsorship 14 days after the film has been in Past Due status for their annual report.</description>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
         <workflowTimeTriggers>
             <actions>
@@ -390,7 +390,7 @@
     </rules>
     <tasks>
         <fullName>Annual_Report_Past_Due_14_Days</fullName>
-        <assignedTo>smohr@utahfilm.org</assignedTo>
+        <assignedTo>fiscal_sponsorship@utahfilm.org</assignedTo>
         <assignedToType>user</assignedToType>
         <dueDateOffset>21</dueDateOffset>
         <notifyAssignee>false</notifyAssignee>
@@ -402,7 +402,7 @@
     </tasks>
     <tasks>
         <fullName>Annual_Report_Reminder_Email_Sent</fullName>
-        <assignedTo>smohr@utahfilm.org</assignedTo>
+        <assignedTo>fiscal_sponsorship@utahfilm.org</assignedTo>
         <assignedToType>user</assignedToType>
         <dueDateOffset>0</dueDateOffset>
         <notifyAssignee>false</notifyAssignee>
@@ -414,7 +414,7 @@
     </tasks>
     <tasks>
         <fullName>Annual_Report_Request_Email_Sent</fullName>
-        <assignedTo>smohr@utahfilm.org</assignedTo>
+        <assignedTo>fiscal_sponsorship@utahfilm.org</assignedTo>
         <assignedToType>user</assignedToType>
         <dueDateOffset>-30</dueDateOffset>
         <notifyAssignee>false</notifyAssignee>
@@ -426,7 +426,7 @@
     </tasks>
     <tasks>
         <fullName>Requested_Report_Due</fullName>
-        <assignedTo>smohr@utahfilm.org</assignedTo>
+        <assignedTo>fiscal_sponsorship@utahfilm.org</assignedTo>
         <assignedToType>user</assignedToType>
         <dueDateOffset>365</dueDateOffset>
         <notifyAssignee>false</notifyAssignee>
@@ -438,7 +438,7 @@
     </tasks>
     <tasks>
         <fullName>X30_Day_Annual_Report_Email_Sent</fullName>
-        <assignedTo>smohr@utahfilm.org</assignedTo>
+        <assignedTo>fiscal_sponsorship@utahfilm.org</assignedTo>
         <assignedToType>user</assignedToType>
         <dueDateOffset>335</dueDateOffset>
         <notifyAssignee>false</notifyAssignee>

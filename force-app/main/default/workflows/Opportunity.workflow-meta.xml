@@ -27,6 +27,7 @@
         <fullName>Donation_Email_Alert</fullName>
         <ccEmails>jkirsling@utahfilmcenter.org</ccEmails>
         <ccEmails>info@utahfilmcenter.org</ccEmails>
+        <ccEmails>development@utahfilmcenter.org</ccEmails>
         <description>Donation Email Alert</description>
         <protected>false</protected>
         <recipients>
@@ -35,10 +36,6 @@
         </recipients>
         <recipients>
             <recipient>mariah@utahfilm.org</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>mhorner@utahfilm.org</recipient>
             <type>user</type>
         </recipients>
         <recipients>
@@ -398,7 +395,7 @@
             <name>Donation_Email_Alert_Patrick</name>
             <type>Alert</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <booleanFilter>1 AND 2 AND (3 OR 4)</booleanFilter>
         <criteriaItems>
             <field>Opportunity.Amount</field>
@@ -486,7 +483,7 @@
     </rules>
     <rules>
         <fullName>Sends Email alert for upcoming OPP Close date</fullName>
-        <active>true</active>
+        <active>false</active>
         <criteriaItems>
             <field>Opportunity.CloseDate</field>
             <operation>greaterThan</operation>
