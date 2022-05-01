@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kell01__Prevent_Reversing_Unposted_Donation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+kell01__Opportunity_Reversed__c,
+NOT(PRIORVALUE(kell01__Opportunity_Reversed__c)),
+AND(
+NOT(PRIORVALUE(kell01__Opportunity_Posted__c)), NOT(PRIORVALUE(kell01__All_Payments_Posted__c))
+)
+)</errorConditionFormula>
+    <errorMessage>You cannot reverse a gift unless it is already posted.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grant_Application_Submission_Format__c</fullName>
+    <externalId>false</externalId>
+    <label>Grant Application Submission Format</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>E-Grants</fullName>
+                <default>false</default>
+                <label>E-Grants</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Online</fullName>
+                <default>false</default>
+                <label>Online</label>
+            </value>
+            <value>
+                <fullName>Mail-Hard Copy</fullName>
+                <default>false</default>
+                <label>Mail-Hard Copy</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

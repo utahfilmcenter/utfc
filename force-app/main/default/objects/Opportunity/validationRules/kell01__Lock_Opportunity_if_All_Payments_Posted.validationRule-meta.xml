@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kell01__Lock_Opportunity_if_All_Payments_Posted</fullName>
+    <active>true</active>
+    <description>If the opportunity is Posted, the donation can&apos;t be edited except by a privileged user</description>
+    <errorConditionFormula>AND( 
+kell01__All_Payments_Posted__c, 
+NOT(ISCHANGED(kell01__All_Payments_Posted__c)), 
+NOT(ISNEW()), 
+OR(ISBLANK($Setup.kell01__Allocation_Settings__c.kell01__Privileged_Users__c), 
+NOT(CONTAINS($Setup.kell01__Allocation_Settings__c.kell01__Privileged_Users__c, $User.Id))))</errorConditionFormula>
+    <errorMessage>You may not edit a Posted donation.</errorMessage>
+</ValidationRule>

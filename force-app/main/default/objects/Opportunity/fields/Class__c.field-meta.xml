@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Class__c</fullName>
+    <externalId>false</externalId>
+    <label>Class</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Program Services</fullName>
+                <default>false</default>
+                <label>Program Services</label>
+            </value>
+            <value>
+                <fullName>Supporting Services:Fundraising:Membership</fullName>
+                <default>false</default>
+                <label>Supporting Services:Fundraising:Membership</label>
+            </value>
+            <value>
+                <fullName>Supporting Services:Fundraising:Events</fullName>
+                <default>false</default>
+                <label>Supporting Services:Fundraising:Events</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fiscal Sponsorships</fullName>
+                <default>false</default>
+                <label>Program Services:Fiscal Sponsorships</label>
+            </value>
+            <value>
+                <fullName>Program Services:Best of Fest, Film/makers</fullName>
+                <default>false</default>
+                <label>Program Services:Best of Fest, Film/makers</label>
+            </value>
+            <value>
+                <fullName>Program Services:Best of Fest, Film/makers:Adv Screenings</fullName>
+                <default>false</default>
+                <label>Program Services:Best of Fest, Film/makers:Adv Screenings</label>
+            </value>
+            <value>
+                <fullName>Program Services:Best of Fest, Film/makers:Art</fullName>
+                <default>false</default>
+                <label>Program Services:Best of Fest, Film/makers:Art</label>
+            </value>
+            <value>
+                <fullName>Program Services:Best of Fest, Film/makers:Best of Fest</fullName>
+                <default>false</default>
+                <label>Program Services:Best of Fest, Film/makers:Best of Fest</label>
+            </value>
+            <value>
+                <fullName>Program Services:Best of Fest, Film/makers:Childrens</fullName>
+                <default>false</default>
+                <label>Program Services:Best of Fest, Film/makers:Childrens</label>
+            </value>
+            <value>
+                <fullName>Program Services:Best of Fest, Film/makers:CCSC</fullName>
+                <default>false</default>
+                <label>Program Services:Best of Fest, Film/makers:CCSC</label>
+            </value>
+            <value>
+                <fullName>Program Services:Best of Fest, Film/makers:Curation for Hire</fullName>
+                <default>false</default>
+                <label>Program Services:Best of Fest, Film/makers:Curation for Hire</label>
+            </value>
+            <value>
+                <fullName>Program Services:Best of Fest, Film/makers:Design Matters</fullName>
+                <default>false</default>
+                <label>Program Services:Best of Fest, Film/makers:Design Matters</label>
+            </value>
+            <value>
+                <fullName>Program Services:Best of Fest, Film/makers:HBO</fullName>
+                <default>false</default>
+                <label>Program Services:Best of Fest, Film/makers:HBO</label>
+            </value>
+            <value>
+                <fullName>Program Services:Best of Fest, Film/makers:Local Made in Utah</fullName>
+                <default>false</default>
+                <label>Program Services:Best of Fest, Film/makers:Local Made in Utah</label>
+            </value>
+            <value>
+                <fullName>Program Services:Best of Fest, Film/makers:Novel to Film</fullName>
+                <default>false</default>
+                <label>Program Services:Best of Fest, Film/makers:Novel to Film</label>
+            </value>
+            <value>
+                <fullName>Program Services:Best of Fest, Film/makers:Pioneer Park</fullName>
+                <default>false</default>
+                <label>Program Services:Best of Fest, Film/makers:Pioneer Park</label>
+            </value>
+            <value>
+                <fullName>Program Services:Best of Fest, Film/makers:Special Events</fullName>
+                <default>false</default>
+                <label>Program Services:Best of Fest, Film/makers:Special Events</label>
+            </value>
+            <value>
+                <fullName>Program Services:Best of Fest, Film/makers:Special Events:Impact</fullName>
+                <default>false</default>
+                <label>Program Services:Best of Fest, Film/makers:Special Events:Impact</label>
+            </value>
+            <value>
+                <fullName>Program Services:Best of Fest, Film/makers:Special Events:Investing in Media that Matters</fullName>
+                <default>false</default>
+                <label>Program Services:Best of Fest, Film/makers:Special Events:Investing in Media that Matters</label>
+            </value>
+            <value>
+                <fullName>Program Services:Best of Fest, Film/makers:Special Events:Sundance</fullName>
+                <default>false</default>
+                <label>Program Services:Best of Fest, Film/makers:Special Events:Sundance</label>
+            </value>
+            <value>
+                <fullName>Program Services:Best of Fest, Film/makers:Special Events:US campaign</fullName>
+                <default>false</default>
+                <label>Program Services:Best of Fest, Film/makers:Special Events:US campaign</label>
+            </value>
+            <value>
+                <fullName>Program Services:Best of Fest, Film/makers:Sport</fullName>
+                <default>false</default>
+                <label>Program Services:Best of Fest, Film/makers:Sport</label>
+            </value>
+            <value>
+                <fullName>Program Services:Best of Fest, Film/makers:Visiting Artist</fullName>
+                <default>false</default>
+                <label>Program Services:Best of Fest, Film/makers:Visiting Artist</label>
+            </value>
+            <value>
+                <fullName>Program Services:Best of Fest, Film/makers:Westminster</fullName>
+                <default>false</default>
+                <label>Program Services:Best of Fest, Film/makers:Westminster</label>
+            </value>
+            <value>
+                <fullName>Program Services:Best of Fest, Film/makers:WGBH</fullName>
+                <default>false</default>
+                <label>Program Services:Best of Fest, Film/makers:WGBH</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:Cultural</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:Cultural</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:Cultural:Chinese</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:Cultural:Chinese</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:Cultural:Indian</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:Cultural:Indian</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:Cultural:International</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:Cultural:International</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:Cultural:Islam &amp; the West</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:Cultural:Islam &amp; the West</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:Cultural:Japanese</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:Cultural:Japanese</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:Cultural:Jewish</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:Cultural:Jewish</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:Cultural:Mexican</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:Cultural:Mexican</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:Cultural:Native American</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:Cultural:Native American</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:Cultural:New Face of Africa</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:Cultural:New Face of Africa</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:Cultural:Spanish Language</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:Cultural:Spanish Language</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:Cultural:Taiwan</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:Cultural:Taiwan</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:Cultural:Without Borders</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:Cultural:Without Borders</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:General Programming</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:General Programming</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:Social Impact</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:Social Impact</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:Social Impact:Disability</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:Social Impact:Disability</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:Social Impact:Democracy</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:Social Impact:Democracy</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:Social Impact:Drug War Policy</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:Social Impact:Drug War Policy</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:Social Impact:Education</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:Social Impact:Education</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:Social Impact:Environmental</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:Social Impact:Environmental</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:Social Impact:Health</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:Social Impact:Health</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:Social Impact:Human Rights</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:Social Impact:Human Rights</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:Social Impact:KUED-Diverse Voices</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:Social Impact:KUED-Diverse Voices</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:Social Impact:Pride</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:Social Impact:Pride</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:Social Impact:Rock Docs</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:Social Impact:Rock Docs</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:Social Impact:War and Peace</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:Social Impact:War and Peace</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:Social Impact:Women at War</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:Social Impact:Women at War</label>
+            </value>
+            <value>
+                <fullName>Program Services:Fests/Series:Utah Film Circuit</fullName>
+                <default>false</default>
+                <label>Program Services:Fests/Series:Utah Film Circuit</label>
+            </value>
+            <value>
+                <fullName>Program Services:Kids with Cameras</fullName>
+                <default>false</default>
+                <label>Program Services:Kids with Cameras</label>
+            </value>
+            <value>
+                <fullName>Program Services:Kids with Destiny</fullName>
+                <default>false</default>
+                <label>Program Services:Kids with Destiny</label>
+            </value>
+            <value>
+                <fullName>Program Services:Zions</fullName>
+                <default>false</default>
+                <label>Program Services:Zions</label>
+            </value>
+            <value>
+                <fullName>Supporting Services</fullName>
+                <default>false</default>
+                <label>Supporting Services</label>
+            </value>
+            <value>
+                <fullName>Supporting Services:Fundraising</fullName>
+                <default>false</default>
+                <label>Supporting Services:Fundraising</label>
+            </value>
+            <value>
+                <fullName>Supporting Services:Fundraising:Development</fullName>
+                <default>false</default>
+                <label>Supporting Services:Fundraising:Development</label>
+            </value>
+            <value>
+                <fullName>Supporting Services:Fundraising:Events:Brazil</fullName>
+                <default>false</default>
+                <label>Supporting Services:Fundraising:Events:Brazil</label>
+            </value>
+            <value>
+                <fullName>Supporting Services:Fundraising:Events:HSM III online auction</fullName>
+                <default>false</default>
+                <label>Supporting Services:Fundraising:Events:HSM III online auction</label>
+            </value>
+            <value>
+                <fullName>Supporting Services:Fundraising:Events:Young @ Heart</fullName>
+                <default>false</default>
+                <label>Supporting Services:Fundraising:Events:Young @ Heart</label>
+            </value>
+            <value>
+                <fullName>Supporting Services:Fundraising:High Profile Advanced Screening</fullName>
+                <default>false</default>
+                <label>Supporting Services:Fundraising:High Profile Advanced Screening</label>
+            </value>
+            <value>
+                <fullName>Supporting Services:Fundraising:Membership:92 Yr. End Mailing</fullName>
+                <default>false</default>
+                <label>Supporting Services:Fundraising:Membership:92 Yr. End Mailing</label>
+            </value>
+            <value>
+                <fullName>Supporting Services:Management &amp; General</fullName>
+                <default>false</default>
+                <label>Supporting Services:Management &amp; General</label>
+            </value>
+            <value>
+                <fullName>Supporting Services:Fundraising:Events:10th Anniversary:Geena Davis</fullName>
+                <default>false</default>
+                <label>Supporting Services:Fundraising:Events:10th Anniversary:Geena Davis</label>
+            </value>
+            <value>
+                <fullName>Supporting Services:Fundraising:Events:10th Anniversary:John Waters</fullName>
+                <default>false</default>
+                <label>Supporting Services:Fundraising:Events:10th Anniversary:John Waters</label>
+            </value>
+            <value>
+                <fullName>Supporting Services:Fundraising:Events:10th Anniversary:Temple Grandin</fullName>
+                <default>false</default>
+                <label>Supporting Services:Fundraising:Events:10th Anniversary:Temple Grandin</label>
+            </value>
+            <value>
+                <fullName>Program Services:Best of Fest, Film/makers:Dinner Salons and Conversation Series</fullName>
+                <default>false</default>
+                <label>Program Services:Best of Fest, Film/makers:Dinner Salons and Conversation Series</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kell01__Prevent_Posting_Unpaid_Donations</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+$Setup.kell01__Allocation_Settings__c.kell01__Prevent_Posting_Unpaid_Payments__c,
+OR(NOT(IsClosed), NOT(IsWon)),
+kell01__Opportunity_Posted__c,
+NOT(PRIORVALUE(kell01__Opportunity_Posted__c))
+)</errorConditionFormula>
+    <errorMessage>Unpaid donation cannot be posted.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CnP_Attendee_Number__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Among all attendees from the transaction which generated this Opportunity, the number which identifies this attendee among the other Opportunities that may have been made (if greater than 1)</inlineHelpText>
+    <label>CnP Attendee Number</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

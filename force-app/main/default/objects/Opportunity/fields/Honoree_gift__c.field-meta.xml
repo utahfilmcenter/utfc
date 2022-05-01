@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Honoree_gift__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Is this gift in honor of another person?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Is this gift in honor of another person?</inlineHelpText>
+    <label>Honoree gift?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kell01__Post_All_Payments</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Post All Payments and Allocations</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/25.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/25.0/apex.js&quot;)}
+
+if (confirm(&apos;Do you really want to post all payments for this opportunity? Unpaid payments will not be posted if the &quot;Prevent Posting Unpaid Payments&quot; validation rule is active.&apos;)) {
+var result2 = sforce.connection.query(&quot;SELECT Id FROM kell01__Allocation__c WHERE kell01__Opportunity__c = &apos;{!Opportunity.Id}&apos; AND kell01__Reversed__c = false&quot;);
+var records2 = result2.getArray(&quot;records&quot;); 
+var allocationsToUpdate = new Array(); 
+for (i=0; i&lt;records2.length; i++) { 
+allocationsToUpdate[i] = new sforce.SObject(&quot;kell01__Allocation__c&quot;); 
+allocationsToUpdate[i].Id = records2[i].Id; 
+allocationsToUpdate[i].kell01__Posted__c = true; 
+} 
+sforce.connection.update(allocationsToUpdate); 
+
+var result = sforce.connection.query(&quot;SELECT Id FROM npe01__OppPayment__c WHERE npe01__Opportunity__c = &apos;{!Opportunity.Id}&apos;&quot;); 
+var records = result.getArray(&quot;records&quot;); 
+var toUpdate = new Array(); 
+for (i=0; i&lt;records.length; i++) { 
+toUpdate[i] = new sforce.SObject(&quot;npe01__OppPayment__c&quot;); 
+toUpdate[i].Id = records[i].Id; 
+toUpdate[i].kell01__Posted__c = true;
+} 
+sforce.connection.update(toUpdate); 
+window.location.reload();
+}</url>
+</WebLink>

@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MajorGift</fullName>
+    <active>false</active>
+    <businessProcess>Major Gift</businessProcess>
+    <description>Large Donation from a Major Donor</description>
+    <label>Major Gift</label>
+    <picklistValues>
+        <picklist>Class__c</picklist>
+        <values>
+            <fullName>Program Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3ABest of Fest%2C Film%2Fmakers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3ABest of Fest%2C Film%2Fmakers%3AAdv Screenings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3ABest of Fest%2C Film%2Fmakers%3AArt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3ABest of Fest%2C Film%2Fmakers%3ABest of Fest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3ABest of Fest%2C Film%2Fmakers%3ACCSC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3ABest of Fest%2C Film%2Fmakers%3AChildrens</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3ABest of Fest%2C Film%2Fmakers%3ACuration for Hire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3ABest of Fest%2C Film%2Fmakers%3ADesign Matters</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3ABest of Fest%2C Film%2Fmakers%3ADinner Salons and Conversation Series</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3ABest of Fest%2C Film%2Fmakers%3AHBO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3ABest of Fest%2C Film%2Fmakers%3ALocal Made in Utah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3ABest of Fest%2C Film%2Fmakers%3ANovel to Film</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3ABest of Fest%2C Film%2Fmakers%3APioneer Park</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3ABest of Fest%2C Film%2Fmakers%3ASpecial Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3ABest of Fest%2C Film%2Fmakers%3ASpecial Events%3AImpact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3ABest of Fest%2C Film%2Fmakers%3ASpecial Events%3AInvesting in Media that Matters</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3ABest of Fest%2C Film%2Fmakers%3ASpecial Events%3ASundance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3ABest of Fest%2C Film%2Fmakers%3ASpecial Events%3AUS campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3ABest of Fest%2C Film%2Fmakers%3ASport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3ABest of Fest%2C Film%2Fmakers%3AVisiting Artist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3ABest of Fest%2C Film%2Fmakers%3AWGBH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3ABest of Fest%2C Film%2Fmakers%3AWestminster</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3ACultural</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3ACultural%3AChinese</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3ACultural%3AIndian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3ACultural%3AInternational</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3ACultural%3AIslam %26 the West</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3ACultural%3AJapanese</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3ACultural%3AJewish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3ACultural%3AMexican</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3ACultural%3ANative American</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3ACultural%3ANew Face of Africa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3ACultural%3ASpanish Language</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3ACultural%3ATaiwan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3ACultural%3AWithout Borders</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3AGeneral Programming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3ASocial Impact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3ASocial Impact%3ADemocracy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3ASocial Impact%3ADisability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3ASocial Impact%3ADrug War Policy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3ASocial Impact%3AEducation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3ASocial Impact%3AEnvironmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3ASocial Impact%3AHealth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3ASocial Impact%3AHuman Rights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3ASocial Impact%3AKUED-Diverse Voices</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3ASocial Impact%3APride</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3ASocial Impact%3ARock Docs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3ASocial Impact%3AWar and Peace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3ASocial Impact%3AWomen at War</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFests%2FSeries%3AUtah Film Circuit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AFiscal Sponsorships</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AKids with Cameras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AKids with Destiny</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Services%3AZions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supporting Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supporting Services%3AFundraising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supporting Services%3AFundraising%3ADevelopment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supporting Services%3AFundraising%3AEvents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supporting Services%3AFundraising%3AEvents%3A10th Anniversary%3AGeena Davis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supporting Services%3AFundraising%3AEvents%3A10th Anniversary%3AJohn Waters</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supporting Services%3AFundraising%3AEvents%3A10th Anniversary%3ATemple Grandin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supporting Services%3AFundraising%3AEvents%3ABrazil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supporting Services%3AFundraising%3AEvents%3AHSM III online auction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supporting Services%3AFundraising%3AEvents%3AYoung %40 Heart</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supporting Services%3AFundraising%3AHigh Profile Advanced Screening</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supporting Services%3AFundraising%3AMembership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supporting Services%3AFundraising%3AMembership%3A92 Yr%2E End Mailing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supporting Services%3AManagement %26 General</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Donor_Interests__c</picklist>
+        <values>
+            <fullName>Artist Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Damn These Heels LGBTQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tumbleweeds for Kids</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly Programming</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Grant_Application_Submission_Format__c</picklist>
+        <values>
+            <fullName>E-Grants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mail-Hard Copy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Grant_Type__c</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchased List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>NGOC_Giving_Frequency__c</picklist>
+        <values>
+            <fullName>Annually</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>NGOC_Giving_Type__c</picklist>
+        <values>
+            <fullName>Additional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upgrade</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Solicitation_Type__c</picklist>
+        <values>
+            <fullName>Acquisition</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Existing Funding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Funding</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npe01__Member_Level__c</picklist>
+        <values>
+            <fullName>Family</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Individual</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npe01__Membership_Origin__c</picklist>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reacquire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npo02__systemHouseholdContactRoleProcessor__c</picklist>
+        <values>
+            <fullName>All Opportunities</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>No Opportunities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npsp__Acknowledgment_Status__c</picklist>
+        <values>
+            <fullName>Acknowledged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Do Not Acknowledge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email Acknowledgment Not Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email Acknowledgment Now</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>To Be Acknowledged</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npsp__Tribute_Type__c</picklist>
+        <values>
+            <fullName>Honor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Memorial</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

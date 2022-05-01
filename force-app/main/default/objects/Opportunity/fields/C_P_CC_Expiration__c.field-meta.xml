@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>C_P_CC_Expiration__c</fullName>
+    <externalId>false</externalId>
+    <formula>DATE(VALUE(Right(CnP_PaaS__CnP_OrderNumber__r.CnP_PaaS__CardExpiration__c,4)), 
+VALUE(Left(CnP_PaaS__CnP_OrderNumber__r.CnP_PaaS__CardExpiration__c,2)), 
+VALUE(MID(&apos;28&apos;,4,2)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>C&amp;P CC Expiration date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

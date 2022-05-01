@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kell01__CheckMaxAllocatedAmount</fullName>
+    <active>false</active>
+    <description>DEPRECATED SINCE v1.7. DO NOT USE.</description>
+    <errorConditionFormula>kell01__Allocated_Amount__c &gt; Amount</errorConditionFormula>
+    <errorMessage>Total designated amount cannot exceed opportunity amount.</errorMessage>
+</ValidationRule>

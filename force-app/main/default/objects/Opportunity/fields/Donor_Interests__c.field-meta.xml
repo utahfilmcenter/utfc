@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Donor_Interests__c</fullName>
+    <externalId>false</externalId>
+    <label>Donor Interests:</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>General Support</fullName>
+                <default>false</default>
+                <label>General Support</label>
+            </value>
+            <value>
+                <fullName>Weekly Programming</fullName>
+                <default>false</default>
+                <label>Weekly Programming</label>
+            </value>
+            <value>
+                <fullName>Damn These Heels LGBTQ</fullName>
+                <default>false</default>
+                <label>Damn These Heels LGBTQ</label>
+            </value>
+            <value>
+                <fullName>Tumbleweeds for Kids</fullName>
+                <default>false</default>
+                <label>Tumbleweeds for Kids</label>
+            </value>
+            <value>
+                <fullName>Artist Support</fullName>
+                <default>false</default>
+                <label>Artist Support</label>
+            </value>
+            <value>
+                <fullName>Media Education</fullName>
+                <default>false</default>
+                <label>Media Education</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

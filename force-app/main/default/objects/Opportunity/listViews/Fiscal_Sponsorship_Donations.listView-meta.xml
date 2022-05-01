@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fiscal_Sponsorship_Donations</fullName>
+    <booleanFilter>((1 AND 2) OR 3) AND 4</booleanFilter>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>UtFC_Fiscal_Sponsor_Film__c</columns>
+    <columns>Fiscal_Sponsorship_Film__c</columns>
+    <columns>Primary_Campaign_Filter__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Primary_Campaign_Parent_Campaign__c</field>
+        <operation>contains</operation>
+        <value>fiscal,fs campaign</value>
+    </filters>
+    <filters>
+        <field>Primary_Campaign_Parent_Campaign__c</field>
+        <operation>notContain</operation>
+        <value>fee</value>
+    </filters>
+    <filters>
+        <field>Primary_Campaign_Filter__c</field>
+        <operation>contains</operation>
+        <value>Fiscal Sponsorship</value>
+    </filters>
+    <filters>
+        <field>Primary_Campaign_Filter__c</field>
+        <operation>notContain</operation>
+        <value>Fiscal Sponsorship Application Fee</value>
+    </filters>
+    <label>Fiscal Sponsorship Donations</label>
+</ListView>
