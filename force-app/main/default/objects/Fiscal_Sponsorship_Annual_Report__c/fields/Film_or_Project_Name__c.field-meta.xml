@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Film_or_Project_Name__c</fullName>
+    <description>Deprecated field. Use the Feature lookup instead</description>
     <externalId>false</externalId>
-    <label>Film or Project Name</label>
+    <label>xxFilm or Project Name</label>
     <length>255</length>
-    <required>true</required>
+    <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Text</type>

@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>UtFC_Fiscal_Sponsor_Film__c</fullName>
+    <fullName>Feature_Name__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
-    <description>Deprecated field. Use Feature Name lookup.</description>
     <externalId>false</externalId>
-    <inlineHelpText>Deprecated field. Use Feature Name lookup.</inlineHelpText>
-    <label>xxUtFC Fiscal Sponsor Film</label>
-    <referenceTo>UtFC_Fiscal_Sponsor_Film__c</referenceTo>
+    <label>Feature Name</label>
+    <referenceTo>Feature__c</referenceTo>
     <relationshipLabel>Fiscal Sponsorship Annual Reports</relationshipLabel>
     <relationshipName>Fiscal_Sponsorship_Annual_Reports</relationshipName>
     <required>false</required>

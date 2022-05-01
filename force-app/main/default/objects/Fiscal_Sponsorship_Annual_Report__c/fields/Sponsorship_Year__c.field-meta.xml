@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>FS_Application_Name_Formula__c</fullName>
+    <fullName>Sponsorship_Year__c</fullName>
     <externalId>false</externalId>
-    <formula>Film_or_Project_Name__c</formula>
-    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>FS Application Name Formula</label>
+    <label>Sponsorship Year</label>
+    <length>4</length>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

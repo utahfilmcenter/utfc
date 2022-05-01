@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Grants_or_funds__c</fullName>
-    <description>List any significant grants or funds you have applied for or received in the last year that required using Utah Film Center as your fiscal sponsor.</description>
+    <description>Deprecated field. Use the Outside Grants related list</description>
     <externalId>false</externalId>
-    <inlineHelpText>List any significant grants or funds you have applied for or received in the last year that required using Utah Film Center as your fiscal sponsor.</inlineHelpText>
-    <label>Grants or Funds:</label>
+    <inlineHelpText>Deprecated field. Use the Outside Grants related list</inlineHelpText>
+    <label>xxGrants or Funds:</label>
     <length>32768</length>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

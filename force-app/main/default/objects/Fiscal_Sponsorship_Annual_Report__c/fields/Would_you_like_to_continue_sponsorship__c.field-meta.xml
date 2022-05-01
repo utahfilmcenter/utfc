@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Would_you_like_to_continue_sponsorship__c</fullName>
+    <description>Deprecated field. Use Continue Sponsorship instead,</description>
     <externalId>false</externalId>
-    <label>Would you like to continue sponsorship?</label>
+    <label>xxWould you like to continue sponsorship</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
