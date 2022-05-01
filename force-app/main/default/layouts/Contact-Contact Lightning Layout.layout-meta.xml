@@ -951,6 +951,10 @@
         <fields>NAME</fields>
         <relatedList>UtFC_Fiscal_Sponsor_Film__c.Primary_Contact__c</relatedList>
     </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Fiscal_Sponsorship__c.Film_Primary_Contact__c</relatedList>
+    </relatedLists>
     <relatedObjects>AccountId</relatedObjects>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>

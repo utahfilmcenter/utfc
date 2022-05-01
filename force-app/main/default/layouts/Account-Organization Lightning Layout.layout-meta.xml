@@ -607,6 +607,10 @@
         <fields>NAME</fields>
         <relatedList>Feature_Attendee__c.Attending_School__c</relatedList>
     </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Fiscal_Sponsorship__c.Film_Company__c</relatedList>
+    </relatedLists>
     <relatedObjects>ParentId</relatedObjects>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>true</showHighlightsPanel>

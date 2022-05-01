@@ -180,6 +180,14 @@
         <fields>NAME</fields>
         <relatedList>Feature_Subject__c.Feature__c</relatedList>
     </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Fiscal_Sponsorship__c.Feature__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Fiscal_Sponsorship_Annual_Report__c.Feature_Name__c</relatedList>
+    </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
     <showInteractionLogPanel>false</showInteractionLogPanel>
