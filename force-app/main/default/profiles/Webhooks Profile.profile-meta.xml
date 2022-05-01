@@ -863,7 +863,87 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Fiscal_Sponsorship__c.Application_Received_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Fiscal_Sponsorship__c.Artemis_Rising_Budget__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Fiscal_Sponsorship__c.Artemis_Rising_Date_Final_Report__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Fiscal_Sponsorship__c.Artemis_Rising_Date_Funds_Received__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Fiscal_Sponsorship__c.Artemis_Rising_Date_Funds_Sent__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Fiscal_Sponsorship__c.Artemis_Rising_Date_Grant_Agreement__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Fiscal_Sponsorship__c.Artemis_Rising_Date_Materials_Received__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Fiscal_Sponsorship__c.Artemis_Rising_EO_Insurance__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Fiscal_Sponsorship__c.Artemis_Rising_Funds_Received__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Fiscal_Sponsorship__c.Artemis_Rising_Grant_Proposal__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Fiscal_Sponsorship__c.Artemis_Rising_Grantee__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Fiscal_Sponsorship__c.Artemis_Rising_Requested_Grant_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Fiscal_Sponsorship__c.Bank_Info_on_File__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Fiscal_Sponsorship__c.Date_Letter_Sent__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Fiscal_Sponsorship__c.Date_Submitted_to_Committee__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Fiscal_Sponsorship__c.Feature__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Fiscal_Sponsorship__c.Fee_Paid__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -878,7 +958,32 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Fiscal_Sponsorship__c.Grant_Agreement_Expiration_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Fiscal_Sponsorship__c.Points_of_Contact_Document_Signed__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Fiscal_Sponsorship__c.Related_Campaign__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Fiscal_Sponsorship__c.Renewed_Contract_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Fiscal_Sponsorship__c.Signed_Grant_Agreement__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Fiscal_Sponsorship__c.W9_Received__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
