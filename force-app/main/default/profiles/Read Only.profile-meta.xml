@@ -1,14 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
+        <application>EDU_Applications</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>Programming</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>UTFC</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
+    <applicationVisibilities>
+        <application>UTFC_Admin</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Capacity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.County__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Dual_Immersion__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -18,7 +43,27 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.School_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Title_I_School__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Type</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Facebook__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.LinkedIn__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -33,7 +78,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Contact.Twitter__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Contact.Unmarried_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Website__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -274,6 +329,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Feature_Offering__c.Festival_Voucher__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Feature_Offering__c.Fiscal_Sponsorship_Annual_Report__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -703,7 +763,147 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Fiscal_Sponsorship_Annual_Report__c.Continue_Sponsorship__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fiscal_Sponsorship_Annual_Report__c.Date_Sponsorship_Began__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fiscal_Sponsorship_Annual_Report__c.Date_Submitted__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fiscal_Sponsorship_Annual_Report__c.Due_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fiscal_Sponsorship_Annual_Report__c.Feature_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fiscal_Sponsorship_Annual_Report__c.Festival_Screenings__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fiscal_Sponsorship_Annual_Report__c.Film_or_Project_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fiscal_Sponsorship_Annual_Report__c.Grants_or_funds__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fiscal_Sponsorship_Annual_Report__c.Report_Submitted_User__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Fiscal_Sponsorship_Annual_Report__c.Report_Submitter_Email__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fiscal_Sponsorship_Annual_Report__c.Report_submitted_by__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fiscal_Sponsorship_Annual_Report__c.Reported_by_Email__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fiscal_Sponsorship_Annual_Report__c.Social_Media_Posts__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fiscal_Sponsorship_Annual_Report__c.Sponsorship_Year__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fiscal_Sponsorship_Annual_Report__c.Streaming_Platforms__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fiscal_Sponsorship_Annual_Report__c.Submitted_Date_to_Text__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fiscal_Sponsorship_Annual_Report__c.UtFC_Fiscal_Sponsor_Film__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fiscal_Sponsorship_Annual_Report__c.Would_you_like_to_continue_sponsorship__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fiscal_Sponsorship_Annual_Report__c.Yearly_Progress__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fiscal_Sponsorship__c.Annual_Report_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fiscal_Sponsorship__c.Feature__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fiscal_Sponsorship__c.Film_Company__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fiscal_Sponsorship__c.Film_Primary_Contact__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fiscal_Sponsorship__c.Related_Campaign__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Outside_Grant__c.Fiscal_Sponsorship_Annual_Report__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Outside_Grant__c.Grant_Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>UtFC_Film_Event__c.Film_Festival_History__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>npe5__Affiliation__c.Category__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>npe5__Affiliation__c.Contact_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -731,6 +931,9 @@
         <recordType>Account.Organization</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Contact-Contact Lightning Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Facility__c-Facility Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -779,6 +982,19 @@
     <layoutAssignments>
         <layout>Feature__c-Feature Layout</layout>
         <recordType>Feature__c.Program</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Fiscal_Sponsorship__c-Fiscal Sponsorship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Outside_Grant__c-Outside Grant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Subject__c-Subject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Subject__c-Subject Layout</layout>
+        <recordType>Subject__c.Default</recordType>
     </layoutAssignments>
     <recordTypeVisibilities>
         <default>true</default>
@@ -801,6 +1017,21 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Campaign.Default</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Campaign.Education</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Contact.Default</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
         <default>false</default>
         <recordType>Facility__c.Private</recordType>
         <visible>true</visible>
@@ -839,6 +1070,31 @@
         <default>false</default>
         <recordType>Feature__c.Program</recordType>
         <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Opportunity.Donation</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Opportunity.Grant</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Opportunity.In_Kind_Gift</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Opportunity.Membership</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Opportunity.Purchase</recordType>
+        <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
@@ -870,7 +1126,15 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Fiscal_Sponsorship_Annual_Report__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Fiscal_Sponsorship__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Outside_Grant__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
