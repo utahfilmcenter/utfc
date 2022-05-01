@@ -1,35 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
-    <apiVersion>49.0</apiVersion>
+    <apiVersion>54.0</apiVersion>
+    <assignments>
+        <name>assign_End_Date_values</name>
+        <label>assign End Date values</label>
+        <locationX>264</locationX>
+        <locationY>398</locationY>
+        <assignmentItems>
+            <assignToReference>loop_Active_Member_records.End_Date__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>for_date_Yesterday</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>loop_Active_Member_records.Override_to_Mark_as_Lapsed_Former__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>loop_Active_Member_records.Status__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Lapsed/Former</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>assign_Membership_records_to_Collection</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>assign_Membership_records_to_Collection</name>
+        <label>assign Membership records to Collection</label>
+        <locationX>264</locationX>
+        <locationY>518</locationY>
+        <assignmentItems>
+            <assignToReference>rcv_Membership</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>loop_Active_Member_records</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>loop_Active_Member_records</targetReference>
+        </connector>
+    </assignments>
     <description>Closes all Current Active Memberships other than the one which triggers this flow to fire.</description>
     <formulas>
-        <name>Yesterday</name>
+        <name>for_date_Yesterday</name>
         <dataType>Date</dataType>
         <expression>{!$Flow.CurrentDate}-1</expression>
     </formulas>
     <interviewLabel>Close_All_Other_Current_Active_Memberships</interviewLabel>
     <label>Close All (Other) Current Active Memberships</label>
     <loops>
-        <name>Loop_through_each_membership_found</name>
-        <label>Loop through each membership found</label>
-        <locationX>539</locationX>
-        <locationY>158</locationY>
-        <assignNextValueToReference>ActiveMembershipInstance</assignNextValueToReference>
-        <collectionReference>AllCurrentMemberships</collectionReference>
+        <name>loop_Active_Member_records</name>
+        <label>loop Active Member records</label>
+        <locationX>176</locationX>
+        <locationY>278</locationY>
+        <collectionReference>get_Active_Membership_without_End_Date</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
-            <targetReference>Close_Membership</targetReference>
+            <targetReference>assign_End_Date_values</targetReference>
         </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>update_Membership_records</targetReference>
+        </noMoreValuesConnector>
     </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <recordLookups>
-        <name>Find_Active_Membership_with_no_End_Date</name>
-        <label>Find Active Membership with no End Date</label>
-        <locationX>537</locationX>
-        <locationY>17</locationY>
-        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
+        <name>get_Active_Membership_without_End_Date</name>
+        <label>get Active Membership without End Date</label>
+        <locationX>176</locationX>
+        <locationY>158</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Loop_through_each_membership_found</targetReference>
+            <targetReference>loop_Active_Member_records</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -53,67 +113,25 @@
                 <stringValue>Lapsed/Former</stringValue>
             </value>
         </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
         <object>Membership__c</object>
-        <outputReference>AllCurrentMemberships</outputReference>
-        <queriedFields>Id</queriedFields>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordUpdates>
-        <name>Close_Membership</name>
-        <label>Close Membership</label>
-        <locationX>820</locationX>
-        <locationY>152</locationY>
-        <connector>
-            <targetReference>Loop_through_each_membership_found</targetReference>
-        </connector>
-        <faultConnector>
-            <targetReference>Loop_through_each_membership_found</targetReference>
-        </faultConnector>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>Id</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>ActiveMembershipInstance.Id</elementReference>
-            </value>
-        </filters>
-        <inputAssignments>
-            <field>End_Date__c</field>
-            <value>
-                <elementReference>Yesterday</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Override_to_Mark_as_Lapsed_Former__c</field>
-            <value>
-                <booleanValue>true</booleanValue>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Status__c</field>
-            <value>
-                <stringValue>Lapsed/Former</stringValue>
-            </value>
-        </inputAssignments>
-        <object>Membership__c</object>
+        <name>update_Membership_records</name>
+        <label>update Membership records</label>
+        <locationX>176</locationX>
+        <locationY>734</locationY>
+        <inputReference>rcv_Membership</inputReference>
     </recordUpdates>
-    <startElementReference>Find_Active_Membership_with_no_End_Date</startElementReference>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>get_Active_Membership_without_End_Date</targetReference>
+        </connector>
+    </start>
     <status>Active</status>
-    <variables>
-        <name>ActiveMembershipInstance</name>
-        <dataType>SObject</dataType>
-        <isCollection>false</isCollection>
-        <isInput>false</isInput>
-        <isOutput>false</isOutput>
-        <objectType>Membership__c</objectType>
-    </variables>
-    <variables>
-        <name>AllCurrentMemberships</name>
-        <dataType>SObject</dataType>
-        <isCollection>true</isCollection>
-        <isInput>false</isInput>
-        <isOutput>false</isOutput>
-        <objectType>Membership__c</objectType>
-    </variables>
     <variables>
         <name>InsertedMembershipAccountId</name>
         <dataType>String</dataType>
@@ -127,5 +145,13 @@
         <isCollection>false</isCollection>
         <isInput>true</isInput>
         <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>rcv_Membership</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Membership__c</objectType>
     </variables>
 </Flow>
