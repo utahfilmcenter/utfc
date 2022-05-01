@@ -16,6 +16,7 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>EDU Applications</label>
     <navType>Standard</navType>
     <profileActionOverrides>
@@ -45,6 +46,7 @@
     <tabs>Subject__c</tabs>
     <tabs>Feature_Subject__c</tabs>
     <tabs>Fiscal_Sponsorship__c</tabs>
+    <tabs>Outside_Grant__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>EDU_Applications_UtilityBar</utilityBar>
 </CustomApplication>
