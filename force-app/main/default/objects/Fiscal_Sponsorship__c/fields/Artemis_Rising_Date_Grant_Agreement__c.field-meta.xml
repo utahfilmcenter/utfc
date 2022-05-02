@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Artemis_Rising_Date_Grant_Agreement__c</fullName>
-    <externalId>false</externalId>
-    <label>Artemis Rising Date of Grant Agreement</label>
-    <required>false</required>
-    <trackTrending>false</trackTrending>
-    <type>Date</type>
-</CustomField>
