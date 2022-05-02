@@ -958,6 +958,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Outside_Grant__c.Date_Materials_Received__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Outside_Grant__c.EO_Insurance__c</field>
         <readable>true</readable>
     </fieldPermissions>
