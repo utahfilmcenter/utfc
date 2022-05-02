@@ -868,61 +868,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Fiscal_Sponsorship__c.Artemis_Rising_Budget__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Fiscal_Sponsorship__c.Artemis_Rising_Date_Final_Report__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Fiscal_Sponsorship__c.Artemis_Rising_Date_Funds_Received__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Fiscal_Sponsorship__c.Artemis_Rising_Date_Funds_Sent__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Fiscal_Sponsorship__c.Artemis_Rising_Date_Grant_Agreement__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Fiscal_Sponsorship__c.Artemis_Rising_Date_Materials_Received__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Fiscal_Sponsorship__c.Artemis_Rising_EO_Insurance__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Fiscal_Sponsorship__c.Artemis_Rising_Funds_Received__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Fiscal_Sponsorship__c.Artemis_Rising_Grant_Proposal__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Fiscal_Sponsorship__c.Artemis_Rising_Grantee__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Fiscal_Sponsorship__c.Artemis_Rising_Requested_Grant_Amount__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Fiscal_Sponsorship__c.Bank_Info_on_File__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -988,12 +933,62 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Outside_Grant__c.Budget__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Outside_Grant__c.Date_Final_Report__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Outside_Grant__c.Date_Funds_Received__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Outside_Grant__c.Date_Funds_Sent__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Outside_Grant__c.Date_Grant_Agreement__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Outside_Grant__c.EO_Insurance__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Outside_Grant__c.Fiscal_Sponsorship_Annual_Report__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Outside_Grant__c.Funds_Received__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Outside_Grant__c.Grant_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Outside_Grant__c.Grant_Proposal__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Outside_Grant__c.Grantee__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Outside_Grant__c.Requested_Grant_Amount__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1090,6 +1085,14 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Outside_Grant__c-Outside Grant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Outside_Grant__c-Outside Grant Layout</layout>
+        <recordType>Outside_Grant__c.Artemis_Rising</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Outside_Grant__c-Outside Grant Layout</layout>
+        <recordType>Outside_Grant__c.Default</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Subject__c-Subject Layout</layout>
@@ -1198,6 +1201,16 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Opportunity.Purchase</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Outside_Grant__c.Artemis_Rising</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Outside_Grant__c.Default</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
