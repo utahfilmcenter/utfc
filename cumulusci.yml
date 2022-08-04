@@ -1,0 +1,24 @@
+minimum_cumulusci_version: '3.63.0'
+project:
+    name: utfc
+    package:
+        name: utfc
+        api_version: '55.0'
+    git:
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/utfc/tests
+            options:
+                outputdir: robot/utfc/results
+
+    robot_testdoc:
+        options:
+            path: robot/utfc/tests
+            output: robot/utfc/doc/utfc_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75
