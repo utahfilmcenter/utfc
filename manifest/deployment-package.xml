@@ -25,6 +25,7 @@
 		<members>Account.Pops_Area__c</members>
 		<members>Account.School_Type__c</members>
 		<members>Account.Title_I_School__c</members>
+		<members>Account.Type</members>
 		<members>Contact.Facebook__c</members>
 		<members>Contact.LinkedIn__c</members>
 		<members>Contact.Local_Director__c</members>
@@ -49,18 +50,6 @@
 		<members>Outside_Grant__c</members>
 		<members>Subject__c</members>
 		<name>CustomObject</name>
-	</types>
-	<types>
-		<members>Feature_Attendee__c</members>
-		<members>Feature_Facility__c</members>
-		<members>Feature_Offering__c</members>
-		<members>Feature_Subject__c</members>
-		<members>Feature__c</members>
-		<members>Fiscal_Sponsorship_Annual_Report__c</members>
-		<members>Fiscal_Sponsorship__c</members>
-		<members>Outside_Grant__c</members>
-		<members>Subject__c</members>
-		<name>CustomTab</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -92,6 +81,7 @@
 		<members>Feature_Offering__c-Feature Offering Layout</members>
 		<members>Feature_Subject__c-Feature Subject Layout</members>
 		<members>Feature__c-Feature Layout</members>
+		<members>Fiscal_Sponsorship__c-Fiscal Sponsorship Layout</members>
 		<members>Outside_Grant__c-Outside Grant Layout</members>
 		<members>Subject__c-Subject Layout</members>
 		<name>Layout</name>
@@ -142,6 +132,19 @@
 	<types>
 		<members>Account.POPS_Area_Map</members>
 		<name>WebLink</name>
+	</types>
+	<types>
+		<members>Facility__c</members>
+		<members>Feature_Attendee__c</members>
+		<members>Feature_Facility__c</members>
+		<members>Feature_Offering__c</members>
+		<members>Feature_Subject__c</members>
+		<members>Feature__c</members>
+		<members>Fiscal_Sponsorship_Annual_Report__c</members>
+		<members>Fiscal_Sponsorship__c</members>
+		<members>Outside_Grant__c</members>
+		<members>Subject__c</members>
+		<name>CustomTab</name>
 	</types>
 	<types>
 		<members>*</members>

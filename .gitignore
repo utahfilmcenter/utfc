@@ -15,6 +15,8 @@ robot/utfc/results/
 .sfdx/
 .localdevserver/
 deploy-options.json
+.sfdx/sfdx-config.json
+manifest/
 
 # LWC VSCode autocomplete
 **/lwc/jsconfig.json
