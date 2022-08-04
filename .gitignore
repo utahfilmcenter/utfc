@@ -12,11 +12,13 @@ robot/utfc/results/
 
 # Salesforce cache
 .sf/
+.sf
 .sfdx/
+.sfdx
 .localdevserver/
 deploy-options.json
 .sfdx/sfdx-config.json
-manifest/
+manifest
 
 # LWC VSCode autocomplete
 **/lwc/jsconfig.json
@@ -53,3 +55,4 @@ $RECYCLE.BIN/
 .idea
 .project
 .settings
+.gitignore
