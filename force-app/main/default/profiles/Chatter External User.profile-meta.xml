@@ -783,6 +783,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Fiscal_Sponsorship_Annual_Report__c.FS_Application_Name_Formula__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Fiscal_Sponsorship_Annual_Report__c.Feature_Name__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -998,11 +1003,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>UtFC_Film_Event__c.Film_Festival_History__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>npe5__Affiliation__c.Category__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1016,25 +1016,6 @@
         <field>npe5__Affiliation__c.Grade_Levels__c</field>
         <readable>false</readable>
     </fieldPermissions>
-    <layoutAssignments>
-        <layout>Account-npsp__Organization Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Account-npsp__Organization Layout</layout>
-        <recordType>Account.CnP_PaaS__C_P_Online</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Account-npsp__Organization Layout</layout>
-        <recordType>Account.Department</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Account-npsp__Organization Layout</layout>
-        <recordType>Account.HH_Account</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Account-npsp__Organization Layout</layout>
-        <recordType>Account.Organization</recordType>
-    </layoutAssignments>
     <layoutAssignments>
         <layout>Facility__c-Facility Layout</layout>
     </layoutAssignments>
@@ -1106,11 +1087,6 @@
         <layout>Subject__c-Subject Layout</layout>
         <recordType>Subject__c.Default</recordType>
     </layoutAssignments>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Account.CnP_PaaS__C_P_Online</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Account.Department</recordType>

@@ -782,6 +782,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Fiscal_Sponsorship_Annual_Report__c.FS_Application_Name_Formula__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Fiscal_Sponsorship_Annual_Report__c.Feature_Name__c</field>
         <readable>true</readable>
@@ -998,11 +1003,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>UtFC_Film_Event__c.Film_Festival_History__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>npe5__Affiliation__c.Category__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1026,10 +1026,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Account-Organization Lightning Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Account-Organization Lightning Layout</layout>
-        <recordType>Account.CnP_PaaS__C_P_Online</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Account-Organization Lightning Layout</layout>
@@ -1111,11 +1107,6 @@
     </layoutAssignments>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>Account.CnP_PaaS__C_P_Online</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
         <recordType>Account.Department</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
@@ -1131,7 +1122,6 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
-        <personAccountDefault>true</personAccountDefault>
         <recordType>Campaign.Default</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
