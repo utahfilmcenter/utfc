@@ -97,10 +97,6 @@
 		<name>Layout</name>
 	</types>
 	<types>
-		<members>*</members>
-		<name>Profile</name>
-	</types>
-	<types>
 		<members>Feature_Attendee__c.LogANote</members>
 		<members>Feature__c.Log_A_Note</members>
 		<members>Fiscal_Sponsorship_Annual_Report__c.New_Note</members>
@@ -147,5 +143,9 @@
 		<members>Account.POPS_Area_Map</members>
 		<name>WebLink</name>
 	</types>
-	<version>54.0</version>
+	<types>
+		<members>*</members>
+		<name>Profile</name>
+	</types>
+	<version>55.0</version>
 </Package>
