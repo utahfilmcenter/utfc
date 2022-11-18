@@ -2094,7 +2094,7 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <recordType>Subject__c.Eduation</recordType>
+        <recordType>Subject__c.Education</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>

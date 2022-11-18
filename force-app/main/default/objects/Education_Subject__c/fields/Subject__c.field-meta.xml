@@ -8,7 +8,7 @@
         <filterItems>
             <field>Subject__c.RecordTypeId</field>
             <operation>equals</operation>
-            <value>Eduation</value>
+            <value>Education</value>
         </filterItems>
         <isOptional>false</isOptional>
     </lookupFilter>
