@@ -66,7 +66,6 @@
         </value>
     </choices>
     <description>Create a new note and relates it to the launching record. Fired using a button on each record.</description>
-    <environments>Default</environments>
     <formulas>
         <description>Appends the label from the Note Selection radio button and whatever the user enters into the Note Subject screen text input</description>
         <name>for_Note_Subject</name>
