@@ -3,15 +3,6 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Fiscal_Sponsorship_Annual_Report_Record_Page4</content>
-        <formFactor>Large</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
-        <pageOrSobjectType>Fiscal_Sponsorship_Annual_Report__c</pageOrSobjectType>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
         <content>Task_Record_Page</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
@@ -46,6 +37,7 @@
     <tabs>Staffing_at_Events__c</tabs>
     <tabs>Fiscal_Sponsorship__c</tabs>
     <tabs>Outside_Grant__c</tabs>
+    <tabs>Education_Subject__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>UTFC_UtilityBar</utilityBar>
 </CustomApplication>

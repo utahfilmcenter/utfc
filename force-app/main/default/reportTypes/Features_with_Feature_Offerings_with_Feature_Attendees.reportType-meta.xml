@@ -322,6 +322,11 @@
             <field>Development_Event__c</field>
             <table>Feature__c.Feature_Offerings__r</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Fiscal_Sponsorship_Annual_Report__c</field>
+            <table>Feature__c.Feature_Offerings__r</table>
+        </columns>
         <masterLabel>Feature Offerings</masterLabel>
     </sections>
     <sections>

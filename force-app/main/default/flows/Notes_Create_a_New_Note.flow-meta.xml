@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
-    <apiVersion>54.0</apiVersion>
+    <apiVersion>56.0</apiVersion>
     <choices>
         <name>ch_txt_EDU_Note</name>
         <choiceText>Education Note</choiceText>
@@ -66,6 +66,7 @@
         </value>
     </choices>
     <description>Create a new note and relates it to the launching record. Fired using a button on each record.</description>
+    <environments>Default</environments>
     <formulas>
         <description>Appends the label from the Note Selection radio button and whatever the user enters into the Note Subject screen text input</description>
         <name>for_Note_Subject</name>
@@ -164,6 +165,7 @@ ISBLANK({!txt_Enter_Note_Subject}), {!rdo_Note_Type_Group},
         </inputAssignments>
         <object>ContentNote</object>
     </recordCreates>
+    <runInMode>DefaultMode</runInMode>
     <screens>
         <name>screen_New_Note</name>
         <label>New Note</label>
@@ -236,6 +238,9 @@ ISBLANK({!txt_Enter_Note_Subject}), {!rdo_Note_Type_Group},
         <isCollection>false</isCollection>
         <isInput>true</isInput>
         <isOutput>false</isOutput>
+        <value>
+            <elementReference>$Flow.CurrentRecord</elementReference>
+        </value>
     </variables>
     <variables>
         <name>var_txt_Note_Typle_Label</name>

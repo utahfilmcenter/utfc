@@ -4,6 +4,7 @@
     <columns>NAME</columns>
     <columns>Director_FS__c</columns>
     <columns>One_Line_Description_FS__c</columns>
+    <columns>Status_FS__c</columns>
     <columns>Date_Sponsorship_Began_FS__c</columns>
     <filterScope>Everything</filterScope>
     <filters>

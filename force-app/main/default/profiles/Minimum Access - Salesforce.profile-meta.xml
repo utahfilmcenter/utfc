@@ -1,39 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
-        <application>EDU_Applications</application>
-        <default>false</default>
-        <visible>false</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
-        <application>Programming</application>
-        <default>false</default>
-        <visible>false</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
         <application>UTFC</application>
-        <default>false</default>
-        <visible>false</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
-        <application>UTFC_Admin</application>
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
     <custom>false</custom>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Account.Capacity__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>Account.County__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.Dual_Immersion__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -43,27 +18,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Account.School_Type__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Account.Title_I_School__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Account.Type</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Contact.Facebook__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Contact.LinkedIn__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -77,19 +32,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Contact.Twitter__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Unmarried_Name__c</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Contact.Website__c</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -762,6 +707,21 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Film_Spark_Film__c.Description_FilmSpark__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Film_Spark_Film__c.Film_Spark_Image_s_FilmSpark__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Film_Spark_Film__c.Short_Description_FilmSpark__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Fiscal_Sponsorship_Annual_Report__c.Continue_Sponsorship__c</field>
         <readable>true</readable>
@@ -780,11 +740,6 @@
         <editable>true</editable>
         <field>Fiscal_Sponsorship_Annual_Report__c.Due_Date__c</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Fiscal_Sponsorship_Annual_Report__c.FS_Application_Name_Formula__c</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1003,12 +958,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>npe5__Affiliation__c.Category__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>npe5__Affiliation__c.Contact_Name__c</field>
+        <field>UtFC_Film_Event__c.Film_Festival_History__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1080,13 +1030,11 @@
         <layout>Outside_Grant__c-Outside Grant Layout</layout>
         <recordType>Outside_Grant__c.Default</recordType>
     </layoutAssignments>
-    <layoutAssignments>
-        <layout>Subject__c-Subject Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Subject__c-Subject Layout</layout>
-        <recordType>Subject__c.Default</recordType>
-    </layoutAssignments>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.CnP_PaaS__C_P_Online</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Account.Department</recordType>
@@ -1100,21 +1048,6 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Account.Organization</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Campaign.Default</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Campaign.Education</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Contact.Default</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
@@ -1155,31 +1088,6 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Feature__c.Program</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Opportunity.Donation</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Opportunity.Grant</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Opportunity.In_Kind_Gift</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Opportunity.Membership</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Opportunity.Purchase</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>

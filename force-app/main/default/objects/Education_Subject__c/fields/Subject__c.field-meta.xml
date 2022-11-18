@@ -8,16 +8,15 @@
         <filterItems>
             <field>Subject__c.RecordTypeId</field>
             <operation>equals</operation>
-            <value>Feature</value>
+            <value>Eduation</value>
         </filterItems>
         <isOptional>false</isOptional>
     </lookupFilter>
     <referenceTo>Subject__c</referenceTo>
-    <relationshipLabel>Feature Subjects</relationshipLabel>
-    <relationshipName>Feature_Subjects</relationshipName>
-    <relationshipOrder>1</relationshipOrder>
+    <relationshipLabel>Education Subjects</relationshipLabel>
+    <relationshipName>Education_Subjects</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
     <reparentableMasterDetail>false</reparentableMasterDetail>
-    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>MasterDetail</type>
     <writeRequiresMasterRead>false</writeRequiresMasterRead>
