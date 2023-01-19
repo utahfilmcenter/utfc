@@ -86,6 +86,7 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Sales</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
@@ -112,7 +113,6 @@
     <tabs>EDU_In_The_Classroom_Application__c</tabs>
     <tabs>DTH_2020_Voucher_Application__c</tabs>
     <tabs>Staffing_at_Events__c</tabs>
-    <tabs>Subject__c</tabs>
-    <tabs>Feature_Subject__c</tabs>
     <uiType>Lightning</uiType>
+    <utilityBar>LightningSales_UtilityBar</utilityBar>
 </CustomApplication>
