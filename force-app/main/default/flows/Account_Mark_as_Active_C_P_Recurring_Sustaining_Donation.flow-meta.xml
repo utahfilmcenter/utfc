@@ -251,7 +251,7 @@
             <targetReference>Get_Opportunity_Record</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
     <variables>
         <name>Account</name>
         <dataType>SObject</dataType>

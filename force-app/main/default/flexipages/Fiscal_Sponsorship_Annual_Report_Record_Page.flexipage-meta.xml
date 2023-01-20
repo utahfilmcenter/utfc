@@ -10,9 +10,6 @@
                             <value>Fiscal_Sponsorship_Annual_Report__c.New_Note</value>
                         </valueListItems>
                         <valueListItems>
-                            <value>Fiscal_Sponsorship_Annual_Report__c.Submit_Report</value>
-                        </valueListItems>
-                        <valueListItems>
                             <value>Global.slackv2__Send_to_Slack</value>
                         </valueListItems>
                         <valueListItems>

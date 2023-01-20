@@ -11,6 +11,12 @@
         <valueSetDefinition>
             <sorted>true</sorted>
             <value>
+                <fullName>Council Member</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Council Member</label>
+            </value>
+            <value>
                 <fullName>Director</fullName>
                 <default>false</default>
                 <label>Director</label>
@@ -39,6 +45,12 @@
                 <fullName>Instructor</fullName>
                 <default>false</default>
                 <label>Instructor</label>
+            </value>
+            <value>
+                <fullName>Mayor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mayor</label>
             </value>
             <value>
                 <fullName>Principal</fullName>
